@@ -5,10 +5,11 @@
 ### Chapter I: Introduction
 
 * [Preface]()
+* [Table of Conents]()
 * [Chapter Dependency]()
 * [History of Quantum Computing]()
-* [How to Think and Learn]()
 * [Tools for Quantum Computing]()
+* [How to Think and Learn]()
 
 ## Part II: Theory of Quantum Computing
 
