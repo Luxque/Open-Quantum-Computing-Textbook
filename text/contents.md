@@ -1,5 +1,7 @@
 # Table of Contents
 
+## Part I: Beginning of Quantum Computing
+
 ### Chapter I: Introduction
 
 * [Preface]()
@@ -8,7 +10,7 @@
 * [How to Think and Learn]()
 * [Tools for Quantum Computing]()
 
-## Part I: Theory of Quantum Computing
+## Part II: Theory of Quantum Computing
 
 ### Chapter II: Fundamental Mathematics
 
@@ -18,30 +20,32 @@
 
 ### Chapter V: Fundamental Information Theory
 
-### Chapter VI: Fundamental Quantum Algorithms
+### Chapter VI: Fundamental Quantum Circuit
 
-## Part II: Application of Quantum Computing
+### Chapter VII: Fundamental Quantum Algorithms
 
-### Chapter VII: Quantum Error Correction
+## Part III: Application of Quantum Computing
 
-### Chapter VIII: Quantum Optimization
+### Chapter VIII: Quantum Error Correction
 
-### Chapter IX: Quantum Machine Learning
+### Chapter IX: Quantum Optimization
 
-### Chapter X: Quantum Cryptography
+### Chapter X: Quantum Machine Learning
 
-### Chapter XI: Quantum Communication
+### Chapter XI: Quantum Cryptography
 
-### Chapter XII: Quantum Chemistry
+### Chapter XII: Quantum Communication
 
-### Chapter XIII: Quantum Cognition
+### Chapter XIII: Quantum Chemistry
 
-### Chapter XIV: Quantum Music
+### Chapter XIV: Quantum Cognition
 
-## Part III: Future of Quantum Computing
+### Chapter XV: Quantum Music
 
-### Chapter XV: Quantum Computing Systems
+## Part IV: Future of Quantum Computing
 
-### Chapter XVI: Ethics of Quantum Computing
+### Chapter XVI: Quantum Computing Systems
 
-### Chapter XVII: Now and Beyond
+### Chapter XVII: Ethics of Quantum Computing
+
+### Chapter XVIII: Now and Beyond
