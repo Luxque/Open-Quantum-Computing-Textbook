@@ -4,7 +4,7 @@
 
 ### Chapter I: Introduction
 
-* [Preface]()
+* [Preface](.\chapter_1\preface.md)
 * [Chapter Dependency]()
 * [History of Quantum Computing]()
 * [How to Think and Learn]()
@@ -30,22 +30,24 @@
 
 ### Chapter IX: Quantum Optimization
 
-### Chapter X: Quantum Machine Learning
+### Chapter X: Quantum Cryptography
 
-### Chapter XI: Quantum Cryptography
+### Chapter XI: Quantum Communication
 
-### Chapter XII: Quantum Communication
+### Chapter XII: Quantum Chemistry
 
-### Chapter XIII: Quantum Chemistry
+### Chapter XIII: Quantum Machine Learning
 
-### Chapter XIV: Quantum Cognition
+### Chapter XIV Quantum Finance
 
-### Chapter XV: Quantum Music
+### Chapter XV: Quantum Cognition
+
+### Chapter XVI: Quantum Music
 
 ## Part IV: Future of Quantum Computing
 
-### Chapter XVI: Quantum Computing Systems
+### Chapter XVII: Quantum Computing Systems
 
-### Chapter XVII: Ethics of Quantum Computing
+### Chapter XVIII: Ethics of Quantum Computing
 
-### Chapter XVIII: Now and Beyond
+### Chapter XIX: Now and Beyond
