@@ -15,8 +15,11 @@
 
 ### Chapter II: Fundamental Mathematics
 
-* [Sets and Functions]()
-* [Fundamental Calculus]()
+* [Foundation of Mathematics]()
+    * [Set Theory]()
+    * [Functions]()
+    * [Logic]()
+* [Single Variable Calculus]()
 * [Multivariable Calculus]()
 * [Sum and Series]()
 * [Linear Algebra]()
@@ -24,6 +27,8 @@
 * [Vector Calculus]()
 * [Matrix Calculus]()
 * [Abstract Algebra]()
+* [Number Theory]()
+* [General Topology]()
 
 ### Chapter III: Fundamental Computer Science
 
