@@ -1,6 +1,6 @@
-# 1. Preface
+# Preface
 
-## Introduction of the Author
+## Introduction From the Author
 
 ## The Goal of This Textbook
 
