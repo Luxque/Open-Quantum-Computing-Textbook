@@ -28,6 +28,7 @@
 * [Matrix Calculus]()
 * [Abstract Algebra]()
 * [Number Theory]()
+* [Graph Theory]()
 * [General Topology]()
 
 ### Chapter III: Fundamental Computer Science
