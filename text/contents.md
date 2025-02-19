@@ -17,6 +17,11 @@
 
 ### Chapter III: Fundamental Computer Science
 
+* [Python]()
+* [Algorithms]()
+* [Logic Gates]()
+* [Theoratical Computer Science]()
+
 ### Chapter IV: Fundamental Physics
 
 ### Chapter V: Fundamental Information Theory
