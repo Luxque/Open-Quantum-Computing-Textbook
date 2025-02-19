@@ -4,11 +4,11 @@
 
 ### Chapter I: Introduction
 
-* [1. Preface](.\chapter_1\preface.md)
-* [2. Chapter Dependency]()
-* [3. How to Think and Learn]()
-* [4. History of Quantum Computing]()
-* [5. Tools for Quantum Computing]()
+* [Preface](.\chapter_1\preface.md)
+* [Chapters](.\chapter_1\chapters.md)
+* [How to Think and Learn]()
+* [History of Quantum Computing]()
+* [Tools for Quantum Computing](.\chapter_1\tools_for_quantum_computing.md)
 
 ## Part II: Theory of Quantum Computing
 
