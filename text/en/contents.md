@@ -8,7 +8,7 @@
 * [Chapters](.\chapter-1\chapters.md)
 * [How to Think and Learn]()
 * [History of Quantum Computing]()
-* [Tools for Quantum Computing](.\chapter-1\tools-for-quantum-computing.md)
+* [Tools for Quantum Computing](.\chapter-1\tools.md)
 
 ## Part II: Theory of Quantum Computing
 
