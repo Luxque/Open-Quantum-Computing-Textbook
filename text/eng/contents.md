@@ -19,34 +19,36 @@
 
 ### Chapter IV: Fundamental Physics
 
-### Chapter V: Fundamental Information Theory
+### Chapter V: Fundamental Quantum Circuit
 
-### Chapter VI: Fundamental Quantum Circuit
+### Chapter VI: Fundamental Quantum Algorithms
 
-### Chapter VII: Fundamental Quantum Algorithms
+### Chapter VII: Quantum Logic
+
+### Chapter VIII: Quantum Information Theory
 
 ## Part III: Application of Quantum Computing
 
-### Chapter VIII: Quantum Error Correction
+### Chapter IX: Quantum Error Correction
 
-### Chapter IX: Quantum Optimization
+### Chapter X: Quantum Optimization
 
-### Chapter X: Quantum Machine Learning
+### Chapter XI: Quantum Machine Learning
 
-### Chapter XI: Quantum Cryptography
+### Chapter XII: Quantum Cryptography
 
-### Chapter XII: Quantum Communication
+### Chapter XIII: Quantum Communication
 
-### Chapter XIII: Quantum Chemistry
+### Chapter XIV: Quantum Chemistry
 
-### Chapter XIV: Quantum Cognition
+### Chapter XV: Quantum Cognition
 
-### Chapter XV: Quantum Music
+### Chapter XVI: Quantum Music
 
 ## Part IV: Future of Quantum Computing
 
-### Chapter XVI: Quantum Computing Systems
+### Chapter XVII: Implementation of Quantum Computers
 
-### Chapter XVII: Ethics of Quantum Computing
+### Chapter XVIII: Ethics of Quantum Computing
 
-### Chapter XVIII: Now and Beyond
+### Chapter XIX: Now and Beyond
