@@ -17,7 +17,7 @@
 
 ### Chapter III: Fundamental Computer Science
 
-### Chapter IV: Fundamental Physics
+### Chapter IV: Fundamental Quantum Mechanics
 
 ### Chapter V: Fundamental Quantum Circuit
 
