@@ -31,24 +31,26 @@
 
 ### Chapter IX: Quantum Error Correction
 
-### Chapter X: Quantum Optimization
+### Chapter X: Quantum Optimization Algorithms
 
 ### Chapter XI: Quantum Machine Learning
 
-### Chapter XII: Quantum Cryptography
+### Chapter XII: Quantum Cryptography and Communication
 
-### Chapter XIII: Quantum Communication
+### Chapter XIII: Quantum Chemistry
 
-### Chapter XIV: Quantum Chemistry
+### Chapter XIV: Quantum Finance
 
 ### Chapter XV: Quantum Cognition
 
 ### Chapter XVI: Quantum Music
 
+### Quantum XVII: Quantum Art
+
 ## Part IV: Future of Quantum Computing
 
-### Chapter XVII: Implementation of Quantum Computers
+### Chapter XVIII: Implementation of Quantum Computers
 
-### Chapter XVIII: Ethics of Quantum Computing
+### Chapter XIX: Ethics of Quantum Computing
 
-### Chapter XIX: Now and Beyond
+### Chapter XX: Now and Beyond
