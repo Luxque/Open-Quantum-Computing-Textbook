@@ -24,15 +24,15 @@
 
 ### Chapter IX: Quantum Error Correction
 
-### Chapter X: Quantum Optimization Algorithms
+### Chapter X: Quantum Cryptography & Quantum Communication
 
-### Chapter XI: Quantum Machine Learning
+### Chapter XI: Quantum Optimization Algorithms
 
-### Chapter XII: Quantum Cryptography and Communication
+### Chapter XII: Quantum Machine Learning
 
-### Chapter XIII: Quantum Chemistry
+### Chapter XIII: Quantum Finance & Quantum Blockchain
 
-### Chapter XIV: Quantum Finance
+### Chapter XIV: Quantum Chemistry
 
 ### Chapter XV: Quantum Cognition
 
