@@ -1,9 +1,5 @@
 # Preface
 
-## Introduction From the Author
+I would like to show my humble gradiude for choosing my textbook. 
 
-## The Goal of This Textbook
-
-## Contribution
-
-## Ackowledgements
+$$H = \frac{1}{\sqrt{2}}\begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}$$
