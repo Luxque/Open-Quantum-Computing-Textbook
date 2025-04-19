@@ -4,7 +4,7 @@
 
 ### Chapter I: Introduction
 
-* [Preface]()
+* [Preface](.\chapter-1\preface.md)
 * [Table of Conents]()
 * [Chapter Dependency]()
 * [History of Quantum Computing]()
