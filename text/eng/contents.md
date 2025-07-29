@@ -4,13 +4,13 @@
 
 ### Chapter I: Introduction
 
-* [Table of Conents](.\contents.md)
-* [Chapter Dependency](.\chapter-1\dependency.md)
-* [Notations](.\chapter-1\notations.md)
-* [Preface](.\chapter-1\preface.md)
-* [A Brief History of Quantum Computing](.\chapter-1\history.md)
-* [Tools for Quantum Computing](.\chapter-1\tools.md)
-* [About Thinking and Learning](.\chapter-1\learning.md)
+* [Table of Conents](./contents.md)
+* [Chapter Dependency](./chapter-1/dependency.md)
+* [Notations](./chapter-1/notations.md)
+* [Preface](./hapter-1/preface.md)
+* [A Brief History of Quantum Computing](./chapter-1/history.md)
+* [Tools for Quantum Computing](./chapter-1/tools.md)
+* [About Thinking and Learning](./chapter-1/learning.md)
 
 ## Part II: Theory of Quantum Computing
 
