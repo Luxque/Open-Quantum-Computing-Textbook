@@ -1,16 +1,16 @@
-# Table of Contents
+# I-1: Table of Contents
 
 ## Part I: Beginning of Quantum Computing
 
 ### Chapter I: Introduction
 
-* [Table of Conents](./contents.md)
-* [Chapter Dependency](./chapter-1/dependency.md)
-* [Notations](./chapter-1/notations.md)
-* [Preface](./hapter-1/preface.md)
-* [A Brief History of Quantum Computing](./chapter-1/history.md)
-* [Tools for Quantum Computing](./chapter-1/tools.md)
-* [About Thinking and Learning](./chapter-1/learning.md)
+1. [Table of Conents](./contents.md)
+2. [Chapter Dependency](./chapter-1/dependency.md)
+3. [Notations](./chapter-1/notations.md)
+4. [Preface](./chapter-1/preface.md)
+5. [A Brief History of Quantum Computing](./chapter-1/history.md)
+6. [Tools of Quantum Computing](./chapter-1/tools.md)
+7. [About Thinking and Learning](./chapter-1/learning.md)
 
 ## Part II: Theory of Quantum Computing
 
