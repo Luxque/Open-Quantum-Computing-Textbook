@@ -7,10 +7,11 @@
 1. [Table of Conents](./contents.md)
 2. [Chapter Dependency](./chapter-1/dependency.md)
 3. [Notations](./chapter-1/notations.md)
-4. [Preface](./chapter-1/preface.md)
-5. [About Thinking and Learning](./chapter-1/learning.md)
-6. [A Brief History of Quantum Computing](./chapter-1/history.md)
-7. [Tools of Quantum Computing](./chapter-1/tools.md)
+4. [Acknowledgements](./chapter-1/acknowledgements.md)
+5. [Preface](./chapter-1/preface.md)
+6. [About Thinking and Learning](./chapter-1/learning.md)
+7. [A Brief History of Quantum Computing](./chapter-1/history.md)
+8. [Tools of Quantum Computing](./chapter-1/tools.md)
 
 ## Part II: Theory of Quantum Computing
 
