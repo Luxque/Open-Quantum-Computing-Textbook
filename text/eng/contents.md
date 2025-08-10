@@ -1,4 +1,4 @@
-# Table of Contents
+# I-1: Table of Contents
 
 ## Part I: Beginning of Quantum Computing
 
@@ -43,16 +43,14 @@
 
 ### Chapter XI: Quantum Chemistry
 
-### Chapter XII: Quantum Cognition
+### Chapter XII: Quantum Programming Languages
 
-### Chapter XIII: Quantum Music
-
-### Quantum XIV: Quantum Art
+### Chapter XIII: Quantum Music and Art
 
 ## Part IV: Future of Quantum Computing
 
-### Chapter XV: Implementation of Quantum Computers
+### Chapter XIV: Implementation of Quantum Computers
 
-### Chapter XVI: Ethics of Quantum Computing
+### Chapter XV: Ethics of Quantum Computing
 
-### Chapter XVII: Now and Beyond
+### Chapter XVI: Now and Beyond
