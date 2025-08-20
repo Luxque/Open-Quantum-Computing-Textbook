@@ -2,16 +2,16 @@
 
 ## Project Description
 
-A quantum computing textbook written for beginners.
+This is a quantum computing textbook designed for beginners.
 
 ## Read the Book
 
-A link will be ready once a proper hosting method is found.
+A link will be provided once a suitable hosting method is found.
 
 ## Contribution
 
 We welcome your feedback and contributions.
-Before start working on your contribution, please consult this [contribution manual](./CONTRIBUTING.md).
+Before you start working on your contribution, please consult the [contribution manual](./CONTRIBUTING.md).
 
 ## Directory Structure
 
@@ -20,4 +20,4 @@ Before start working on your contribution, please consult this [contribution man
 
 ## License
 
-This section will be updated once the license is chosen.
+This section will be updated once a proper license is chosen.
