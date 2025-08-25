@@ -1,4 +1,4 @@
-# I-3: Notations
+# Notations
 
 This section provides a brief overview of notational conventions that will be used in this book.
 

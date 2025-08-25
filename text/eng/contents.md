@@ -1,4 +1,4 @@
-# I-1: Table of Contents
+# Table of Contents
 
 ## Part I: Beginning of Quantum Computing
 

@@ -1,3 +1,3 @@
-# I-5: About Thinking and Learning
+# About Thinking and Learning
 
 ## Further Reading

@@ -1,1 +1,1 @@
-# I-2: Chapter Dependency
+# Chapter Dependency

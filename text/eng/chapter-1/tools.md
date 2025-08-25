@@ -1,4 +1,4 @@
-# I-7: Tools of Quantum Computing
+# Tools of Quantum Computing
 
 ## Qiskit
 
