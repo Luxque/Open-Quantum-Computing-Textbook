@@ -25,4 +25,4 @@ Before you start working on your contribution, please consult the [contribution 
 
 ## License
 
-This section will be updated once a proper license is chosen.
+CC BY-SA 4.0.
