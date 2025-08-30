@@ -8,6 +8,11 @@ This is a quantum computing textbook designed for beginners.
 
 A link will be provided once a suitable hosting method is found.
 
+## Stack
+
+* mdBook: Renders the textbook.
+* MANIM: Animates mathematical visualizations.
+
 ## Contribution
 
 We welcome your feedback and contributions.
