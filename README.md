@@ -34,8 +34,8 @@ Before you start working on your contribution, please consult the [contribution 
 This project — including, but not limited to, text, code, and diagrams — is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 You are free to:
-* **Share**: copy and redistribute the material in any medium or format.
-* **Adapt**: remix, transform, and build upon the material for any purpose, even commercially.
+* **Share**: Copy and redistribute the material in any medium or format.
+* **Adapt**: Remix, transform, and build upon the material for any purpose, even commercially.
 
 Only under the following terms:
 * **Attribution**: You must give appropriate credit, provide a link to the license, and indicate if changes were made.
