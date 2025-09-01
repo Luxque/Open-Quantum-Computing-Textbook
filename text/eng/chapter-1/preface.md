@@ -7,3 +7,6 @@
 * Quantum computing should not be that arcane with a thorough guide.
 * The need for publicized knowledge.
 * Pros of open source communities.
+* Intuition vs. rigor.
+* The philosophy of teaching.
+* How to use this book.
