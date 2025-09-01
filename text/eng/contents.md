@@ -24,7 +24,7 @@
 
 ### Chapter IX: Quantum Error Correction & Mitigation
 
-### Chapter X: Quantum Cryptography & Communication
+### Chapter X: Quantum Networking & Communication
 
 ### Chapter XI: Quantum Chemistry
 
