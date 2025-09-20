@@ -17,17 +17,18 @@
 1. Model of Quantum Computing
 2. Single-Qubit System
 3. Multi-Qubit System
-4. Quantum Random Number Generator
-5. Quantum Adder
-6. Superdense Coding
-7. Quantum Teleportation
-8. [Deutsch-Jozsa Algorithm](.\chapter-5\deutsch-jozsa.md)
+4. [Quantum Impossibles](./chapter-5/impossibles.md)
+5. [Quantum Possibles](./chapter-5/possibles.md)
+6. [Quantum Random Number Generator](./chapter-5/random.md)
+7. Quantum Adder
+8. [Deutsch-Jozsa Algorithm](./chapter-5/deutsch.md)
 9. Simon's Algorithm
 10. Gover's Algorithm
 11. Shor's Algorithm
 12. Quantum Phase Estimation
 13. Quantum Fourier Transformation
 14. Variational Quantum Singular Value Decomposition
+15. Harrow-Hassidim-Lloyd Algorithm
 
 ## Part III: Application of Quantum Computing
 
