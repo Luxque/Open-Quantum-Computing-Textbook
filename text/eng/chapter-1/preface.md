@@ -11,6 +11,6 @@
 * What is this book for?
 * How to use this book.
 
-My first encounter of quantum computing was not a long time ago; in fact, I would not be able to dream of it.
+My first encounter of quantum computing was not a long time ago; in fact, I was not quite aware of the existence of quantum computers.
 Until very end of my high school age, I was obsessed with intuitive and fascinating results yet rigorous nature of mathematics.
 Not to mention that mathematics is a backbone of the natural sciences and engineering.
