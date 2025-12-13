@@ -10,6 +10,9 @@
 * [Fundamental Computer Science]()
 * [Fundamental Quantum Mechanics]()
 * [Fundamental Quantum Computing]()
+* [Advanced Mathematics]()
+* [Advanced Computer Science]()
+* [Advanced Quantum Mechanics]()
 
 # The Application of Quantum Computing
 
@@ -25,5 +28,6 @@
 # The Future of Quantum Computing
 
 * [Imeplementation of Quantum Computers]()
+* [Topological Quantum Computing]()
 * [Ethics of Quantum Computing]()
 * [Now and Beyond]()
