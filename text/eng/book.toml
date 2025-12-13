@@ -1,0 +1,7 @@
+[book]
+title = "Open Quantum Computing Textbook"
+authors = ["Daniel Park"]
+language = "en"
+
+[output.html]
+mathjax-support = true
