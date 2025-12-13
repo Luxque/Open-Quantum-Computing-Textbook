@@ -1,4 +1,4 @@
-# Quantum Computing Textbook
+# Open Quantum Computing Textbook
 
 ## Project Description
 
