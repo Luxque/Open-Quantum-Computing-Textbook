@@ -2,7 +2,7 @@
 
 ## No-Cloning Theorem
 
-## No=Communication Theorem
+## No-Communication Theorem
 
 ## No-Deleting Theorem
 
