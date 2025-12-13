@@ -3,8 +3,7 @@
 This page recognizes any individuals who have contributed to the development and enrichment of this textbook.
 Contributors of this project are listed with their permission.
 Additional sources, such as books, articles, and papers, are referenced in the 'Further Reading' section of each chapter.
-I sincerely appreciate your dedication and continued support!
-
+I sincerely appreciate your dedication and continued support.
 
 ## Project Leaders
 
@@ -13,13 +12,11 @@ They are responsible for reviewing pull requests, ensuring proper grammar, factu
 
 * [Daniel Park (Luxque)](https://github.com/Luxque): Main author.
 
+## Content Contributors
 
-## Idea Contributors
-
-Idea contributos are individuals who have generously shared their original concepts, algorithms, advice, or creative approaches featured in this textbook.
+Content contributos are individuals who have generously shared their original concepts, algorithms, advice, and/or peadagogical approaches featured in this textbook.
 Their insights enhance the content and inspire new perspective on quantum computing and quantum algorithms.
 Each contributor is acknowledged with their permission.
-
 
 ## Translators
 
@@ -27,20 +24,17 @@ Translators play a vital role in making knowledge accessible to a global audienc
 Their support helps to overcome language barriers and ensure that this textbook reaches as many readers as possible.
 Each translator is acknowledged with their permission.
 
-
-## Error Reviewers
+## Reviewers
 
 A top-notch textbook must aim for accuracy and clarity.
-Error reviewers assist by fact-checking, identifying missing sources, and pointing out typographical errors from the text.
+Error reviewers assist by fact-checking, identifying missing sources, and pointing out conceptual/typographical errors from the text.
 Their valuable contributions help maintaining the integrity of the content.
 Each reviewer is acknowledged by their permission.
 
-
-## Donors
+## Donators
 
 Donations support the ongoing development of this project and enable the acquisition of valuable resources.
 Every donation is highly appreciated.
 While it may be challenging to maintain a comprehensive list of donors, I will make best effort to update it as frequently as possible.
 
-
-_Last Updated: MM/DD/YYYY_
+*Last Updated: 12/12/2025*
