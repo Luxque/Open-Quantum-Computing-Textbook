@@ -1,37 +1,31 @@
 # Quantum Computing Textbook
 
-
 ## Project Description
 
 This is a quantum computing textbook designed for beginners.
-
 
 ## Read the Book
 
 A link will be provided once a suitable hosting method is found.
 
-
 ## Contribution
 
 We welcome your feedback and contributions.
-Before you start working on your contribution, please consult the [contribution manual](./CONTRIBUTING.md).
-
+Before you start working on your contribution, please consult the [contribution manual](./CONTRIBUTING.md) and [code of conduct](./CODE_OF_CONDUCT.md).
 
 ## Stack
 
-* mdBook: Renders the textbook.
-* MANIM: Animates mathematical visualizations.
-
+* [`mdBook`](): Renders the textbook.
+* [`MANIM`](): Animates mathematical visualizations.
 
 ## Directory Structure
 
 * [`figure/`](./figure): Contains figures and videos for the textbook.
 * [`text/`](./text): Contains the main textbook Markdown files.
 
-
 ## License
 
-This project — including, but not limited to, text, code, and diagrams — is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
+This project is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 You are free to:
 * **Share**: Copy and redistribute the material in any medium or format.
