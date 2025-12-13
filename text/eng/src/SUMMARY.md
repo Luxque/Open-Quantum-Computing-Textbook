@@ -10,7 +10,7 @@
 * [Fundamental Computer Science](./chapter-03/cs.md)
     * [Introduction to Python](./chapter-03/python.md)
     * [Data Structures](./chapter-03/data.md)
-    * [Classical Algorithms and Complexity](./chapter-03/algorithm.md)
+    * [Algorithms and Complexity](./chapter-03/algorithm.md)
     * [Theory of Computing](./chapter-03/computing.md)
 * [Fundamental Quantum Mechanics]()
 * [Fundamental Quantum Computing]()
