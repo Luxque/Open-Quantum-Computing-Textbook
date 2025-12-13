@@ -6,7 +6,12 @@
 
 # The Theory of Quantum Computing
 
-* [Fundamental Mathematics]()
+* [Fundamental Mathematics](./chapter-02/math.md)
+    * [Linear Algebra](./chapter-02/linear.md)
+    * [Complex Numbers](./chapter-02/complex.md)
+    * [Logic](./chapter-02/logic.md)
+    * [Mathematical Proofs](./chapter-02/proof.md)
+    * [Set Theory](./chapter-02/set.md)
 * [Fundamental Computer Science]()
 * [Fundamental Quantum Mechanics]()
 * [Fundamental Quantum Computing]()
