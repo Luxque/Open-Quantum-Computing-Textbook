@@ -1,3 +1,3 @@
-# A Brief History of Quantum Computing
+# Brief History of Quantum Computing
 
 ## Further Reading
