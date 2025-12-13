@@ -3,7 +3,7 @@ param (
   [string]$Lang
 )
 
-$BookRoot = Join-Path -Path $PSScriptRoot -ChildPath "..\book" | Resolve-Path -Relative
+$BookRoot = Join-Path -Path $PSScriptRoot -ChildPath "..\text" | Resolve-Path -Relative
 $BookPath = Join-Path -Path $BookRoot -ChildPath $Lang
 
 
