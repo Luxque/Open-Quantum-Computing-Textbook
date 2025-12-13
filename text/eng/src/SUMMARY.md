@@ -28,6 +28,9 @@
         * [Quantum Fourier Transformation](./chapter-05/qft.md)
         * [Harrow-Hassidim-Lloyd Algorithm](./chapter-05/hhl.md)
         * [Quantum Singular Value Decomposition](./chapter-05/qsvd.md)
+* [Advanced Mathematics]()
+* [Advanced Computer Science]()
+* [Advanced Quantum Mechanics]()
 
 # The Application of Quantum Computing
 
@@ -43,5 +46,6 @@
 # The Future of Quantum Computing
 
 * [Imeplementation of Quantum Computers]()
+* [Topological Quantum Computing]()
 * [Ethics of Quantum Computing]()
 * [Now and Beyond]()
