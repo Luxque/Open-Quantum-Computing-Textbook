@@ -16,7 +16,7 @@
 
 # The Application of Quantum Computing
 
-* [Quantum Optimization Algorithms]()
+* [Quantum Optimization]()
 * [Quantum Machine Learning]()
 * [Quantum Error Correction & Mitigation]()
 * [Quantum Networking & Communication]()
