@@ -6,7 +6,7 @@ This is a quantum computing textbook designed for beginners.
 
 ## Read the Book
 
-A link will be provided once a suitable hosting method is found.
+You can read the book by visiting [here](https://luxque.github.io/OQCT/).
 
 ## Contribution
 
