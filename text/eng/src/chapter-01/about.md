@@ -4,7 +4,7 @@ This section describes the purpoes of this textbook, acknowledges contributors, 
 
 ## Section Contents
 
-1. [Preface](./preface.html)
-2. [Acknowledgements](./acknowledgements.html)
-3. [Notations](./notations.html)
-4. [Chapter Dependency](./dependency.html)
+1. [Preface](/chapter-01/preface.html)
+2. [Acknowledgements](/chapter-01/acknowledgements.html)
+3. [Notations](/chapter-01/notations.html)
+4. [Chapter Dependency](/chapter-01/dependency.html)

@@ -6,12 +6,12 @@ To use this text effectively, read this chapter before moving on to specific top
 
 ## Chapter Contents
 
-1. [About This Book](./about.html)
-    1. [Preface](./preface.html)
-    2. [Acknowledgements](./acknowledgements.html)
-    3. [Notations](./notations.html)
-    4. [Chapter Dependency](./dependency.html)
-2. [Getting Started](./started.html)
-    1. [About Thinking and Learning](./learning.html)
-    2. [Brief History of Quantum Computing](./history.html)
-    3. [Tools of Quantum Computing](./tools.html)
+1. [About This Book](/chapter-01/about.html)
+    1. [Preface](/chapter-01/preface.html)
+    2. [Acknowledgements](/chapter-01/acknowledgements.html)
+    3. [Notations](/chapter-01/notations.html)
+    4. [Chapter Dependency](/chapter-01/dependency.html)
+2. [Getting Started](/chapter-01/started.html)
+    1. [About Thinking and Learning](/chapter-01/learning.html)
+    2. [Brief History of Quantum Computing](/chapter-01/history.html)
+    3. [Tools of Quantum Computing](/chapter-01/tools.html)
