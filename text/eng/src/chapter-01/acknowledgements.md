@@ -37,6 +37,11 @@ Donations support the ongoing development of this project and enable the acquisi
 Every donation is highly appreciated.
 While it may be challenging to maintain a comprehensive list of donors, I will make best effort to update it as frequently as possible.
 
+## Technology Stacks
+
+* [`MANIM`](https://github.com/ManimCommunity/manim):
+* [`mdBook`](https://github.com/rust-lang/mdBook):
+
 ##
 
-*Last Updated: 12/13/2025*
+*Last Updated: 01/06/2026*
