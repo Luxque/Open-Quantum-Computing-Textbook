@@ -12,11 +12,11 @@
     * [Data Structures](./chapter-03/data.md)
     * [Algorithms and Complexity](./chapter-03/algorithm.md)
     * [Theory of Computing](./chapter-03/computing.md)
-* [Fundamental Quantum Mechanics]()
+* [Fundamental Quantum Physics]()
 * [Fundamental Quantum Computing]()
 * [Advanced Mathematics]()
 * [Advanced Computer Science]()
-* [Advanced Quantum Mechanics]()
+* [Advanced Quantum Physics]()
 
 # The Application of Quantum Computing
 
@@ -25,13 +25,13 @@
 * [Quantum Error Correction & Mitigation]()
 * [Quantum Networking & Communication]()
 * [Quantum Programming Languages]()
-* [Quantum Finance]()
 * [Quantum Chemistry]()
+* [Quantum Finance]()
 * [Quantum Music & Art]()
 
 # The Future of Quantum Computing
 
-* [Imeplementation of Quantum Computers]()
+* [Implementation of Quantum Computers]()
 * [Topological Quantum Computing]()
 * [Ethics of Quantum Computing]()
 * [Now and Beyond]()
