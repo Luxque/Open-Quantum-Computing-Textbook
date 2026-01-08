@@ -2,9 +2,9 @@
 
 ## No-Cloning Theorem
 
-## No-Communication Theorem
-
 ## No-Deleting Theorem
+
+## No-Communication Theorem
 
 ## No-Broadcasting Theorem
 
