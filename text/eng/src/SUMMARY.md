@@ -21,13 +21,13 @@
 * [Quantum Error Correction & Mitigation]()
 * [Quantum Networking & Communication]()
 * [Quantum Programming Languages]()
-* [Quantum Finance]()
 * [Quantum Chemistry]()
+* [Quantum Finance]()
 * [Quantum Music & Art]()
 
 # The Future of Quantum Computing
 
-* [Imeplementation of Quantum Computers]()
+* [Implementation of Quantum Computers]()
 * [Topological Quantum Computing]()
 * [Ethics of Quantum Computing]()
 * [Now and Beyond]()
