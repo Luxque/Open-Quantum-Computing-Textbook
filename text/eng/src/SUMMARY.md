@@ -8,11 +8,11 @@
 
 * [Fundamental Mathematics]()
 * [Fundamental Computer Science]()
-* [Fundamental Quantum Mechanics]()
+* [Fundamental Quantum Physics]()
 * [Fundamental Quantum Computing]()
 * [Advanced Mathematics]()
 * [Advanced Computer Science]()
-* [Advanced Quantum Mechanics]()
+* [Advanced Quantum Physics]()
 
 # The Application of Quantum Computing
 
