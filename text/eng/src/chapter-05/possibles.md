@@ -4,6 +4,6 @@
 
 ## Superdense Coding
 
-## Quantum Randomness and Bell Inequality
+## Quantum Randomness
 
 ## Further Reading
