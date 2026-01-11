@@ -13,6 +13,7 @@
     * [Qubits and Quantum Circuits](./chapter-05/qubits.md)
         * [Model of Quantum Computing](./chapter-05/model.md)
         * [Single-Qubit System](./chapter-05/single.md)
+        * [Bloch Sphere](./chapter-05/bloch.md)
         * [Multi-Qubit System](./chapter-05/multi.md)
         * [Quantum Impossibles](./chapter-05/impossibles.md)
         * [Quantum Possibles](./chapter-05/possibles.md)
