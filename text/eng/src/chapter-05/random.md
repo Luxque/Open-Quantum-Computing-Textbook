@@ -18,6 +18,8 @@ By leveraging quantum systems in quantum computing, we can simply achieve this b
 
 ## Hadamard Gates On Stack
 
+(TODO: MENTION UNIFORM RANDOMNESS.)
+
 Let us give a quick look at the matrix form of Hadamard gate.
 In terms of linear algebra, a Hadamard gate can be written as a \\(2 \times 2\\) matrix.
 
@@ -80,7 +82,7 @@ The equivalence of these two different definitions can be trivially shown using 
     H^{\otimes n} =
     \begin{cases}
         H & n = 1 \\\\
-        \frac{1}{\sqrt{2}^n}
+        \cfrac{1}{\sqrt{2}}
         \begin{bmatrix}
             H^{\otimes (n-1)} & H^{\otimes (n-1)} \\\\
             H^{\otimes (n-1)} & -H^{\otimes (n-1)}
@@ -88,6 +90,25 @@ The equivalence of these two different definitions can be trivially shown using 
         & n > 1
     \end{cases}
 \\]
+
+(INTRODUCTION PARAGRAPH FOR THE PROOF)
+
+> **Proof**: Let us denote the state obtained after applying Hadamard gates to \\(n\\) quits by \\(\left|\psi_n\right\rangle\\), i.e., \\(\left|\psi_n\right\rangle = \otimes_{i=1}^{n} H\left|0\right\rangle = (H\left|0\right\rangle)^{\otimes n}\\).
+> We also let the claim \\(P(n)\\) be \\(\left|\psi_n\right\rangle\\) can generate a uniformly random \\(n\\)-bit binary string.
+> (BASE CASE)
+> Assume \\(P(k)\\) holds for an arbitrary \\(k \in \mathbb{N}\\), meaning that \\(\left|\psi\right\rangle = (H\left|0\right\rangle)^{\otimes n}\\) generates a uniformly random \\(k\\)-bit string.
+> Now, append another qubit initialized in \\(\left|0\right\rangle\\) and apply a Hadamard gate to it.
+> The resulting \\((k+1)\\)-bit string is:
+> \\[
+\begin{align*}
+    \left|\psi_{k+1}\right\rangle
+    &= (H\left|0\right\rangle)^{\otimes k} \otimes H\left|0\right\rangle \\\\
+    &= (H\left|0\right\rangle)^{\otimes k} \otimes \left(\frac{1}{\sqrt{2}} \left|0\right\rangle + \frac{1}{\sqrt{2}} \left|1\right\rangle\right) \\\\
+    &= \frac{1}{\sqrt{2}} (H\left|0\right\rangle)^{\otimes k} \otimes \left|0\right\rangle + \frac{1}{\sqrt{2}} (H\left|0\right\rangle)^{\otimes k} \otimes \left|1\right\rangle \text{.} \\\\
+\end{align*}
+> \\]
+> Since the new qubit has an equal probability of being measured as \\(0\\) or \\(1\\), the state \\(\psi_{k+1}\\) successfully generates a uniformly random \\((k+1)\\)-bit binary string.
+> By mathematical induction, we conclude that any number \\(n\\) of qubits prepared with parallel hadamard gates can generate uniformly random \\(n\\)-bit binary strings.
 
 (POSSIBLE CANDIDATES BY USING BLOCH SPHERE)
 Hadamard gate plays vital roles in other quantum algorithms, which will be soon revealed in later sections of this chapter.
