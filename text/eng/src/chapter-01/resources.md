@@ -1,3 +1,3 @@
-# Learning Resources of Quantum Computing
+# Learning Resources for Quantum Computing
 
 * https://qagora.ed.ac.uk/

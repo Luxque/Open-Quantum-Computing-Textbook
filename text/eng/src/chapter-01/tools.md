@@ -1,4 +1,4 @@
-# Tools of Quantum Computing
+# Tools for Quantum Computing
 
 ## Qiskit
 
