@@ -1,8 +1,13 @@
-# Timeline of Quantum Computing
+# Additional Learning Websites
 
-* Quantum Algorithm Zoo
-* Quantiki
-* https://qagora.ed.ac.uk/
-* Stack Exchange
+This section provides a list of helpful websites that readers can refer to.
 
-## 
+## QAgora
+
+## Quantiki
+
+## Quantum Algorithm Zoo
+
+## Stack Overflow
+
+## Further Reading
