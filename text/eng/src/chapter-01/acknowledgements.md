@@ -2,7 +2,7 @@
 
 This page recognizes any individuals who have contributed to the development and enrichment of this textbook.
 Contributors of this project are listed with their permission.
-Additional sources, such as books, articles, and papers, are referenced in the 'Further Reading' section of each chapter.
+Additional sources, such as books, articles, and papers, are referenced in the 'Further Reading' subsection of each chapter.
 I sincerely appreciate your dedication and continued support.
 
 ## Project Leaders

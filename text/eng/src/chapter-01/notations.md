@@ -8,7 +8,7 @@ Readers can use the search tool at the top of the page to find detailed explanat
 
 This table serves as a reference for the mathematical symbols that will be used throughout this text.
 Precise definitions are not yet provided here but will be introduced as the material progresses.
-Even if you are already familiar with these notations, it is still highly recommended to review this section, as different texts may employ varying conventions and symbol choices.
+Even if you are already familiar with these notations, it is still highly recommended to review this subsection, as different texts may employ varying conventions and symbol choices.
 
 Please note that some mathematical symbols closely resemble Greek letters commonly used as variable names.
 One notable example would be \\(\sum\\) and \\(\Sigma\\); the former represents the summation operator, while the latter may be used as a variable name (e.g., for a set or a matrix).

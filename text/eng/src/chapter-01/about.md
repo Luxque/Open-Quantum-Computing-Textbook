@@ -1,8 +1,8 @@
 # About This Book
 
-This section describes the purpoes of this textbook, acknowledges contributors, and provides references for readers.
+This module describes the purposes of this textbook, acknowledges contributors, and provides information about the notations the book uses and prerequisites of each chapter.
 
-## Section Contents
+## Module Contents
 
 1. [Preface](/chapter-01/preface.html)
 2. [Acknowledgements](/chapter-01/acknowledgements.html)

@@ -10,9 +10,9 @@
         * [Chapter Dependency](./chapter-01/dependency.md)
     * [Getting Started](./chapter-01/started.md)
         * [About Thinking and Learning](./chapter-01/learning.md)
-        * [Brief History of Quantum Computing](./chapter-01/history.md)
         * [Tools for Quantum Computing](./chapter-01/tools.md)
-        * [Learning Resources for Quantum Computing](./chapter-01/resources.md)
+        * [Additional Learning Websites](./chapter-01/resources.md)
+        * [Timeline of Quantum Computing](./chapter-01/timeline.md)
 
 # The Theory of Quantum Computing
 
