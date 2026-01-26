@@ -1,13 +1,15 @@
-# Additional Learning Websites
+# Helpful Websites
 
-This section provides a list of helpful websites that readers can refer to.
+## [QAgora](https://qagora.ed.ac.uk/)
 
-## QAgora
+## [Quantiki](https://quantiki.org/)
 
-## Quantiki
+## [Quantum Algorithm Zoo](https://quantumalgorithmzoo.org/)
 
-## Quantum Algorithm Zoo
+## [Stack Overflow](https://stackoverflow.com/)
 
-## Stack Overflow
+* [Mathematics Stack Exchange](https://math.stackexchange.com/)
+* [Physics Stack Exchange](https://physics.stackexchange.com/)
+* [Computer Science](https://cs.stackexchange.com/)
 
 ## Further Reading

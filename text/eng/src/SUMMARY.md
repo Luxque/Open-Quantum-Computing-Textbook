@@ -11,7 +11,7 @@
     * [Getting Started](./chapter-01/started.md)
         * [About Thinking and Learning](./chapter-01/learning.md)
         * [Tools for Quantum Computing](./chapter-01/tools.md)
-        * [Additional Learning Websites](./chapter-01/websites.md)
+        * [Helpful Websites](./chapter-01/websites.md)
         * [Timeline of Quantum Computing](./chapter-01/timeline.md)
 
 # The Theory of Quantum Computing

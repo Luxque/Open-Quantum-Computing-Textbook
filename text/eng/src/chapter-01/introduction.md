@@ -14,5 +14,5 @@ To use this text effectively, read this chapter before moving on to specific top
 2. [Getting Started](/OQCT/chapter-01/started.html)
     1. [About Thinking and Learning](/OQCT/chapter-01/learning.html)
     2. [Tools for Quantum Computing](/OQCT/chapter-01/tools.html)
-    3. [Additional Learning Websites](/OQCT/chapter-01/websites.html)
+    3. [Helpful Websites](/OQCT/chapter-01/websites.html)
     4. [Timeline of Quantum Computing](/OQCT/chapter-01/timeline.html)

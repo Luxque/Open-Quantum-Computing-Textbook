@@ -1,8 +1,8 @@
 # Notations
 
-This page provides a brief overview of notational conventions that will be used in this book.
-Please note that this page does not provide a detailed explanation of what each symbol represents.
-Readers can use the search tool at the top of the page to find detailed explanations and relevant concepts.
+This section provides a brief overview of notational conventions that will be used in this book.
+Please note that this section does not provide a detailed explanation of what each symbol represents.
+Readers can use the search tool at the top of the section to find detailed explanations and relevant concepts.
 
 ## Mathematical Symbols
 

@@ -27,9 +27,9 @@ As a recent graduate, I must admit that I do not possess enough knowledge or exp
 I addressed this by making the project open source, which enables bidirectional communication between the author and readers, allowing the text to be consistently updated based on feedback.
 
 I expect this text will be accessible to anyone familiar with high school algebra and trigonometry.
-However, some topics may require graduate-level knowledge, so I highly recommend consulting the [Chapter Dependency](./dependency.html) page before diving into a specific topic.
+However, some topics may require graduate-level knowledge, so I highly recommend consulting the [Chapter Dependency](./dependency.html) section before diving into a specific topic.
 In addition, please understand that practice problems may not be available given the breadth of material covered.
-To avoid gaps in understanding, be sure to consult the 'Further Reading' subsection on each page to expand your knowledge and deepen your understanding, since learning is not always linear but more often network-like.
+To avoid gaps in understanding, be sure to consult the 'Further Reading' subsection on each section to expand your knowledge and deepen your understanding, since learning is not always linear but more often network-like.
 
 There are many paths to reach the top of a mountain.
 People with different preferences take different paths that lead to the same goal.

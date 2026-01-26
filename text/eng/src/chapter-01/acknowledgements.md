@@ -1,8 +1,8 @@
 # Acknowledgements
 
-This page recognizes any individuals who have contributed to the development and enrichment of this textbook.
+This section recognizes any individuals who have contributed to the development and enrichment of this textbook.
 Contributors of this project are listed with their permission.
-Additional sources, such as books, articles, and papers, are referenced in the 'Further Reading' subsection of each chapter.
+Additional sources, such as books, articles, and papers, are referenced in the 'Further Reading' subsection of each section.
 I sincerely appreciate your dedication and continued support.
 
 ## Project Leaders
@@ -14,7 +14,7 @@ They are responsible for reviewing pull requests, ensuring proper grammar, factu
 
 ## Content Contributors
 
-Content contributos are individuals who have generously shared their original concepts, algorithms, advice, and/or peadagogical approaches featured in this textbook.
+Content contributors are individuals who have generously shared their original concepts, algorithms, advice, and/or pedagogical approaches featured in this textbook.
 Their insights enhance the content and inspire new perspective on quantum computing and quantum algorithms.
 Each contributor is acknowledged with their permission.
 
