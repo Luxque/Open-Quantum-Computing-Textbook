@@ -36,4 +36,6 @@ People with different preferences take different paths that lead to the same goa
 At the top of the mountain, people share what they observed during the climb, and disagreements may arise.
 I hope this text becomes a guide that helps everyone appreciate the landscape of each discipline, so that we can better understand one another, as human beings.
 
+##
+
 — Daniel Park
