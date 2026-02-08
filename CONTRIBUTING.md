@@ -61,6 +61,7 @@ Any contributions will be reviewed and edited according to the following formatt
 When typing a differential forms in $\LaTeX$, make sure to ues the `\text{}` command on $\text{d}$ to avoid the confusion: $dx$ stands for quantity $d$ multiplied by $x$, and $\text{d}x$ stands for differential form of variable $x$.
 To provide extra clarity, it is advised to put the `\,` command before the differential form whenever it is multiplied by a different variable.
 For example, to render the following evaluation of Gaussian integral:
+
 $$
 \begin{align*}
     \int_{-\infty}^{\infty} e^{-x^2} \,\text{d}x
@@ -74,7 +75,9 @@ $$
     &= \sqrt{\pi}
 \end{align*}
 $$
+
 it should be written in this way:
+
 ```latex
 \begin{align*}
     \int_{-\infty}^{\infty} e^{-x^2} \,\text{d}x
