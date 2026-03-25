@@ -19,7 +19,7 @@
         * [Quantum Possibles](./chapter-05/possibles.md)
         * [Quantum Random Number Generator](./chapter-05/random.md)
         * [Quantum Adder](./chapter-05/adder.md)
-    * [Canon Algorithms](./chapter-05/canon.md)
+    * [Primitive Quantum Algorithms](./chapter-05/primitive.md)
         * [Deutsch-Jozsa Algorithm](./chapter-05/deutsch.md)
         * [Simon's Algorithm](./chapter-05/simon.md)
         * [Gover's Algorithm](./chapter-05/grover.md)
