@@ -1,24 +1,59 @@
 # Quantum Random Number Generator
 
-Random numbers are used in various situations: dice rolling in gambling, world generation in video games, modern cryptography, making a tough decision, and so on.
+Random numbers are used in various situations: dice rolling in gambling, world generation in video games, modern cryptography, making a tough decision, etc.
 Unfortunately, despite their importance and impact on our lives, classical computers are not capable of generating purely random numbers.
-Instead, classical computers utilize pseudorandom algorithms to mimic the complete randomness.
-There are several ways of implementing for different purposes; however, they are highly dependent on the initial condition at the time of generation, as known as the seed.
+Instead, classical computers utilize pseudorandom algorithms to mimic complete randomness.
+There are several ways of implementing for different purposes.
+However, they are highly dependent on the initial condition at the time of generation, as known as the seed.
+Consider the following Python code snippet.
 
-* (THE TYPICAL WAY OF GENERATING)
+```python
+import random
+
+def random_cast():
+    return random.randrange(6) + 1
+
+print(f"Roll Result: {random_roll()}")
+```
+
+In this example, we are simulating casting a die.
+A typical die has 6 sides, and each side has an equal probability of \\(\frac{1}{6}\\) as a outcome.
+In Python, we can use `random` module to generate a random number, and `randrange(6)` returns a random integer from 0 to 5.
+We have to make sure that adding 1 at the end to get numbers from 1 to 6.
+This module offers several other functions for randomized activities on various data structures.
+But if you were to work with something secret, this is not a right to use; introducing the `secrets` module.
+
+```python
+import secrets
+
+def secrets_roll():
+    return secrets.randbelow(6) + 1
+
+print(f"Roll Result: {secrets_roll()}")
+```
+
+While both `random` and `secrets` offer similar features, they obtain 'randomness' from completely different sources.
+The `random` module uses Mersenne Twister, an algorithm based on the period length between Mersenne primes.
+Once the period is known, the results becomes very recreatable, so `random` is usually used for simulation.
+On the other hand, the `secrets` module is directly seeded with devices that handles entropy (a quantity associated with uncertainty), which is way more sophisticated than the previous one.
+In Linux systems, `/dev/urandom` is used, and in C programming, the `getrandom()` function can be used for similar purposes.
+These are great options for creating cryptographically safe random numbers.
+
 * (CLOUDFLARE'S CASE)
-* (`getrandom()` IN C)
-* (THE INITIAL CONDITION PROBLEM OF THEM)
+(Chaotic nature of liquid)
+(Fundamental identical behaviors: seed)
+(Deterministic)
+(Not fully random)
 
-There is a huge disadvantage in those pseudorandom algorithms.
+There is a huge and shared disadvantage in those pseudorandom algorithms.
 Once the initial condition is known, anyone can recreate the identical output.
 This vulnerability can be critical for data encryption since a hacker can access to the raw data once they obtain the information of the initial condition and the implemented algorithm.
 Fortunately, we do not have to give up pure randomness in computing; we just need to deploy a different method of computing.
-By leveraging quantum systems in quantum computing, we can simply achieve this by using a single quantum gate: Hadamard gate (\\(H\\)).
+By leveraging the completely random nature of quantum systems, we can simply achieve this by using a single quantum gate: Hadamard gate (\\(H\\)).
 
 ## Hadamard Gates On Stack
 
-(TODO: MENTION UNIFORM RANDOMNESS.)
+(MENTION UNIFORM RANDOMNESS.)
 
 Let us give a quick look at the matrix form of Hadamard gate.
 In terms of linear algebra, a Hadamard gate can be written as a \\(2 \times 2\\) matrix.
@@ -79,6 +114,7 @@ Equivalently, we can use a recursive definition for \\(n > 1\\).
 The equivalence of these two different definitions can be trivially shown using how Kronecker product operates.
 
 \\[
+\begin{equation}
     H^{\otimes n} =
     \begin{cases}
         H & n = 1 \\\\
@@ -89,6 +125,7 @@ The equivalence of these two different definitions can be trivially shown using 
         \end{bmatrix}
         & n > 1
     \end{cases}
+\end{equation}
 \\]
 
 (INTRODUCTION PARAGRAPH FOR THE PROOF)
@@ -141,5 +178,10 @@ Hadamard gate plays vital roles in other quantum algorithms, which will be soon 
 
 ## Further Reading
 
-* https://www.cloudflare.com/learning/ssl/lava-lamp-encryption/
+* https://docs.python.org/3.13/library/random.html
+* https://dl.acm.org/doi/pdf/10.1145/272991.272995
+* https://docs.python.org/3.13/library/secrets.html#module-secrets
+* https://linuxvox.com/blog/dev-urandom-linux/
 * https://www.man7.org/linux/man-pages/man2/getrandom.2.html
+* https://www.cloudflare.com/learning/ssl/lava-lamp-encryption/
+* https://www.random.org/randomness/
