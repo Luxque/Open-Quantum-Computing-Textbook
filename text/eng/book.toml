@@ -1,7 +1,10 @@
 [book]
 title = "Open Quantum Computing Textbook"
 authors = ["Daniel Park"]
-language = "en"
+language = "eng"
+
+[preprocessor.katex]
+after = ["links"]
 
 [output.html]
 mathjax-support = true
