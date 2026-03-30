@@ -24,10 +24,10 @@
 * [Quantum Chemistry]()
 * [Quantum Finance]()
 * [Quantum Music & Art]()
+* [Topological Quantum Computing]()
 
 # The Future of Quantum Computing
 
 * [Implementation of Quantum Computers]()
-* [Topological Quantum Computing]()
 * [Ethics of Quantum Computing]()
 * [Now and Beyond]()
