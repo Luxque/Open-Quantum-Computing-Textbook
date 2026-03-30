@@ -1,13 +1,11 @@
 # Helpful Websites
 
-This section provides several helpful websites to learn more about quantum computing.
+This section provides a few helpful websites to learn more about quantum computing.
 These websites can be used to explore new algorithms and tricks that are not covered in this text and get help on stuck problems.
 
 ## [QAgora](https://qagora.ed.ac.uk/)
 
-* Introduction sentences of QAgora.
-* What it contains.
-* What it used to be.
+QAgora 
 
 ## [Quantiki](https://quantiki.org/)
 
