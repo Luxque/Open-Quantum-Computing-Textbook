@@ -14,12 +14,12 @@ Please note that some mathematical symbols closely resemble Greek letters common
 One notable example would be \\(\sum\\) and \\(\Sigma\\); the former represents the summation operator, while the latter may be used as a variable name (e.g., for a set or a matrix).
 Readers should be able to distinguish these symbols by context.
 
-| Symbol            | Description            |
-|:-----------------:|:----------------------:|
-| \\(\sum\\)        | summation              |
-| \\(\prod\\)       | product                |
-| \\(\oplus\\)      | bitwise XOR operation  |
-| \\(\otimes\\)     | tensor product         |
+| Symbol    | Description           |
+|:---------:|:---------------------:|
+| $\sum$    | summation             |
+| $\prod$   | product               |
+| $\oplus$  | bitwise XOR operation |
+| $\otimes$ | tensor product        |
 
 ## Greek Alphabet
 
