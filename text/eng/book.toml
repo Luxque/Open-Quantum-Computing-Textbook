@@ -1,6 +1,6 @@
 [book]
 title = "Open Quantum Computing Textbook"
-description = "An open-source textbook for quantum computing theory and its applications."
+description = "An open source textbook for quantum computing theory and its applications."
 author = "Daniel Park"
 language = "eng"
 multilingual = false
@@ -8,6 +8,7 @@ src = "source"
 
 [output.html]
 default-theme = "ayu"
+preferred-dark-theme = "ayu"
 
 [preprocessor.katex]
 after = ["links"]
