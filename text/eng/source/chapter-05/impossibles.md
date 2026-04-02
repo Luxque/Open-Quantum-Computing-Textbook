@@ -90,17 +90,17 @@ $$
 > $$
 \begin{align*}
     \left|\alpha+\beta\right|^2
-    &= \left(\alpha+\beta\right) \left(\overline{\alpha+\beta}\right) \\
-    &= \left(\alpha+\beta\right) \left(\overline{\alpha}+\overline{\beta}\right) \\
-    &= \alpha\overline{\alpha} + \overline{\alpha}\beta + \alpha\overline{\beta} + \beta\overline{\beta} \\
-    &= \underbrace{\left|\alpha\right|^2 + \left|\beta\right|^2}_{1} + \overline{\alpha}\beta + \alpha\overline{\beta}.
+    &= \left(\alpha+\beta\right) \left(\alpha+\beta\right)^* \\
+    &= \left(\alpha+\beta\right) \left(\alpha^*+\beta^*\right) \\
+    &= \alpha\alpha^* + \alpha^*\beta + \alpha\beta^* + \beta\beta^* \\
+    &= \underbrace{\left|\alpha\right|^2 + \left|\beta\right|^2}_{1} + \alpha^*\beta + \alpha\beta^*.
 \end{align*}
 $$
-> Now, let us evaluate the extra term $\overline{\alpha}\beta + \alpha\overline{\beta}$.
+> Now, let us evaluate the extra term $\alpha^*\beta + \alpha\beta^*$.
 > Rcalling $\cos(\omega) = \frac{e^{i\omega}+e^{-i\omega}}{2}$, we obtain:
 > $$
 \begin{align*}
-    \overline{\alpha}\beta + \alpha\overline{\beta}
+    \alpha^*\beta + \alpha\beta^*
     &= r\rho{e^{-i\theta}e^{i\varphi}} + r\rho{e^{i\theta}e^{-i\varphi}} \\
     &= r\rho\left(e^{-i\left(\theta-\varphi\right)} + e^{i\left(\theta-\varphi\right)}\right) \\
     &= 2r\rho\cos\left(\theta-\varphi\right) \neq 0.
