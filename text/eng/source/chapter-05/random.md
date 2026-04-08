@@ -116,7 +116,8 @@ $$
 
 (INTRODUCTION PARAGRAPH FOR THE PROOF)
 
-> **Proof**: Let us denote the state obtained after applying Hadamard gates to $n$ quits by $\ket{\psi_n}$, i.e., $\ket{\psi_n} = \otimes_{i=1}^{n} H\ket{0} = \left(H\ket{0}\right)^{\otimes n}$.
+> **Proof**:
+> Let us denote the state obtained after applying Hadamard gates to $n$ quits by $\ket{\psi_n}$, i.e., $\ket{\psi_n} = \otimes_{i=1}^{n} H\ket{0} = \left(H\ket{0}\right)^{\otimes n}$.
 > We also let the claim $P(n)$ be $\ket{\psi_n}$ can generate a uniformly random $n$-bit binary string.
 > (BASE CASE)
 > Assume $P(k)$ holds for an arbitrary $k \in \mathbb{N}$, meaning that $\ket{\psi} = (H\ket{0})^{\otimes n}$ generates a uniformly random $k$-bit string.
@@ -132,6 +133,7 @@ $$
 $$
 > Since the new qubit has an equal probability of being measured as $0$ or $1$, the state $\ket{\psi_{k+1}}$ successfully generates a uniformly random $(k+1)$-bit binary string.
 > By mathematical induction, we conclude that any number $n$ of qubits prepared with parallel hadamard gates can generate uniformly random $n$-bit binary strings.
+> ■
 
 (POSSIBLE CANDIDATES BY USING BLOCH SPHERE)
 Hadamard gate plays vital roles in other quantum algorithms, which will be soon revealed in later sections of this chapter.
