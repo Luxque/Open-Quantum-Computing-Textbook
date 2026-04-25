@@ -9,6 +9,7 @@ src = "source"
 [output.html]
 default-theme = "ayu"
 preferred-dark-theme = "ayu"
+additional-css = ["custom.css"]
 
 [preprocessor.katex]
 after = ["links"]
