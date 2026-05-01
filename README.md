@@ -14,6 +14,8 @@ We aim to build a welcoming environment for everyone.
 
 You can read the book by visiting [here](https://luxque.github.io/OQCT/).
 
+## Table of Contents
+
 ## Features
 
 This textbook aims to provide educational content for people with different backgrounds.
@@ -70,7 +72,7 @@ Any feedback on proofs written in plain English and the Lean code will be highly
 
 * [`figure/`](./figure/): Figures and videos for the textbook.
 * [`text/`](./text/): Main textbook Markdown files.
-    * 👑 [`text/eng/`](./text/eng/): (American) English textbook files. All translations must be based on this directory.
+    * [`text/eng/`](./text/eng/) 👑: (American) English textbook files. All translations must be based on this directory.
 * [`script/`](./script/): Pieces of software that help maintiaing the textbook.
 
 ## Contribution
