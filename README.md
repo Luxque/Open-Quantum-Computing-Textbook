@@ -71,9 +71,10 @@ Any feedback on proofs written in plain English and the Lean code will be highly
 ## Directory Structure
 
 * [`figure/`](./figure/): Figures and videos for the textbook.
+* [`script/`](./script/): Pieces of software that help project management and task automatation.
+* [`table/`](./table/): CSV files of tables used in the textbook.
 * [`text/`](./text/): Main textbook Markdown files.
     * [`text/eng/`](./text/eng/) 👑: (American) English textbook files. All translations must be based on this directory.
-* [`script/`](./script/): Pieces of software that help maintiaing the textbook.
 
 ## Contribution
 
