@@ -1,0 +1,22 @@
+Chapter Name,Chapter Code
+Introduction,intro
+Foundational Mathematics,`foundmath`
+Foundational Computer Science,`foundcs`
+Foundational Quantum Physics,`foundqp`
+Foundational Quantum Computing,`foundqc`
+Advanced Mathematics,`advmath`
+Advanced Computer Science,`advcs`
+Advanced Quantum Physics,`advqp`
+Quantum Optimization,`opt`
+Quantum Machine Learning,`ml`
+Quantum Error Correction & Mitigation,`error`
+Quantum Networking & Communication,`netcomm`
+Quantum Programming Languages,`prolang`
+Quantum Software Verification,`softver`
+Quantum Chemistry,`chem`
+Quantum Finance,`fin`
+Quantum Music & Art,`musart`
+Topological Quantum Computing,`tqc`
+Implementation of Quantum Computers,`imp`
+Ethics of Quantum Computing,`eth`
+Now and Beyond,`beyond`
