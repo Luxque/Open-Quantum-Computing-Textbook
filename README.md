@@ -5,14 +5,15 @@
 > An open textbook for quantum computing theory and its applications.
 
 In recent years, there has been a huge increase in demand for more computing power, but the limit of classical computing is within our sight.
-Despite the sophisticated nature of quantum mechanics, quantum computing, a computation method leveraging quantum phenomena such as superposition and entanglement, is recognized as a new computing method to bypass such problem.
-Unfortunately, due to the fact that quantum computers are the product of multiple disciplines, learning resources are limited for beginners to an extent.
-This textbook will cover the foundational theories behind quantum computers, what they promise, what they cannot do, and their applications, bridging the gap between newcomers and frontiers of the research.
+Despite the sophisticated nature of quantum mechanics, quantum computing, a computation method leveraging quantum phenomena such as superposition and entanglement, is recognized as a computing method to bypass some of such problem.
+Unfortunately, due to the fact that quantum computers are the product of multiple disciplines, learning resources are immense yet limited for beginners to an extent.
+This textbook will cover the foundational theories behind quantum computers, what they promise, what they cannot do, and their applications, bridging the gap between newcomers and researchers.
 We aim to build a welcoming environment for everyone.
 
 ## Read the Book
 
 You can read the book by visiting [here](https://luxque.github.io/OQCT/).
+The textbook is hosted by [GitHub Pages](https://docs.github.com/en/pages).
 
 ## Table of Contents
 
@@ -74,7 +75,8 @@ Any feedback on proofs written in plain English and the Lean code will be highly
 * [`script/`](./script/): Pieces of software that help project management and task automatation.
 * [`table/`](./table/): CSV files of tables used in the textbook.
 * [`text/`](./text/): Main textbook Markdown files.
-    * [`text/eng/`](./text/eng/) 👑: (American) English textbook files. All translations must be based on this directory.
+    * [`text/eng/`](./text/eng/) 👑: (American) English textbook files.
+    *All translations must be based on this directory.*
 
 ## Contribution
 
@@ -84,7 +86,16 @@ Before you start working on your contribution, please review the [contribution m
 
 ## License
 
-This textbook is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
+This repository is dual-licensed.
+Please refer to corressponding licenses for different components of the repository.
+
+### Code
+
+Any source code that resides outside [`text/`](./text/) is licensed under the MIT License.
+
+### Text
+
+The textbook content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 You are free to:
 * **Share**: Copy and redistribute the material in any medium or format.
