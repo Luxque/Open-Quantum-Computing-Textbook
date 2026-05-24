@@ -61,7 +61,7 @@ pip install qiskit qiskit-ibm-runtime qiskit-aer
 ## Contributing Methods
 
 There are various ways to contribute to this project.
-If you would like to get your work acknowledged, you are more than welcome to add your GitHub handle and/or your name in [`acknowledgements.md`](https://github.com/Luxque/Open-Quantum-Computing-Textbook/tree/main/text/eng/source/chapter-01/acknowledgements.md) in the chapter 1 directory before submitting a pull request.
+If you would like to get your work acknowledged, you are more than welcome to add your GitHub handle and/or your name in [`acknowledgements.md`](https://github.com/Luxque/Open-Quantum-Computing-Textbook/tree/main/text/eng/source/intro/acknowledgements.md) in the chapter 1 directory before submitting a pull request.
 Any kinds of contributions are highly appreciated.
 
 ### Content
