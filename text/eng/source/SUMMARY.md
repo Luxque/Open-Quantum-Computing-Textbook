@@ -15,10 +15,11 @@
         * [Timeline of Quantum Computing](./chapter-01/timeline.md)
 
 # The Theory of Quantum Computing
-* [Fundamental Mathematics]()
-* [Fundamental Computer Science]()
-* [Fundamental Quantum Physics]()
-* [Fundamental Quantum Computing]()
+
+* [Foundational Mathematics]()
+* [Foundational Computer Science]()
+* [Foundational Quantum Physics]()
+* [Foundational Quantum Computing]()
 * [Advanced Mathematics]()
 * [Advanced Computer Science]()
 * [Advanced Quantum Physics]()
@@ -30,7 +31,10 @@
 * [Quantum Error Correction & Mitigation]()
 * [Quantum Networking & Communication]()
 * [Quantum Programming Languages]()
+* [Quantum Software Verification]()
+* [Quantum Cryptography]()
 * [Quantum Chemistry]()
+* [Quantum Cognition]()
 * [Quantum Finance]()
 * [Quantum Music & Art]()
 * [Topological Quantum Computing]()
