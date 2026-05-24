@@ -6,7 +6,7 @@
 
 # The Theory of Quantum Computing
 
-* [Fundamental Mathematics](./chapter-02/math.md)
+* [Foundational Mathematics](./chapter-02/math.md)
     * [Linear Algebra](./chapter-02/linear.md)
     * [Complex Numbers](./chapter-02/complex.md)
     * [Mathematical Proofs](./chapter-02/proof.md)
@@ -16,9 +16,9 @@
     * [Probability](./chapter-02/probability.md)
     * [Number Theory](./chapter-02/number.md)
         * [Number Base](./chapter-02/base.md)
-* [Fundamental Computer Science]()
-* [Fundamental Quantum Physics]()
-* [Fundamental Quantum Computing]()
+* [Foundational Computer Science]()
+* [Foundational Quantum Physics]()
+* [Foundational Quantum Computing]()
 * [Advanced Mathematics]()
 * [Advanced Computer Science]()
 * [Advanced Quantum Physics]()
@@ -30,13 +30,16 @@
 * [Quantum Error Correction & Mitigation]()
 * [Quantum Networking & Communication]()
 * [Quantum Programming Languages]()
+* [Quantum Software Verification]()
+* [Quantum Cryptography]()
 * [Quantum Chemistry]()
+* [Quantum Cognition]()
 * [Quantum Finance]()
 * [Quantum Music & Art]()
+* [Topological Quantum Computing]()
 
 # The Future of Quantum Computing
 
 * [Implementation of Quantum Computers]()
-* [Topological Quantum Computing]()
 * [Ethics of Quantum Computing]()
 * [Now and Beyond]()
