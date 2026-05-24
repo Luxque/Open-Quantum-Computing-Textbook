@@ -87,7 +87,7 @@ Before you start working on your contribution, please review the [contribution m
 ## License
 
 This repository is dual-licensed.
-Please refer to corressponding the licenses for different components of the repository.
+Please refer to the corressponding licenses for different components of the repository.
 
 ### Code
 
