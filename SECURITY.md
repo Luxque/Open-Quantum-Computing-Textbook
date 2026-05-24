@@ -3,6 +3,7 @@
 ## Document Description
 
 This document explains the potential vulnerability of this repository and provide contact information for reporting security issues.
+Thank you so much for your vigilance and contribution.
 
 ## Potential Vulnerability
 
@@ -12,4 +13,3 @@ Before every push to main, the PDF will be freshly recompiled from scratch after
 ## Contact
 
 You can file a report regarding potential vulnerabilities and security issues to [Security Advisories](https://github.com/Luxque/Open-Quantum-Computing-Textbook/security/advisories) tab of this repository.
-Thank you so much for your contribution.
