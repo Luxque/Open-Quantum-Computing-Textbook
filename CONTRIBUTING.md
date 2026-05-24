@@ -4,6 +4,7 @@
 
 This document explains how the *Open Quantum Computing Textbook* project is structured and what conventions are used.
 Please read and consult the following sections before making any contribution.
+It is recommended clone this repository and open via VSCode or VSCodium for the optimized formatting.
 Thank you so much for your consideration in contributing to this project.
 
 ## Generative AI Policy
@@ -14,21 +15,21 @@ Any contribution attempts and/or pull requests with an apparent use of generativ
 
 ## Getting Started
 
-This textbook uses mdBook for converting Markdown documents to HTML files and MANIM for animating demonstration videos.
+This textbook uses `mdBook` for converting Markdown documents to HTML files and `MANIM` for animating demonstration videos.
 Before proceeding, please make sure that you installed Git, Cargo, and Python (version 3 or later) installed on your local machine.
 
-### Installing mdBook
+### Installing `mdBook`
 
-In mdBook, mathematical expressoins are rendered by MathJax, which does not support some formatting commands required by the textbook, making $\KaTeX$ a better option.
-To render with $\KaTeX$ with mdBook, another preprocessor called mdBook-KaTeX is required.
-For the current standpoint, however, mdBook-KaTeX supports mdBook up to the version `0.4.48`.
+In `mdBook`, mathematical expressions are rendered by MathJax, which does not support some formatting commands required by the textbook, making $\KaTeX$ a better option.
+In order to render $\KaTeX$ typeset with `mdBook`, a preprocessor `mdBook-KaTeX` is required.
+For the current standpoint, however, `mdBook-KaTeX` supports `mdBook` up to the version `0.4.48`.
 
 ```bash
 cargo install mdbook --version 0.4.48
 cargo install mdbook-katex
 ```
 
-### Installing MANIM
+### Installing `MANIM`
 
 Please consult the official [MANIM communiity documentation](https://docs.manim.community/en/stable/installation/uv.html).
 
@@ -39,13 +40,14 @@ The following commands create a Python virtual environment in the cloned project
 * `qiskit`
 * `qiskit-ibm-runtime`
 * `qiskit-aer`
+* `tabulate`
 
 #### Bash
 
 ```bash
 python3 -m venv .venv
 source ./.venv/bin/activate
-pip install qiskit qiskit-ibm-runtime qiskit-aer
+pip install qiskit qiskit-ibm-runtime qiskit-aer tabulate
 ```
 
 #### Powershell
@@ -62,75 +64,86 @@ There are various ways to contribute to this project.
 If you would like to get your work acknowledged, you are more than welcome to add your GitHub handle and/or your name in [`acknowledgements.md`](https://github.com/Luxque/Open-Quantum-Computing-Textbook/tree/main/text/eng/source/chapter-01/acknowledgements.md) in the chapter 1 directory before submitting a pull request.
 Any kinds of contributions are highly appreciated.
 
-### Contents
+### Content
 
-Are you a researcher or have a knowledge that can be applied to quantum computing and quantum technology?
-You are more than welcome to suggest ideas and add contents to the textbook.
-
+Are you a researcher or in possess of knowledge that can be applied to quantum computing and quantum technology?
+You are more than welcome to suggest ideas in [Ideas](https://github.com/Luxque/Open-Quantum-Computing-Textbook/discussions/categories/ideas) of the discussion tab or get your additional contents merged to the main branch by filing a [pull request](https://github.com/Luxque/Open-Quantum-Computing-Textbook/pulls).
 
 ### Review
 
-
+Educational content must be easy to comprehend, but it must never be misleading.
+Any errors such as simple typos, misused terms, and incorrect explanations should be reported in the [Issues](https://github.com/Luxque/Open-Quantum-Computing-Textbook/issues) tab, or if the errors are fixed on your end, then you can submit a [pull request](https://github.com/Luxque/Open-Quantum-Computing-Textbook/pulls).
+For security issues, please consult the [security](./SECURITY.md) documentation.
 
 ### Translation
 
-Please follow the [Language Convention](./CONTRIBUTING.md#language-convention) section of this document.
+Academic translation plays a vital role in knowledge democratization, especially for a sophisticated topic like quantum computing.
+Please follow the [Language Code](./CONTRIBUTING.md#language-code) when creating a branch from this repository.
 
 ### Donation
 
-Despite the fact that this project is freely available, the vast majority of academic sources are not 
-
-Please consult the [Donation](./DONATION.md) document.
+Despite the fact that this project is freely available, some academic resources are not offered free.
+You can financially support this project and help the author legally access those materials.
+Please consult the [donation](./DONATION.md) documentation if you are considering donating to this project.
 
 ## Project Conventions
 
+There are a few conventions in the interest of clarity and manageability of this project.
+A contributor is advised to consult and follow the following conventions.
 
+### Chapter Code
+
+For each chapter in the textbook, there is a corressponding code.
+The chapter code is used for naming branches and directories.
+
+|                Chapter                |    Code     |
+|:-------------------------------------:|:-----------:|
+|             Introduction              |   `intro`   |
+|       Foundational Mathematics        | `foundmath` |
+|     Foundational Computer Science     |  `foundcs`  |
+|     Foundational Quantum Physics      |  `foundqp`  |
+|    Foundational Quantum Computing     |  `foundqc`  |
+|         Advanced Mathematics          |  `advmath`  |
+|       Advanced Computer Science       |   `advcs`   |
+|       Advanced Quantum Physics        |   `advqp`   |
+|         Quantum Optimization          |    `opt`    |
+|       Quantum Machine Learning        |    `ml`     |
+| Quantum Error Correction & Mitigation |   `error`   |
+|  Quantum Networking & Communication   |  `netcomm`  |
+|     Quantum Programming Languages     |  `prolang`  |
+|     Quantum Software Verification     |  `softver`  |
+|           Quantum Chemistry           |   `chem`    |
+|            Quantum Finance            |    `fin`    |
+|          Quantum Music & Art          |  `musart`   |
+|     Topological Quantum Computing     |    `tqc`    |
+|  Implementation of Quantum Computers  |   `imple`   |
+|      Ethics of Quantum Computing      |  `ethics`   |
+|            Now and Beyond             |  `beyond`   |
+
+### Language Code
+
+Languages are classified and named under the ISO 639-3 standard by default.
+If identical languages must be distinguished by different writing systems, they can be differentiated by the ISO 15924 code, followed by a hyphen (`-`).
+For instance, English texts are always written with Latin alphabets, so the code for English is `eng`.
+On the other hand, the code for Simplified Chinese is `cmn-Hans` while traditional Chinese is `cmn-Hant`.
+
+|  Language  |      Writing System       |    Code    |
+|:----------:|:-------------------------:|:----------:|
+|  English   |           Latin           |   `eng`    |
+|   Arabic   |          Arabic           |   `arb`    |
+|  Chinese   |      Simplified Han       | `cmn-Hans` |
+|  Chinese   |      Traditional Han      | `cmn-Hant` |
+|   French   |           Latin           |   `fra`    |
+|  Japanese  | Hiragana + Katakana + Han |   `jpn`    |
+|   Korean   |          Hangul           | `kor-Hang` |
+|   Korean   |       Hangul + Han        | `kor-Kore` |
+|  Russian   |         Cyrillic          |   `rus`    |
 
 ### Branch Convention
 
-`<language-code>-chapter-<chapter-number>`
-For example `eng-chapter-01` and traditional Chinese.
-
-|             Chapter Name              |  Chapter Code  |
-|:-------------------------------------:|:--------------:|
-|             Introduction              |    `intro`     |
-|       Foundational Mathematics        |  `foundmath`   |
-|     Foundational Computer Science     |   `foundcs`    |
-|     Foundational Quantum Physics      |   `foundqp`    |
-|    Foundational Quantum Computing     |   `foundqc`    |
-|         Advanced Mathematics          |   `advmath`    |
-|       Advanced Computer Science       |    `advcs`     |
-|       Advanced Quantum Physics        |    `advqp`     |
-|         Quantum Optimization          |     `opt`      |
-|       Quantum Machine Learning        |      `ml`      |
-| Quantum Error Correction & Mitigation |    `error`     |
-|  Quantum Networking & Communication   |   `netcomm`    |
-|     Quantum Programming Languages     |   `prolang`    |
-|     Quantum Software Verification     |   `softver`    |
-|           Quantum Chemistry           |     `chem`     |
-|            Quantum Finance            |     `fin`      |
-|          Quantum Music & Art          |    `musart`    |
-|     Topological Quantum Computing     |     `tqc`      |
-|  Implementation of Quantum Computers  |    `imple`     |
-|      Ethics of Quantum Computing      |    `ethics`    |
-|            Now and Beyond             |    `beyond`    |
-
-### Language Convention
-
-* ISO 639-3
-* ISO 15924
-
-|  Language Name  |      Writing System       |  Language Code  |
-|:---------------:|:-------------------------:|:---------------:|
-|     English     |           Latin           |      `eng`      |
-|     Arabic      |          Arabic           |      `arb`      |
-|     Chinese     |      Simplified Han       |   `cmn-Hans`    |
-|     Chinese     |      Traditional Han      |   `cmn-Hant`    |
-|     French      |           Latin           |      `fra`      |
-|    Japanese     | Hiragana + Katakana + Han |      `jpn`      |
-|     Korean      |          Hangul           |   `kor-Hang`    |
-|     Korean      |       Hangul + Han        |   `kor-Kore`    |
-|     Russian     |         Cyrillic          |      `rus`      |
+Each book chapter is managed under different branches and pulled by the main branch after an update.
+Chapter branches are named in this syntax: `<language-code>-<chapter-code>`.
+For example, a branch for the 'Topological Quantum Computing' chapter written in French is `fra-tqc`.
 
 ### Hierarchy of Book Contents
 
@@ -140,20 +153,15 @@ For example `eng-chapter-01` and traditional Chinese.
 4. Section
 5. Subsection
 
-## Writing Philosophy
+## Philosophy of Writing
 
 ### Open Source
-
-No one is perfect, so is me and the project.
 
 ### Intuition and Rigor
 
 ### Examples and Counterexamples
 
 ### Visualization
-
-Intuition first, rigor (redefinition) later.
-Examples and counterexamples.
 
 ## Notes on Formatting
 
