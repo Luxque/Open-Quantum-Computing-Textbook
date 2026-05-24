@@ -4,7 +4,7 @@ This module describes the purposes of this textbook, acknowledges contributors, 
 
 ## Module Contents
 
-1. [Preface](/OQCT/chapter-01/preface.html)
-2. [Acknowledgements](/OQCT/chapter-01/acknowledgements.html)
-3. [Notations](/OQCT/chapter-01/notations.html)
-4. [Chapter Dependency](/OQCT/chapter-01/dependency.html)
+1. [Preface](/OQCT/intro/preface.html)
+2. [Acknowledgements](/OQCT/intro/acknowledgements.html)
+3. [Notations](/OQCT/intro/notations.html)
+4. [Chapter Dependency](/OQCT/intro/dependency.html)

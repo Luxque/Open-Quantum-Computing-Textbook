@@ -4,7 +4,7 @@ This module provides additional references of thinking and learning tips based o
 
 # Module Contents
 
-1. [About Thinking and Learning](/OQCT/chapter-01/learning.html)
-2. [Tools for Quantum Computing](/OQCT/chapter-01/tools.html)
-3. [Helpful Websites](/OQCT/chapter-01/websites.html)
-4. [Timeline of Quantum Computing](/OQCT/chapter-01/timeline.html)
+1. [About Thinking and Learning](/OQCT/intro/learning.html)
+2. [Tools for Quantum Computing](/OQCT/intro/tools.html)
+3. [Helpful Websites](/OQCT/intro/websites.html)
+4. [Timeline of Quantum Computing](/OQCT/intro/timeline.html)
