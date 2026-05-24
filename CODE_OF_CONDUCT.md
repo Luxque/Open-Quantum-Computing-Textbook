@@ -12,11 +12,11 @@ In the interest of fostering such an environment, we as contributors and maintai
 ## Rules
 
 1. **The main language of communication is English.**
-This rule is solely for establishing the main communication standard in this project.
+This rule is solely for establishing a main communication standard in this project.
 You are always more than welcome to contribute translations to different languages in this project.
 2. **Any kind of hate speech is strictly prohibited.**
-Hate speeches in this context include, but not limited to, age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, and sexual identity and orientation.
-3. **Any criticism and feedback must be constructive.**
+Hate speeches include, but not limited to, age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, and sexual identity/orientation.
+3. **Any criticisms and feedback must be constructive.**
 Criticisms must not include condemnation by any means and should be gracefully accepted.
 4. **Respect everyone's private information.**
 Never share your or someone's physical/electronic addresses, real name, password, etc. in public.
