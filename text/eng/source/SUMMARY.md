@@ -7,11 +7,11 @@
 # The Theory of Quantum Computing
 
 * [Foundational Mathematics]()
-* [Foundational Computer Science](./chapter-03/cs.md)
-    * [Introduction to Python](./chapter-03/python.md)
-    * [Data Structures](./chapter-03/data.md)
-    * [Algorithms and Complexity](./chapter-03/algorithm.md)
-    * [Theory of Computing](./chapter-03/computing.md)
+* [Foundational Computer Science](./foundcs/cs.md)
+    * [Introduction to Python](./foundcs/python.md)
+    * [Data Structures](./foundcs/data.md)
+    * [Algorithms and Complexity](./foundcs/algorithm.md)
+    * [Theory of Computing](./foundcs/computing.md)
 * [Foundational Quantum Physics]()
 * [Foundational Quantum Computing]()
 * [Advanced Mathematics]()
