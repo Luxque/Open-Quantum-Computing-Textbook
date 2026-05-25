@@ -1,1 +1,1 @@
-# Primitive Quantum Algorithms
+# Canon Algorithms

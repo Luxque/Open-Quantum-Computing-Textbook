@@ -1,1 +1,1 @@
-# Foundational Quantum Computing
+# Fundamental Quantum Computing
