@@ -6,10 +6,10 @@
 
 # The Theory of Quantum Computing
 
-* [Fundamental Mathematics]()
-* [Fundamental Computer Science]()
-* [Fundamental Quantum Physics]()
-* [Fundamental Quantum Computing](./chapter-05/qc.md)
+* [Foundational Mathematics]()
+* [Foundational Computer Science]()
+* [Foundational Quantum Physics]()
+* [Foundational Quantum Computing](./chapter-05/qc.md)
     * [Qubits and Quantum Circuits](./chapter-05/qubits.md)
         * [Model of Quantum Computing](./chapter-05/model.md)
         * [Single-Qubit System](./chapter-05/single.md)
@@ -40,7 +40,10 @@
 * [Quantum Error Correction & Mitigation]()
 * [Quantum Networking & Communication]()
 * [Quantum Programming Languages]()
+* [Quantum Software Verification]()
+* [Quantum Cryptography]()
 * [Quantum Chemistry]()
+* [Quantum Cognition]()
 * [Quantum Finance]()
 * [Quantum Music & Art]()
 * [Topological Quantum Computing]()
