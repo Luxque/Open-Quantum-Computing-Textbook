@@ -18,15 +18,15 @@ Any contribution attempts and/or pull requests with an apparent use of generativ
 This textbook uses `mdBook` for converting Markdown documents to HTML files and `MANIM` for animating demonstration videos.
 Before proceeding, please make sure that you installed Git, Cargo, and Python (version 3 or later) installed on your local machine.
 
-### Installing `mdBook`
+### Installing `mdBook` and Preprocessors
 
 In `mdBook`, mathematical expressions are rendered by MathJax, which does not support some formatting commands required by the textbook, making $\KaTeX$ a better option.
-In order to render $\KaTeX$ typeset with `mdBook`, a preprocessor `mdBook-KaTeX` is required.
-For the current standpoint, however, `mdBook-KaTeX` supports `mdBook` up to the version `0.4.48`.
+In order to render $\KaTeX$ typeset with `mdBook`, preprocessor `mdbook-katex` is required.
+For showcasing algorithms written in multiple programming languages, preprocessor `mdbook-langtabs` is used.
+You can install `mdBook` and both preprocessors can be installed by this command.
 
 ```bash
-cargo install mdbook --version 0.4.48
-cargo install mdbook-katex
+cargo install mdbook mdbook-katex mdbook-langtabs
 ```
 
 ### Installing `MANIM`
@@ -163,16 +163,18 @@ For example, a branch for the 'Topological Quantum Computing' chapter written in
 
 ### Visualization
 
+### Platform Independence
+
 ## Notes on Formatting
 
 This is a note for the main author on formatting of this text.
 The contributors are not obliged to follow the conventions listed below.
 Any contributions will be reviewed and edited on behalf of the following formatting conventions by the main author.
 
-### Sentences and Paragraphs
+### Sentence and Paragraph
 
 In Markdown, every sentence marked its end by a period must be separated by a newline.
-This makes Markdown environment less runny and easier to find errors.
+This makes Markdown environment less runny and easier to find typos.
 When the context within a paragraph shifts, it is better to give another newline to separate different topics into two different paragraphs.
 In a single paragraph, try not to exceed five sentences to preserve legibility.
 
@@ -181,7 +183,7 @@ In a single paragraph, try not to exceed five sentences to preserve legibility.
 When a mathematical expression is written in a sentence, it is in inline mode, and when a mathematical expression is written outside a sentence, it is in display mode.
 Mathematical expressions written in display mode can be as large as it can be, but not in the inline mode due to the spacing between sentence lines.
 
-### Subscripts and Superscripts
+### Subscript and Superscript
 
 It can depend on context, but when a subscript denotes an indexing and a superscript represents the power of a variable, 
 For example, let a vector $\textbf{v} = \ket{v} \in \mathbb{R}^n$ and $v_i$ denotes its $i$-th real-valued component.
@@ -207,7 +209,7 @@ $$
 $$
 ```
 
-### Vectors and Matrices
+### Vector and Matrix
 
 Any vectors or matrices with strictly less than four row and column entries can be written in the inline mode and as a single line in the math mode.
 If they are larger than this constraint, they must be written in the display mode, separated by newlines for every row.
@@ -216,7 +218,8 @@ For example, while a Hadamard gate can be written in a sentence $\operatorname{H
 $$
 \begin{align*}
     \operatorname{CNOT}
-    &= \begin{bmatrix}
+    &= 
+    \begin{bmatrix}
         1 & 0 & 0 & 0 \\
         0 & 1 & 0 & 0 \\
         0 & 0 & 0 & 1 \\
@@ -239,7 +242,7 @@ $$
 $$
 ```
 
-### Differential Forms
+### Differential Form
 
 When typing a differential form in $\LaTeX$, make sure to use the `\text{}` command on $\text{d}$ to avoid the confusion.
 Here, $dx$ stands for quantity $d$ multiplied by $x$, and $\text{d}x$ stands for differential form of variable $x$.
@@ -278,7 +281,33 @@ $$
 $$
 ```
 
-### Differential Notations
+### Matrix Multiplication
+
+$$
+\begin{align*}
+    \operatorname{H} \,\operatorname{Z} \,\operatorname{H}
+    &= \left( \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \right) \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \left( \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \right) \\
+    &= \frac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \\
+    &= \frac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ -1 & 1 \end{bmatrix} \\
+    &= \frac{1}{2} \begin{bmatrix} 0 & 2 \\ 2 & 0 \end{bmatrix} \\
+    &= \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} \\
+    &= \operatorname{X}
+\end{align*}
+$$
+
+```latex
+\begin{align*}
+    \operatorname{H} \,\operatorname{Z} \,\operatorname{H}
+    &= \left( \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \right) \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \left( \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \right) \\
+    &= \frac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \\
+    &= \frac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ -1 & 1 \end{bmatrix} \\
+    &= \frac{1}{2} \begin{bmatrix} 0 & 2 \\ 2 & 0 \end{bmatrix} \\
+    &= \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} \\
+    &= \operatorname{X}
+\end{align*}
+```
+
+### Differentiation Notation
 
 The same rule is applied to differential notations as well.
 For Leibniz notation, the $\text{d}$'s should be encapsulated by `\text{}`: $\frac{\text{d}}{\text{d}x}$.
