@@ -18,15 +18,15 @@ Any contribution attempts and/or pull requests with an apparent use of generativ
 This textbook uses `mdBook` for converting Markdown documents to HTML files and `MANIM` for animating demonstration videos.
 Before proceeding, please make sure that you installed Git, Cargo, and Python (version 3 or later) installed on your local machine.
 
-### Installing `mdBook`
+### Installing `mdBook` and Preprocessors
 
 In `mdBook`, mathematical expressions are rendered by MathJax, which does not support some formatting commands required by the textbook, making $\KaTeX$ a better option.
-In order to render $\KaTeX$ typeset with `mdBook`, a preprocessor `mdBook-KaTeX` is required.
-For the current standpoint, however, `mdBook-KaTeX` supports `mdBook` up to the version `0.4.48`.
+In order to render $\KaTeX$ typeset with `mdBook`, preprocessor `mdbook-katex` is required.
+For showcasing algorithms written in multiple programming languages, preprocessor `mdbook-langtabs` is used.
+You can install `mdBook` and both preprocessors can be installed by this command.
 
 ```bash
-cargo install mdbook --version 0.4.48
-cargo install mdbook-katex
+cargo install mdbook mdbook-katex mdbook-langtabs
 ```
 
 ### Installing `MANIM`

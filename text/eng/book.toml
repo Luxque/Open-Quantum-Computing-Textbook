@@ -1,15 +1,18 @@
 [book]
 title = "Open Quantum Computing Textbook"
 description = "An open textbook for quantum computing theory and its applications."
-author = "Daniel Park"
+authors = ["Daniel Park"]
 language = "eng"
-multilingual = false
 src = "source"
 
 [output.html]
 default-theme = "ayu"
 preferred-dark-theme = "ayu"
-additional-css = ["custom.css"]
+additional-css = ["langtabs.css", "custom.css"]
+additional-js = ["langtabs.js"]
 
 [preprocessor.katex]
 after = ["links"]
+
+[preprocessor.langtabs]
+command = "mdbook-langtabs"
