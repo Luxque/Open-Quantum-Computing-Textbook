@@ -2,8 +2,8 @@
 
 ## Document Description
 
-This document explains the potential vulnerability of this repository and provide contact information for reporting security issues.
-Thank you so much for your vigilance and contribution.
+This document suggests the potential security vulnerability of this project and provide contact information for reporting such issues.
+Thank you for your vigilance and watchfulness.
 
 ## Potential Vulnerability
 
