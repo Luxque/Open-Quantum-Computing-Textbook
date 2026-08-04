@@ -14,7 +14,11 @@ class Figure1(ThreeDScene):
     """
 
     def construct(self):
-        # Configure parameters.
+        # Configure parameters
+
+        myTemplate = TexTemplate()
+        myTemplate.add_to_preamble(r"\usepackage{braket}")
+        MathTex.set_default(tex_template = myTemplate)
 
         title_size = 48
         font_size = 32
@@ -26,21 +30,21 @@ class Figure1(ThreeDScene):
         wait_time = 0.5
         rate_func = smooth
 
-        # Configure value trackers.
+        # Configure value trackers
 
-        theta = ValueTracker(PI/4)
-        phi = ValueTracker(PI/4)
+        theta = ValueTracker(PI / 4)
+        phi = ValueTracker(PI / 4)
 
-        # Configure texts.
+        # Configure texts
 
         title = Tex(
-            "Bloch Sphere",
+            r"\textbf{Bloch Sphere}",
             font_size = title_size
         )
         title.to_corner(UL)
 
         text = MathTex(
-            r"|\psi(\theta, \phi)\rangle = \cos\left(\frac{\theta}{2}\right)|0\rangle + e^{i\phi}\sin\left(\frac{\theta}{2}\right)|1\rangle",
+            r"\ket{\psi(\theta, \phi)} = \cos\left( \frac{\theta}{2} \right)\ket{0} + e^{i\phi}\sin\left( \frac{\theta}{2} \right)\ket{1}",
             font_size = font_size
         )
         text.to_corner(DR)
@@ -48,20 +52,20 @@ class Figure1(ThreeDScene):
         # Configure axes
 
         axes = ThreeDAxes(
-            x_range = [-radius-offset, radius+offset, radius+offset],
-            y_range = [-radius-offset, radius+offset, radius+offset],
-            z_range = [-radius-offset, radius+offset, radius+offset]
+            x_range = [-radius - offset, radius + offset, radius + offset],
+            y_range = [-radius - offset, radius + offset, radius + offset],
+            z_range = [-radius - offset, radius + offset, radius + offset]
         )
 
-        # Configure sphere.
+        # Configure sphere
 
         sphere = Sphere(
             center = ORIGIN,
             radius = radius
         )
-        sphere.set_fill([PURPLE_E, BLUE_E], opacity=0.25)
+        sphere.set_fill([PURPLE_E, BLUE_E], opacity=0.10)
 
-        # Configure line.
+        # Configure line
 
         line_psi = always_redraw(
             lambda: Line(
@@ -75,7 +79,7 @@ class Figure1(ThreeDScene):
             )
         )
 
-        # Configure point.
+        # Configure point
 
         point = always_redraw(
             lambda: Dot3D(
@@ -88,30 +92,35 @@ class Figure1(ThreeDScene):
             )
         )
 
-        # Configure scene.
+        # Configure scene
 
-        self.set_camera_orientation(phi=2*PI/5, theta=PI/5)
+        self.set_camera_orientation(
+            phi = 2 * PI / 5, 
+            theta = PI / 5
+        )
 
         self.add_fixed_in_frame_mobjects(title, text)
         self.add(axes, sphere)
         self.add(line_psi)
         self.add(point)
 
-        # Play animation.
+        # Play animation
 
         for _ in range(4):
             self.play(
                 theta.animate.set_value(random.uniform(0, PI)),
-                phi.animate.set_value(random.uniform(0, 2*PI)),
+                phi.animate.set_value(random.uniform(0, 2 * PI)),
                 run_time = run_time,
                 rate_func = rate_func
             )
             self.wait(wait_time)
 
             self.play(
-                theta.animate.set_value(PI/4),
-                phi.animate.set_value(PI/4),
+                theta.animate.set_value(PI / 4),
+                phi.animate.set_value(PI / 4),
                 run_time = run_time,
                 rate_func = rate_func
             )
             self.wait(wait_time)
+        
+        return
