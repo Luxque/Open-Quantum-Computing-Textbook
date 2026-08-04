@@ -1,4 +1,8 @@
-# Python Virtual Environment
+# Python virtual environment
 
 .venv
 manimations
+
+# Python bytecode files
+
+__pycache__
