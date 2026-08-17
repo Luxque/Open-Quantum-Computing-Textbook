@@ -4,9 +4,14 @@
 
 ## Focus Time
 
+(Pomodoro technique)
+
 ## Asking Questions
 
-## Applying
+## Learning by Doing
+
+1. Trying exercise problems
+2. Implementing algorithms on code
 
 ## Occam's Razor
 
@@ -73,7 +78,7 @@ $$
 The second proof looks way more intimidating than the first one!
 What is the fundamental theorem of arithmetic about?
 What does it mean by a series diverging or converging?
-What are those $\sum$ and $\prod$ symbols?
+What about those $\sum$ and $\prod$ symbols?
 At the end of the day, both proofs make the same point: there are infinitely many prime numbers.
 But it requires too much background knowledge in order to read the second proof unless you are familiar with mathematics.
 For general audiences without any experience in university level of mathematics, the first proof might be a more adequate choice to explain the infinitude of the primes.
@@ -94,13 +99,30 @@ Then try to find what and why you don't understand in order to ask questions.
 
 ## Divide and Conquer
 
-(Tinkering)
+Originally, the term 'divide and conquer (divide et impera)' was used in politics.
+It refers to a strategy that allows an entity to take control over other entities by imposing political division.
+We can also observe this kind of interaction in different disciplines, such as history, legal theory, economics, and even our daily lives.
+In order to dominate the enemy, we have to divide them until we can handle it with ease.
+
+And in problem-solving, those challenging-looking problems will be your enemies.
+Indeed, the divide and conquer tactic can be applied as a problem-solving technique. 
+In fact, it is an actual approach to gain algorithmic solutions to problems studied in computer science.
+A typical divide and conquer algorithm proceeds like this:
+
+1. Breaking the problem into smaller and similar instances;
+2. Solving these subproblems; and
+3. Combining their answers appropriately.
+
+Just like setting up a plan before doing a heavy task, you will have to break the problem down (not necessarily similar instances as in the computer science formalism above).
+The point is to make the problem into more manageable pieces.
+There might be a chance of finding subproblems is not apparent.
+Even if that is the case, you should play with the problem and the related concepts to establish patterns that might be useful to the problem.
 
 ## Art of Moving On
 
 On occasion in our lives, we get stuck on a thing.
 It can be a problem you are trying to solve, or it can be one concept you are trying to grasp. 
-ou might seek more inspiration to tackle the problem, and you might need a brilliant new perspective to analyze the concept.
+You might seek more inspiration to tackle the problem, and you might need a brilliant new perspective to analyze the concept.
 Despite your continued effort, you made almost no progress; eventually, your time and patience run out.
 Before you choose to give up learning what you want, let me give you advice for you. 
 If you truly believe you gave at least one attempt at every methodology you could come up with but still failed to reach your goal, you should move away from it and do something else.
@@ -110,13 +132,13 @@ You might be wondering what exactly you should do.
 You can take a light walk, you can finish house chores that you are supposed to do after the study session, and you can even check your phone for a brief period.
 Moving on sounds like you are losing focus, but it actually serves two purposes.
 One is you can give your brain a rest to get refreshed.
-The other one is, by doing something different, you can get inspired by different approaches towards your goal, sparking a potential incubation effect all out of sudden.
+The other one is, by doing something different, you can get inspired by different approaches towards your goal, sparking a potential incubation effect.
 Once you can come up with a new approach, return to your desk as soon as possible to give it a try.
 Keep in mind: an unexpected solution may appear in unexpected places, and if something gets exhausted, it will just show weaker performance, whether it is a human or a machine.
 
 Also, reading the next page ahead can help you in a way.
 It may sound counterintuitive since fields like STEM require a strong understanding of previously mentioned materials.
-In fact, our brains are not designed for abstract ideas.
+In fact, our brains are not designed for abstract ideas but pattern-seeking.
 For instance, when an abstract definition is given out of context, it is likely that your brain gets intimidated by it.
 By reading the next page, you can see more examples of what kind of object falls under the definition and how it is applied to solve a problem.
 In essence, you are allowing your brain to find and recognize the pattern.
@@ -124,10 +146,3 @@ However, this method is not recommended when you skip too many materials already
 Let the aha moments be with you.
 
 ## Further Reading
-
-* Abu-Mostafa, Y. S., Magdon-Ismail, M., & Lin, H.-T. (2012). *Learning From Data: A Short Course*. AML Book.
-* Baker, A. (2016). Simplicity. In *Stanford Encyclopedia of Philosophy*. [https://plato.stanford.edu/entries/simplicity/](https://plato.stanford.edu/entries/simplicity/)
-* Duignan, B. (2026). Occam’s razor. In *Encyclopedia Britannica*. [https://www.britannica.com/topic/Occams-razor](https://www.britannica.com/topic/Occams-razor)
-* Euler, L. (1744). Variae observationes circa series infinitas. *Commentarii Academiae Scientiarum Imperialis Petropolitanae*, 9, 160–188.
-* Mestrovic, R. (2012). Euclid’s theorem on the infinitude of primes: A historical survey of its proofs (300 B.C.--2022) and another new proof. *arXiv (Cornell University)*. [https://doi.org/10.48550/arxiv.1202.3670](https://doi.org/10.48550/arxiv.1202.3670)
-* Zang, B. (2025, June 13). Is Occam’s razor valid? In *Encyclopedia Britannica*. [https://www.britannica.com/story/is-occams-razor-always-true](https://www.britannica.com/story/is-occams-razor-always-true)
