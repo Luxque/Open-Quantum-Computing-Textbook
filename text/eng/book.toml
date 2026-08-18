@@ -8,8 +8,8 @@ src = "source"
 [output.html]
 default-theme = "ayu"
 preferred-dark-theme = "ayu"
-additional-css = ["langtabs.css", "custom.css"]
-additional-js = ["langtabs.js"]
+additional-css = ["./source/additional/langtabs.css", "./source/additional/custom.css"]
+additional-js = ["./source/additional/langtabs.js"]
 
 [preprocessor.katex]
 after = ["links"]
