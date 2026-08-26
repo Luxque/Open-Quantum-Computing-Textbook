@@ -1,5 +1,11 @@
 # Learning and Thinking
 
+This section explores several learning and thinking practices you may find beneficial in the course of reading this text.
+In STEM (science, technology, engineering, & mathematics), especially the one as sophisticated as quantum computing, requires strong resilience, critical thinking, and problem-solving skills.
+One may gain these skill sets subconsciously as they advance while others may not. 
+So I would recommend you to at least skim it through before beginning the quantum computing journey.
+Of course, there might be a chance that the advice does not apply on your behalf, so please take it with a grain of salt.
+
 ## Positive Attitude
 
 ## Focus Time
@@ -7,6 +13,12 @@
 (Pomodoro technique)
 
 ## Asking Questions
+
+> There are naïve questions, tedious questions, ill-phrased questions, questions put after inadequate self-criticism.
+> But every question is a cry to understand the world.
+> There is no such thing as a dumb question.
+>
+> — *The Demon-Haunted World: Science as a Candle in the Dark* by Carl Sagan
 
 ## Learning by Doing
 
@@ -78,10 +90,10 @@ $$
 The second proof looks way more intimidating than the first one!
 What is the fundamental theorem of arithmetic about?
 What does it mean by a series diverging or converging?
-What about those $\sum$ and $\prod$ symbols?
-At the end of the day, both proofs make the same point: there are infinitely many prime numbers.
+What about those pesky $\sum$ and $\prod$ symbols?
+At the end of the day, both proofs are valid and make the same point: there are infinitely many prime numbers.
 But it requires too much background knowledge in order to read the second proof unless you are familiar with mathematics.
-For general audiences without any experience in university level of mathematics, the first proof might be a more adequate choice to explain the infinitude of the primes.
+Therefoere, for general audiences without any experience in university level of mathematics, the first proof might be a more adequate choice to explain the infinitude of the primes.
 
 You might be wondering how this philosophical principle is applied to learning.
 As a writer, I am obliged to expect the minimal possible requirements from the readers, ensuring that explanations are easy to follow for every topic.
@@ -104,19 +116,19 @@ It refers to a strategy that allows an entity to take control over other entitie
 We can also observe this kind of interaction in different disciplines, such as history, legal theory, economics, and even our daily lives.
 In order to dominate the enemy, we have to divide them until we can handle it with ease.
 
-And in problem-solving, those challenging-looking problems will be your enemies.
+And in terms of problem-solving, those challenging-looking problems will be your enemies.
 Indeed, the divide and conquer tactic can be applied as a problem-solving technique. 
 In fact, it is an actual approach to gain algorithmic solutions to problems studied in computer science.
 A typical divide and conquer algorithm proceeds like this:
 
-1. Breaking the problem into smaller and similar instances;
-2. Solving these subproblems; and
-3. Combining their answers appropriately.
+1. Break the problem into smaller and similar instances;
+2. Solve these subproblems; and
+3. Combine their answers appropriately.
 
-Just like setting up a plan before doing a heavy task, you will have to break the problem down (not necessarily similar instances as in the computer science formalism above).
+Just like setting up a plan before proceeding to a heavy task, you will have to break the problem down (not necessarily similar instances as in the computer science formalism above).
 The point is to make the problem into more manageable pieces.
 There might be a chance of finding subproblems is not apparent.
-Even if that is the case, you should play with the problem and the related concepts to establish patterns that might be useful to the problem.
+Even if that is the case, you should play with the problem and the related concepts for a while to establish patterns that might be useful to solve the problem.
 
 ## Art of Moving On
 
@@ -136,8 +148,8 @@ The other one is, by doing something different, you can get inspired by differen
 Once you can come up with a new approach, return to your desk as soon as possible to give it a try.
 Keep in mind: an unexpected solution may appear in unexpected places, and if something gets exhausted, it will just show weaker performance, whether it is a human or a machine.
 
-Also, reading the next page ahead can help you in a way.
-It may sound counterintuitive since fields like STEM require a strong understanding of previously mentioned materials.
+Also, reading the next page ahead may help you in a way.
+It might sound counterintuitive since fields like STEM require a strong understanding of previously mentioned materials.
 In fact, our brains are not designed for abstract ideas but pattern-seeking.
 For instance, when an abstract definition is given out of context, it is likely that your brain gets intimidated by it.
 By reading the next page, you can see more examples of what kind of object falls under the definition and how it is applied to solve a problem.
