@@ -10,6 +10,9 @@ default-theme = "ayu"
 preferred-dark-theme = "ayu"
 additional-css = ["./source/additional/langtabs.css", "./source/additional/custom.css"]
 additional-js = ["./source/additional/langtabs.js"]
+git-repository-url = "https://github.com/Luxque/Open-Quantum-Computing-Textbook"
+git-repository-icon = "fab-github"
+site-url = "https://luxque.github.io/OQCT"
 
 [preprocessor.katex]
 after = ["links"]
