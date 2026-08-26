@@ -2,7 +2,7 @@ from manim import *
 import random
 
 # TODO: Fix repetition psi_line and point movements.
-# TODO: Fix \psi label location.
+# TODO: Fix $\psi$ label location.
 # TODO: Put pole labels.
 # TODO: Add angles \theta and \phi.
 # TODO: Change background color.
