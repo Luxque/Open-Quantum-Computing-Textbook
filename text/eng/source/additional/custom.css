@@ -1,7 +1,19 @@
+:root {
+    --content-max-width: clamp(750px, 80vw, 1250px);
+}
+
 main > * {
     text-align: justify;
 }
 
 p {
-    font-size: 1.10em
+    font-size: 1.15em
+}
+
+ul {
+    font-size: 1.05em
+}
+
+ol {
+    font-size: 1.05em
 }
