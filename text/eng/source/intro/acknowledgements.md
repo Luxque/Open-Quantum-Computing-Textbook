@@ -39,9 +39,11 @@ While it may be challenging to maintain a comprehensive list of donors, I will m
 
 ## Technology Stacks
 
-* [`MANIM`](https://github.com/ManimCommunity/manim):
-* [`mdBook`](https://github.com/rust-lang/mdBook):
+* [`MANIM`](https://github.com/ManimCommunity/manim)
+* [`mdBook`](https://github.com/rust-lang/mdBook)
+    * [`mdBook-KaTeX`](https://github.com/lzanini/mdbook-katex)
+    * [`mdbook-langtabs`](https://github.com/nx10/mdbook-langtabs)
 
 ##
 
-*Last Updated: 01/06/2026*
+*Last Updated: 09/01/2026*
