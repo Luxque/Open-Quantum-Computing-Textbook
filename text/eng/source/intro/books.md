@@ -1,5 +1,10 @@
 # Books
 
+At the end of every chapter, the books that inspired the most to write the chapter are listed.
+For those studious readers who are willing to dig deeper into the materials that were covered in this chapter, you are highly recommended to add these books to your reading list.
+In this chapter, we briefly introduced several tips on learning, tools used in quantum computing, and helpful websites for your quantum computing journey.
+Unfortunately, there are not a lot of books to recommend in regard of these topics, but there is a great introductory quantum computing book for beginners.
+
 <!-- ## Learning
 
 ### *Professors' Guide to Getting Good Grades in College*
@@ -94,6 +99,13 @@
 
 ## Introductory Quantum Computing
 
+Despite the fact that quantum computing requires wide background knowledge in multiple disciplines, there have been attempts to make quantum computing more reachable for general audiences.
+Hopefully, the book listed here do not require a lot of prerequisites. The materials covered by them are remarkably simplified for the newcomers.
+The biggest hurdle to overcome would be adapting to new kinds of concepts, which most of them could never be seen before.
+Even though many find phenomena studied in quantum physics unintuitive, introduction to them is inevitable since it is what quantum information theory and quantum computers are based upon.
+On the bright side, accepting a few experimental results should be sufficient for this book.
+So, don't be afraid; you got this.
+
 ### *Quantum Computing for Everyone*
 
 <div style="text-align: center">
@@ -107,6 +119,23 @@
 > * **Publish Date**: September 8, 2020
 > * **Page Length**: 216 pages
 > * **ISBN**: [`9780262539531`](https://isbnsearch.org/isbn/9780262539531)
+
+Without any doubt, this book is one of the best introductions to quantum computing.
+*Quantum Computing for Everyone* by Chris Bernhardt is a comprehensive guide to quantum computing for beginners.
+As the author recognizes, describing quantum phenomena and quantum computing without mathematics is impossible.
+In spite of that, the author managed the literature to require the minimum possible background knowledge. They even put imaginary numbers aside to reduce the complexity further.
+Anyone who is comfortable with high school mathematics should take a look.
+
+In the first chapter, the book explains the key experimental results of quantum physics such as electron spin and photon polarization.
+The readers are encouraged to find experiment videos on YouTube rather than moving on with text.
+Then it introduces basic linear algebra and quantum mechanics concepts such as superposition, entanglement, and measurement.
+Subsequently, to build up the baseline for the quantum algorithms, Boolean algebra, classical logic gates, and classical circuits are mentioned.
+At the end, combining all of these materials, important quantum algorithms such as the Deutsch-Jozsa algorithm, Grover algorithm, and Shor algorithm, as well as possible impacts of them are presented.
+
+Before moving to advanced texts, readers should still learn the actual mathematics and quantum mechanics behind quantum computing.
+Especially, due to the fact that real numbers are chosen to describe quantum systems in this book, some vocabulary used in this book needs to be swapped for the 'complex' counterpart.
+For instance, from 'orthogonal matrices' to 'unitary matrices' and from 'equivalence of the states in factor of $-1$' to 'equivalence of the states up to global phase'.
+But with this book, readers must be able to build a strong foundation for how quantum computers operate.
 
 <!-- ### *The Quest for the Quantum Computer*
 
