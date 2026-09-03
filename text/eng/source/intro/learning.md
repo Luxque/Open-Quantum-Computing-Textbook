@@ -2,28 +2,33 @@
 
 This section explores several learning and thinking practices you may find beneficial in the course of reading this text.
 In STEM (science, technology, engineering, & mathematics), especially the one as sophisticated as quantum computing, requires strong resilience, critical thinking, and problem-solving skills.
-One may gain these skill sets subconsciously as they advance while others may not. 
-So I would recommend you to at least skim it through before beginning the quantum computing journey.
+Is recommend you to at least skim it through before beginning the quantum computing journey.
 Of course, there might be a chance that the advice does not apply on your behalf, so please take it with a grain of salt.
 
-## Positive Attitude
+<!-- ## Positive Attitude -->
 
 ## Focus Time
 
-(Pomodoro technique)
+No matter how strong your willpower is, there is a strict time limit for a deep focus.
+I recommend applying Pomodoro technique in your study sessions.
+For instance, define your focusing time (up to about 25 minutes) and resting time (up to about 10 minutes).
+Say you want to dedicate 3 hours to studying per day. Then you would focus on studying for 25 minutes and take a short break for 5 minutes.
+Repeating this process 5 more times will get you to your studying goal.
 
-## Asking Questions
+<!-- ## Asking Questions
 
 > There are naïve questions, tedious questions, ill-phrased questions, questions put after inadequate self-criticism.
 > But every question is a cry to understand the world.
 > There is no such thing as a dumb question.
 >
-> — *The Demon-Haunted World: Science as a Candle in the Dark* by Carl Sagan
+> — *The Demon-Haunted World: Science as a Candle in the Dark* by Carl Sagan -->
 
 ## Learning by Doing
 
-1. Trying exercise problems
-2. Implementing algorithms on code
+To make knowledge truly yours, you will have to apply it somewhere.
+As you will encounter a lot of abstract concepts on the way, building a strong foundation is undoubtedly important. When you come across exercise problems, give it a try to check what you actually understand.
+For computer algorithms, implementing them into actual codes will be helpful for breaking down the process and seeing what is going on.
+Exposing yourself to the abstract concepts will make you build inner intuition, preparing you for other, even advanced concepts.
 
 ## Occam's Razor
 
@@ -37,7 +42,7 @@ When you are stuck with an abstract concept, you might choose explanations with 
 This is what Occam's razor is about.
 The term Occam's razor refers to when two or more theories with identical conclusions are competing, the one with the simplest explanation is preferred.
 You might think that scientists are ruthlessly complex human beings, but this is not true since science adapted this philosophy.
-They, like you, also seek the simplest possible explanation of a scientific phenomenon they are studying, but keep the necessary components of the argument to back up their points.
+They, like you, also seek the simplest possible explanation of the scientific phenomenon they are studying, but keep the necessary components of the argument to back up their points.
 
 For example, let's say we want to demonstrate that there are infinitely many prime numbers.
 To remind you what a prime number is, the widely accepted definition is a natural number greater than $1$ whose divisors are $1$ and itself only.
@@ -101,13 +106,13 @@ On the other hand, you, as a reader, are strongly advised to not overcomplicate 
 For each topic, there is a reason that the topic is introduced in the text. Know the goal, and most importantly, try your best to understand and follow the logic.
 Then try to find what and why you don't understand in order to ask questions.
 
-## Critical Thinking
+<!-- ## Critical Thinking
 
-(Doubting)
+(Doubting) -->
 
-## Thinking Outside the Box
+<!-- ## Thinking Outside the Box
 
-(Unleashing creativity)
+(Unleashing creativity) -->
 
 ## Divide and Conquer
 
@@ -157,4 +162,4 @@ In essence, you are allowing your brain to find and recognize the pattern.
 However, this method is not recommended when you skip too many materials already because filling the gap would not be durable at that point; you rather need to ask others for help.
 Let the aha moments be with you.
 
-## Further Reading
+<!-- ## Further Reading -->
