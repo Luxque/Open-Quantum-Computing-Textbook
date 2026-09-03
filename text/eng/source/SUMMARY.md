@@ -2,7 +2,20 @@
 
 # The Beginning of Quantum Computing
 
-* [Introduction]()
+* [Introduction](./intro/intro.md)
+    * [About This Book](./intro/about.md)
+        * [Preface](./intro/preface.md)
+        * [Acknowledgements](./intro/acknowledgements.md)
+        * [Notations](./intro/notations.md)
+        * [Chapter Dependency](./intro/dependency.md)
+    * [Getting Started](./intro/started.md)
+        * [Thinking and Learning](./intro/learning.md)
+        * [Quantum Computing](./intro/tools.md)
+        * [Helpful Websites](./intro/websites.md)
+        <!-- * [Why Quantum Computing?](./intro/why.md) -->
+        <!-- * [Reading Scientific Articles](./intro/articles.md) -->
+        <!-- * [Timeline of Quantum Computing](./intro/timeline.md) -->
+    * [Books](./intro/books.md)
 
 # The Theory of Quantum Computing
 
