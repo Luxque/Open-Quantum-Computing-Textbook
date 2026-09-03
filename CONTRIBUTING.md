@@ -164,7 +164,7 @@ For example, a branch for the 'Topological Quantum Computing' chapter written in
 4. Section
 5. Subsection
 
-## Philosophy of Writing
+<!-- ## Philosophy of Writing
 
 ### Open Source
 
@@ -175,6 +175,8 @@ For example, a branch for the 'Topological Quantum Computing' chapter written in
 ### Visualization
 
 ### Platform Independence
+
+## Design Choices -->
 
 ## Notes on Formatting
 
