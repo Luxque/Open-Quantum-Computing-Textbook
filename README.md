@@ -19,6 +19,15 @@ The textbook is hosted by [GitHub Pages](https://docs.github.com/en/pages).
 
 * The Beginning of Quantum Computing
     * Introduction
+        * About This Book
+            * Preface
+            * Acknowledgements
+            * Notations
+            * Chapter Dependency
+        * Getting Started
+            * Thinking and Learning
+            * Quantum Computing Tools
+            * Helpful Websites
 * The Theory of Quantum Computing
     * Foundational Mathematics
     * Foundational Computer Science
@@ -93,10 +102,10 @@ Any feedback on proofs written in plain English and the Lean code will be highly
 
 ## Technological Stack
 
+* [`MANIM`](https://github.com/manimCommunity/manim): Python-based animation tool for mathematical visuals.
 * [`mdBook`](https://github.com/rust-lang/mdBook): Renders the textbook Markdown to HTML.
     * [`mdBook-KaTeX`](https://github.com/lzanini/mdbook-katex): Preprocessor that allows using $\KaTeX$ in mdBook.
-    * [`mdBook-Langtabs`]():
-* [`MANIM`](https://github.com/manimCommunity/manim): Python-based animation tool for mathematical visuals.
+    * [`mdBook-Langtabs`](https://github.com/nx10/mdbook-langtabs): Preprocessor that allows putting multiple language tabs in a single code block.
 
 ## Directory Structure
 
