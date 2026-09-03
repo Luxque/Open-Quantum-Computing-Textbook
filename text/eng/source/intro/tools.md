@@ -77,7 +77,7 @@ Additionally, this library also supports training NLP models.
 > * **Link (Repository)**: 
 > * **License**:  -->
 
-## Pennylane
+## PennyLane
 
 > * **Link (Website)**: [https://pennylane.ai/](https://pennylane.ai/)
 > * **Link (Repository)**: [https://github.com/PennyLaneAI/pennylane](https://github.com/PennyLaneAI/pennylane)
