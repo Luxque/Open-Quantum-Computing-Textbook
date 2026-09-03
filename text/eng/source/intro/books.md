@@ -104,7 +104,6 @@ Hopefully, the book listed here do not require a lot of prerequisites. The mater
 The biggest hurdle to overcome would be adapting to new kinds of concepts, which most of them could never be seen before.
 Even though many find phenomena studied in quantum physics unintuitive, introduction to them is inevitable since it is what quantum information theory and quantum computers are based upon.
 On the bright side, accepting a few experimental results should be sufficient for this book.
-So, don't be afraid; you got this.
 
 ### *Quantum Computing for Everyone*
 
@@ -130,11 +129,11 @@ In the first chapter, the book explains the key experimental results of quantum 
 The readers are encouraged to find experiment videos on YouTube rather than moving on with text.
 Then it introduces basic linear algebra and quantum mechanics concepts such as superposition, entanglement, and measurement.
 Subsequently, to build up the baseline for the quantum algorithms, Boolean algebra, classical logic gates, and classical circuits are mentioned.
-At the end, combining all of these materials, important quantum algorithms such as the Deutsch-Jozsa algorithm, Grover algorithm, and Shor algorithm, as well as possible impacts of them are presented.
+Combining all of these materials, the book ends with important quantum algorithms such as the Deutsch-Jozsa algorithm, Grover algorithm, and Shor algorithm, as well as possible impacts.
 
 Before moving to advanced texts, readers should still learn the actual mathematics and quantum mechanics behind quantum computing.
 Especially, due to the fact that real numbers are chosen to describe quantum systems in this book, some vocabulary used in this book needs to be swapped for the 'complex' counterpart.
-For instance, from 'orthogonal matrices' to 'unitary matrices' and from 'equivalence of the states in factor of $-1$' to 'equivalence of the states up to global phase'.
+For instance, from 'orthogonal matrices' to 'unitary matrices' and from 'equivalence of the states by a factor of $-1$' to 'equivalence of the states up to global phase'.
 But with this book, readers must be able to build a strong foundation for how quantum computers operate.
 
 <!-- ### *The Quest for the Quantum Computer*
