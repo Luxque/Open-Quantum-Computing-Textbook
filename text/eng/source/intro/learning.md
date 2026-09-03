@@ -13,7 +13,7 @@ No matter how strong your willpower is, there is a strict time limit for a deep 
 I recommend applying Pomodoro technique in your study sessions.
 For instance, define your focusing time (up to about 25 minutes) and resting time (up to about 10 minutes).
 Say you want to dedicate 3 hours to studying per day. Then you would focus on studying for 25 minutes and take a short break for 5 minutes.
-Repeating this process 5 more times will get you to your studying goal.
+Repeating this process 5 more times will get you to your studying goal without exhaustion.
 
 <!-- ## Asking Questions
 
@@ -73,7 +73,7 @@ I don't expect you to understand everything from these proofs, but I hope you ca
 > 
 > Let us denote the prime numbers as $p_1$, $p_2$, $\cdots$, $p_m$.
 > Note that $\prod_{i = 1}^{m} \frac{p_i}{p_i - 1}$ does not diverge to infinity.
-> By using the facts listed above and distributing the multiplication, we get:
+> By using the facts listed above and applying the distributive law, we get:
 $$
 \begin{align*}
     \prod_{i = 1}^{m} \frac{p_i}{p_i - 1}
@@ -140,9 +140,10 @@ Even if that is the case, you should play with the problem and the related conce
 On occasion in our lives, we get stuck on a thing.
 It can be a problem you are trying to solve, or it can be one concept you are trying to grasp. 
 You might seek more inspiration to tackle the problem, and you might need a brilliant new perspective to analyze the concept.
-Despite your continued effort, you made almost no progress; eventually, your time and patience run out.
+Despite your continued effort, you make almost no progress.
+And your time and patience run out.
 Before you choose to give up learning what you want, let me give you advice for you. 
-If you truly believe you gave at least one attempt at every methodology you could come up with but still failed to reach your goal, you should move away from it and do something else.
+If you truly believe you gave at least one attempt at every method you could come up with but still failed to reach your goal, you should move away from it and do something else.
 You can always come back later.
 
 You might be wondering what exactly you should do.
