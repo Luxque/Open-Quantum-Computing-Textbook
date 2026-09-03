@@ -1,5 +1,7 @@
 # Summary
 
+[Cover](./additional/cover.md)
+
 # The Beginning of Quantum Computing
 
 * [Introduction](./intro/intro.md)
