@@ -1,3 +1,13 @@
-# Python Virtual Environment
+# Python virtual environment
 
 .venv
+manimations
+
+# Python bytecode files
+
+__pycache__
+
+# Rendered files
+
+book
+rendered

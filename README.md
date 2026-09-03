@@ -17,6 +17,34 @@ The textbook is hosted by [GitHub Pages](https://docs.github.com/en/pages).
 
 ## Table of Contents
 
+* The Beginning of Quantum Computing
+    * Introduction
+* The Theory of Quantum Computing
+    * Foundational Mathematics
+    * Foundational Computer Science
+    * Foundational Quantum Physics
+    * Foundational Quantum Computing
+    * Advanced Mathematics
+    * Advanced Computer Science
+    * Advanced Quantum Physics
+* The Application of Quantum Computing
+    * Quantum Optimization
+    * Quantum Machine Learning
+    * Quantum Error Correction & Mitigation
+    * Quantum Networking & Communication
+    * Quantum Programming Languages
+    * Quantum Software Verification
+    * Quantum Cryptography
+    * Quantum Chemistry
+    * Quantum Cognition
+    * Quantum Finance
+    * Quantum Music & Art
+    * Topological Quantum Computing
+* The Future of Quantum Computing
+    * Implementation of Quantum Computers
+    * Ethics of Quantum Computing
+    * Now and Beyond
+
 ## Features
 
 This textbook aims to provide educational content for people with different backgrounds.
@@ -24,19 +52,11 @@ The features listed below are implemented to support the best reader experience 
 Please note that features with a warning sign (⚠️) denote that the feature is not fully implemented.
 Any assistance to fully implement those features is always welcomed!
 
-### ✅ Open Evnrionment
+### ✅ Open Environment
 
 The main goal of this project is to provide free educational content and spread knowledge.
 Anyone with a shallow understanding of quantum computing must be able to access this textbook, and researchers with different backgrounds can find errors and suggest new topics to be covered by the textbook.
 This open environment will make quantum computing more accessible and eventually more contributors to the entire quantum computing community.
-
-### 🚧 Custom Theme
-
-> ⚠️ This feature is not implemented yet!
-
-[`mdBook`](https://github.com/rust-lang/mdBook) provides several themes by default: Light, Rust, Coal, Navy, and Ayu.
-On top of those, to make this textbook more unique and distinctive, a new color scheme, *Quantum*, will be added.
-The chosen default font is [CMU Serif](https://www.fontsquirrel.com/fonts/computer-modern), which is distributed under the *SIL Open Font License*, to match the aesthetic typeset of the mathematical expressions rendered by $\KaTeX$.
 
 ### 🚧 Official PDF Edition
 
@@ -46,6 +66,14 @@ The official PDF edition will feature the exact copy of the web version textbook
 The PDF will be available in this repository and can always be downloaded.
 Some animated videos will be replaced by TikZ diagrams.
 You are more than welcome to print the PDF in a printing shop for personal use.
+
+### 🚧 Custom Theme
+
+> ⚠️ This feature is not implemented yet!
+
+[`mdBook`](https://github.com/rust-lang/mdBook) provides several themes by default: Light, Rust, Coal, Navy, and Ayu.
+On top of those, to make this textbook more unique and distinctive, a new color scheme, *Quantum*, will be added.
+The chosen default font is [CMU Serif](https://www.fontsquirrel.com/fonts/computer-modern), which is distributed under the *SIL Open Font License*, to match the aesthetic typeset of the mathematical expressions rendered by $\KaTeX$.
 
 ### 🚧 Interactive Environments
 
@@ -66,13 +94,14 @@ Any feedback on proofs written in plain English and the Lean code will be highly
 ## Technological Stack
 
 * [`mdBook`](https://github.com/rust-lang/mdBook): Renders the textbook Markdown to HTML.
-* [`mdBook-KaTeX`](https://github.com/lzanini/mdbook-katex): Preprocessor that allows using $\KaTeX$ in mdBook.
+    * [`mdBook-KaTeX`](https://github.com/lzanini/mdbook-katex): Preprocessor that allows using $\KaTeX$ in mdBook.
+    * [`mdBook-Langtabs`]():
 * [`MANIM`](https://github.com/manimCommunity/manim): Python-based animation tool for mathematical visuals.
 
 ## Directory Structure
 
 * [`figure/`](./figure/): Figures and videos for the textbook.
-* [`script/`](./script/): Pieces of software that help project management and task automatation.
+* [`script/`](./script/): Pieces of software that help project management and task automation.
 * [`table/`](./table/): CSV files of tables used in the textbook.
 * [`text/`](./text/): Main textbook Markdown files.
     * [`text/eng/`](./text/eng/) 👑: (American) English textbook files.
@@ -87,7 +116,7 @@ Before you start working on your contribution, please review the [contribution m
 ## License
 
 This repository is dual-licensed.
-Please refer to the corressponding licenses for different components of the repository.
+Please refer to the corresponding licenses for different components of the repository.
 
 ### Code
 
