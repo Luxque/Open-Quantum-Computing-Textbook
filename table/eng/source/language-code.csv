@@ -1,0 +1,10 @@
+Language,Writing System,Code
+English,Latin,`eng`
+Arabic,Arabic,`arb`
+Chinese,Simplified Han,`cmn-Hans`
+Chinese,Traditional Han,`cmn-Hant`
+French,Latin,`fra`
+Japanese,Hiragana + Katakana + Han,`jpn`
+Korean,Hangul,`kor-Hang`
+Korean,Hangul + Han,`kor-Kore`
+Russian,Cyrillic,`rus`
