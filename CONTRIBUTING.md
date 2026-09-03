@@ -12,6 +12,7 @@ Thank you so much for your consideration in contributing to this project.
 **Please refrain from using generative AI, especially large language models (LLMs), to generate book content from scratch.**
 A contributor may utilize LLMs to check grammatical errors and polish their writings; however, the original text must be solely written and thoroughly reviewed by a human before submitting a pull request to this project.
 Any contribution attempts and/or pull requests with an apparent use of generative AI will be rejected.
+Utilizing generative AI for spamming comments and issues may result in a permanent ban.
 
 ## Getting Started
 
@@ -29,11 +30,28 @@ You can install `mdBook` and both preprocessors can be installed by this command
 cargo install mdbook mdbook-katex mdbook-langtabs
 ```
 
+### Installing `UV`
+
+UV is a .
+While `pip` is used to install and manage Python packages, but it is required by `MANIM`.
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
 ### Installing `MANIM`
 
-Please consult the official [MANIM communiity documentation](https://docs.manim.community/en/stable/installation/uv.html).
+```bash
+uv python install
+sudo apt update
+sudo apt install texlive-full build-essential python3-dev libcairo2-dev libpango1.0-dev
+uv init manimations
+cd manimations
+uv add manim
+cd ..
+```
 
-### Installing Other Python Packages
+### Installing Python Packages
 
 The following commands create a Python virtual environment in the cloned project directory and install the following packages.
 
@@ -42,20 +60,13 @@ The following commands create a Python virtual environment in the cloned project
 * `qiskit-aer`
 * `tabulate`
 
-#### Bash
-
 ```bash
-python3 -m venv .venv
-source ./.venv/bin/activate
-pip install qiskit qiskit-ibm-runtime qiskit-aer tabulate
+uv venv .venv
+uv pip install qiskit qiskit-ibm-runtime qiskit-aer tabulate
 ```
 
-#### Powershell
-
-```ps
-python3 -m venv venv
-.\venv\script\activate
-pip install qiskit qiskit-ibm-runtime qiskit-aer
+```bash
+source ./.venv/bin/activate
 ```
 
 ## Contributing Methods
@@ -175,8 +186,8 @@ Any contributions will be reviewed and edited on behalf of the following formatt
 
 In Markdown, every sentence marked its end by a period must be separated by a newline.
 This makes Markdown environment less runny and easier to find typos.
-When the context within a paragraph shifts, it is better to give another newline to separate different topics into two different paragraphs.
-In a single paragraph, try not to exceed five sentences to preserve legibility.
+When the context within a paragraph shifts, it is better to give a newline to separate different topics into two different paragraphs.
+In a single paragraph, try best put more than five sentences to preserve legibility.
 
 ### Inline Mode and Display Mode
 
@@ -232,7 +243,8 @@ $$
 $$
 \begin{align*}
     \operatorname{CNOT}
-    &= \begin{bmatrix}
+    &=
+    \begin{bmatrix}
         1 & 0 & 0 & 0 \\
         0 & 1 & 0 & 0 \\
         0 & 0 & 0 & 1 \\
