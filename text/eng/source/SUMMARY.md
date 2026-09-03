@@ -1,6 +1,6 @@
 # Summary
 
-[Cover](./additional/cover.md)
+[Cover](./misc/cover.md)
 
 # The Beginning of Quantum Computing
 
