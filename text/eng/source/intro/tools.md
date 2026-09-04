@@ -67,7 +67,7 @@ Instead of building quantum circuits to run, you have to describe what kind of p
 > * **Link (Repository)**: [https://github.com/Quantinuum/lambeq](https://github.com/Quantinuum/lambeq)
 > * **License**: Apache-2.0
 
-Lambeq () is a Python library created by Quantinuum dedicated to quantum natural language processing (QNLP).
+Lambeq (λambeq) is a Python library created by Quantinuum dedicated to quantum natural language processing (QNLP).
 It can parse sentences written in a natural language and convert the parsed sentences to quantum circuits.
 Additionally, this library also supports training NLP models.
 
