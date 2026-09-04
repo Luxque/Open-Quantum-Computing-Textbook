@@ -21,7 +21,7 @@
 
 # The Theory of Quantum Computing
 
-* [Foundational Mathematics](./foundmath/math.md)
+* [Foundational Mathematics](./foundmath/foundmath.md)
     * [Linear Algebra](./foundmath/linear.md)
     * [Complex Numbers](./foundmath/complex.md)
     * [Logic](./foundmath/logic.md)
