@@ -146,7 +146,7 @@ It has one of the biggest ecosystems in quantum computing, so you will be able t
 > * **License**: MIT
 
 Q# is a quantum programming language developed by Microsoft.
-The circuits described by Q# can be simulated and realized by QDK (Quantum Development Kit), which is also created by Microsoft.
+Circuits described by Q# can be simulated and realized by QDK (Quantum Development Kit), which is also created by Microsoft.
 QDK can be installed on VSCode and work alongside with Microsoft Copilot.
 You can see the list of implemented quantum algorithms and language tutorials [here](https://microsoft.github.io/qdk/).
 

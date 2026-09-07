@@ -2,7 +2,7 @@
 
 This section explores several learning and thinking practices you may find beneficial in the course of reading this text.
 In STEM (science, technology, engineering, & mathematics), especially the one as sophisticated as quantum computing, requires strong resilience, critical thinking, and problem-solving skills.
-Is recommend you to at least skim it through before beginning the quantum computing journey.
+I recommend you to at least skim it through before beginning the quantum computing journey.
 Of course, there might be a chance that the advice does not apply on your behalf, so please take it with a grain of salt.
 
 <!-- ## Positive Attitude -->
@@ -11,8 +11,9 @@ Of course, there might be a chance that the advice does not apply on your behalf
 
 No matter how strong your willpower is, there is a strict time limit for a deep focus.
 I recommend applying Pomodoro technique in your study sessions.
-For instance, define your focusing time (up to about 25 minutes) and resting time (up to about 10 minutes).
-Say you want to dedicate 3 hours to studying per day. Then you would focus on studying for 25 minutes and take a short break for 5 minutes.
+Say you want to dedicate 3 hours to studying per day.
+First, set your focusing time (up to about 25 minutes) and resting time (up to about 10 minutes).
+Then you would focus on studying for 25 minutes and take a short break for 5 minutes.
 Repeating this process 5 more times will get you to your studying goal without exhaustion.
 
 <!-- ## Asking Questions
@@ -26,7 +27,8 @@ Repeating this process 5 more times will get you to your studying goal without e
 ## Learning by Doing
 
 To make knowledge truly yours, you will have to apply it somewhere.
-As you will encounter a lot of abstract concepts on the way, building a strong foundation is undoubtedly important. When you come across exercise problems, give it a try to check what you actually understand.
+As you will encounter a lot of abstract concepts on the way, building a strong foundation is undoubtedly important.
+When you come across exercise problems, give them a try to check what you actually understand.
 For computer algorithms, implementing them into actual codes will be helpful for breaking down the process and seeing what is going on.
 Exposing yourself to the abstract concepts will make you build inner intuition, preparing you for other, even advanced concepts.
 

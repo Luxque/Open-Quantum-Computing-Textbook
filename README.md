@@ -129,19 +129,28 @@ Please refer to the corresponding licenses for different components of the repos
 
 ### Code
 
-Any source code that resides outside [`text/`](./text/) is licensed under the MIT License.
+Any source code that resides outside [`text/`](./text/) is licensed under the [MIT License](https://mit-license.org/).
+
+You may:
+* **Commercial Use**: The licensed material and derivatives may be used for commercial purposes;
+* **Private Use**: The licensed material may be used and modified in private;
+* **Modify**: The licensed material may be modified; &
+* **Distribute**: The licensed material may be distributed.
+
+Only under the following condition: 
+* **License and Copyright Notice**: A copy of the license and copyright notice must be included with the licensed material.
 
 ### Text
 
-The textbook content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
+The main textbook content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
-You are free to:
-* **Share**: Copy and redistribute the material in any medium or format.
-* **Adapt**: Remix, transform, and build upon the material for any purpose, even commercially.
+You may:
+* **Share**: Copy and redistribute the material in any medium or format; &
+* **Adapt**: Remix, transform, and build upon the material for any purpose, even commercially;
 
-Only under the following terms:
-* **Attribution**: You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-* **ShareAlike**: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+Only under the following conditions:
+* **Attribution**: You must give appropriate credit, provide a link to the license, and indicate if changes were made; &
+* **Share Alike**: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
 For more details, please consult the [license deed](https://creativecommons.org/licenses/by-sa/4.0/deed.en) and the [full legal text](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en).
 
