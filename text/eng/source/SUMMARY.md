@@ -25,6 +25,7 @@
     * [Linear Algebra](./foundmath/linear.md)
     * [Complex Numbers](./foundmath/complex.md)
     * [Logic](./foundmath/logic.md)
+        * [Contradiction](./foundmath/contradiction.md)
         * [Quantifiers](./foundmath/quantifier.md)
     * [Set Theory](./foundmath/set.md)
     * [Mathematical Proofs](./foundmath/proof.md)
