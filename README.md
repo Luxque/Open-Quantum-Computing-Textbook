@@ -80,9 +80,8 @@ You are more than welcome to print the PDF in a printing shop for personal use.
 
 > ⚠️ This feature is not implemented yet!
 
-[`mdBook`](https://github.com/rust-lang/mdBook) provides several themes by default: Light, Rust, Coal, Navy, and Ayu.
+By default, [`mdBook`](https://github.com/rust-lang/mdBook) provides several themes by default: Light, Rust, Coal, Navy, and Ayu.
 On top of those, to make this textbook more unique and distinctive, a new color scheme, *Quantum*, will be added.
-The chosen default font is [CMU Serif](https://www.fontsquirrel.com/fonts/computer-modern), which is distributed under the *SIL Open Font License*, to match the aesthetic typeset of the mathematical expressions rendered by $\KaTeX$.
 
 ### 🚧 Interactive Environments
 
