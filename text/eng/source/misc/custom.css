@@ -1,7 +1,11 @@
 :root {
-    --content-max-width: clamp(750px, 80vw, 1250px);
+    --content-max-width: clamp(750px, 80vw, 1200px);
 }
 
-p {
-    font-size: 1.15em
+html {
+    font-family: "Times New Roman", serif;
+}
+
+main {
+    font-size: 1.50em
 }

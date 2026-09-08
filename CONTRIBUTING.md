@@ -104,7 +104,7 @@ A contributor is advised to consult and follow the following conventions.
 
 ### Chapter Code
 
-For each chapter in the textbook, there is a corressponding code.
+For each chapter in the textbook, there is a corresponding code.
 The chapter code is used for naming branches and directories.
 
 |                Chapter                |    Code     |
@@ -326,7 +326,7 @@ $$
 The same rule is applied to differential notations as well.
 For Leibniz notation, the $\text{d}$'s should be encapsulated by `\text{}`: $\frac{\text{d}}{\text{d}x}$.
 When multiple differential forms are placed consecutively, especially the case for partial differentiation, those should be separated by `\,` command: $\frac{\partial^2}{\partial{x} \,\partial{y}}$.
-For Largrangian notation, when there must be more than three primes, use $f^{(n)}$ instead, where $n$ stands for the number of differentiations on the function $f$.
+For Lagrangian notation, when there must be more than three primes, use $f^{(n)}$ instead, where $n$ stands for the number of differentiations on the function $f$.
 As an example, a Taylor expansion of a smooth function $f(x)$ at $x = a$ can be written as the following.
 
 $$
