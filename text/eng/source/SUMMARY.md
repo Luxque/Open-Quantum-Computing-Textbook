@@ -22,13 +22,14 @@
 # The Theory of Quantum Computing
 
 * [Foundational Mathematics](./foundmath/foundmath.md)
-    * [Linear Algebra](./foundmath/linear.md)
+    * [Matrix Algebra](./foundmath/matrix_algebra.md)
     * [Complex Numbers](./foundmath/complex.md)
     * [Logic](./foundmath/logic.md)
         * [Contradiction](./foundmath/contradiction.md)
         * [Quantifiers](./foundmath/quantifier.md)
     * [Set Theory](./foundmath/set.md)
     * [Mathematical Proofs](./foundmath/proof.md)
+    * [Linear Algebra](./foundmath/linear_algebra.md)
     * [Discrete Mathematics](./foundmath/discrete.md)
     * [Probability Theory](./foundmath/probability.md)
     * [Number Theory](./foundmath/number.md)
