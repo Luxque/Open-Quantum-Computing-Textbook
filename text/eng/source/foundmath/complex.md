@@ -9,14 +9,14 @@ The existence of complex numbers also bothered the ancient mathematicians, too.
 When mathematicians first stumbled upon complex solutions from quadratic equations, they simply discarded them.
 It was all because they did not intuitively make sense, just like negative numbers.
 If you think about it, negative numbers, the numbers that are smaller than nothing, are supposed to be an unintuitive concept.
-But we can still easily imagine a number line, think there is an 'order' among the real numbers, and put them to the left side of zero.
+But we can still easily imagine a real number line, think there is an 'order' among the real numbers, and put negative numbers to the left side of zero.
 Negative numbers are useful for describing the direction of a one-dimensional object, and we use them without any problem.
 
-Without any doubt, complex numbers are not something to use on a daily basis.
+On the other hand, complex numbers are not something to use on a daily basis.
 However, since the discovery by Leonhard Euler, the use of complex numbers flourished exponentially.
 The role of complex numbers is vital in electromagnetism, theory of relativity, and indeed, quantum mechanics.
 Despite their vagueness, complex numbers are essential in modern science and engineering.
-Nature is definitely bizarre yet interesting.
+Nature is, for sure, bizarre.
 Hopefully, just like negative numbers, we can still build our own intuition for complex numbers, by crossing a real number line and an imaginary number line.
 
 If it does not convince you enough, let me tell you a story.
@@ -25,4 +25,6 @@ To replicate the role of complex numbers, they replaced them with $2 \times 2$ m
 Some find this gut-wrenching because those $2 \times 2$ matrices behave just like complex numbers and have the exact same structure as complex numbers.
 Long story short, they were rewording the same truth with a different notation, not removing the 'complexity' of complex numbers.
 Later, you will see that complex numbers are usually expressed as either $a + b\mathrm{i}$ or $r\mathrm{e}^{\mathrm{i}\theta}$ while matrices are used to describe the dynamics of quantum states.
-Using $2 \times 2$ real matrices will simply make our lives even more complicated.
+Using real matrices will simply make our lives even more complicated.
+
+## Module Contents
