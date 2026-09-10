@@ -102,6 +102,10 @@ Please consult the [donation](./DONATION.md) documentation if you are considerin
 There are a few conventions in the interest of clarity and manageability of this project.
 A contributor is advised to consult and follow the following conventions.
 
+### General Workflow
+
+
+
 ### Chapter Code
 
 For each chapter in the textbook, there is a corresponding code.
@@ -189,7 +193,7 @@ Any contributions will be reviewed and edited on behalf of the following formatt
 In Markdown, every sentence marked its end by a period must be separated by a newline.
 This makes Markdown environment less runny and easier to find typos.
 When the context within a paragraph shifts, it is better to give a newline to separate different topics into two different paragraphs.
-In a single paragraph, try best put more than five sentences to preserve legibility.
+In a single paragraph, try best put more than four sentences but less than ten sentences to preserve legibility.
 
 ### Inline Mode and Display Mode
 
@@ -221,6 +225,8 @@ $$
 \end{align*}
 $$
 ```
+
+### Mathematical Constant
 
 ### Vector and Matrix
 
@@ -256,9 +262,47 @@ $$
 $$
 ```
 
+### Bracket and Bra-Ket
+
+$$
+\begin{align*}
+    \Braket{\operatorname{U}}
+    &= \sum_{\lambda \in \operatorname{spec}(\operatorname{U})} p\left(\lambda\right)\lambda \\
+    &= \sum_{\lambda \in \operatorname{spec}(\operatorname{U})} \lambda\Braket{\psi | \operatorname{P}_\lambda | \psi} \\
+    &= \Braket{\psi | \sum_{\lambda \in \operatorname{spec}(\operatorname{U})} \lambda\operatorname{P}_\lambda | \psi} \\
+    &= \Braket{\psi | \operatorname{U} | \psi}
+\end{align*}
+$$
+
+### Matrix Multiplication
+
+$$
+\begin{align*}
+    \operatorname{H} \operatorname{Z} \operatorname{H}
+    &= \left( \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \right) \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \left( \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \right) \\
+    &= \frac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \\
+    &= \frac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ -1 & 1 \end{bmatrix} \\
+    &= \frac{1}{2} \begin{bmatrix} 0 & 2 \\ 2 & 0 \end{bmatrix} \\
+    &= \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} \\
+    &= \operatorname{X}
+\end{align*}
+$$
+
+```latex
+\begin{align*}
+    \operatorname{H} \operatorname{Z} \operatorname{H}
+    &= \left( \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \right) \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \left( \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \right) \\
+    &= \frac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \\
+    &= \frac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ -1 & 1 \end{bmatrix} \\
+    &= \frac{1}{2} \begin{bmatrix} 0 & 2 \\ 2 & 0 \end{bmatrix} \\
+    &= \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} \\
+    &= \operatorname{X}
+\end{align*}
+```
+
 ### Differential Form
 
-When typing a differential form in $\LaTeX$, make sure to use the `\text{}` command on $\text{d}$ to avoid the confusion.
+When typing a differential form in $\LaTeX$, make sure to use the `\mathrm{}` command on $\mathrm{d}$ to avoid the confusion.
 Here, $dx$ stands for quantity $d$ multiplied by $x$, and $\text{d}x$ stands for differential form of variable $x$.
 To provide extra clarity, it is advised to put the `\,` command before the differential form whenever it is multiplied by a different variable.
 Let's say we are rendering the following evaluation of Gaussian integral.
@@ -267,13 +311,9 @@ $$
 \begin{align*}
     \int_{-\infty}^{\infty} e^{-x^2} \,\text{d}x
     &= \sqrt{\left(\int_{-\infty}^{\infty} e^{-x^2} \,\text{d}x\right)^2} \\
-    &= \sqrt{\left(\int_{-\infty}^{\infty} e^{-x^2} \,\text{d}x\right) \left(\int_{-\infty}^{\infty} e^{-x^2} \,\text{d}x\right)} \\
     &= \sqrt{\left(\int_{-\infty}^{\infty} e^{-x^2} \,\text{d}x\right) \left(\int_{-\infty}^{\infty} e^{-y^2} \,\text{d}y\right)} \\
     &= \sqrt{\int_{-\infty}^{\infty}\int_{-\infty}^{\infty} e^{-\left(x^2+y^2\right)} \,\text{d}x \,\text{d}y} \\
     &= \sqrt{\int_{0}^{2\pi} \int_{0}^{\infty} e^{-r^2}r \,\text{d}r \,\text{d}\theta} \\
-    &= \sqrt{\int_{0}^{2\pi} \left[-\frac{1}{2}e^{-r^2}\right]_{r=0}^{r=\infty} \,\text{d}\theta} \\
-    &= \sqrt{\frac{1}{2} \int_{0}^{2\pi} \text{d}\theta} \\
-    &= \sqrt{\frac{1}{2} \left[\theta\right]_{0}^{2\pi}} \\
     &= \sqrt{\pi}
 \end{align*}
 $$
@@ -293,32 +333,6 @@ $$
     &= \sqrt{\pi}
 \end{align*}
 $$
-```
-
-### Matrix Multiplication
-
-$$
-\begin{align*}
-    \operatorname{H} \,\operatorname{Z} \,\operatorname{H}
-    &= \left( \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \right) \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \left( \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \right) \\
-    &= \frac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \\
-    &= \frac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ -1 & 1 \end{bmatrix} \\
-    &= \frac{1}{2} \begin{bmatrix} 0 & 2 \\ 2 & 0 \end{bmatrix} \\
-    &= \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} \\
-    &= \operatorname{X}
-\end{align*}
-$$
-
-```latex
-\begin{align*}
-    \operatorname{H} \,\operatorname{Z} \,\operatorname{H}
-    &= \left( \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \right) \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \left( \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \right) \\
-    &= \frac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \\
-    &= \frac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ -1 & 1 \end{bmatrix} \\
-    &= \frac{1}{2} \begin{bmatrix} 0 & 2 \\ 2 & 0 \end{bmatrix} \\
-    &= \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} \\
-    &= \operatorname{X}
-\end{align*}
 ```
 
 ### Differentiation Notation
