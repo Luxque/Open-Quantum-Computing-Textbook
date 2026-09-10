@@ -1,4 +1,4 @@
-# Learning and Thinking
+# On Learning and Thinking
 
 This section explores several learning and thinking practices you may find beneficial in the course of reading this text.
 In STEM (science, technology, engineering, & mathematics), especially the one as sophisticated as quantum computing, requires strong resilience, critical thinking, and problem-solving skills.
