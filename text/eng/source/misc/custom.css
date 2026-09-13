@@ -1,11 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap');
+
+
 :root {
     --content-max-width: clamp(750px, 80vw, 1200px);
 }
 
 html {
-    font-family: "Times New Roman", serif;
+    font-family: 
+        "Noto Serif",
+        "Noto Serif JP",
+        "Noto Serif KR",
+        "Noto Serif SC",
+        "Noto Serif TC",
+        "Times New Roman",
+        serif;
 }
 
 main {
-    font-size: 1.50em
+    font-size: 1.40em;
 }
