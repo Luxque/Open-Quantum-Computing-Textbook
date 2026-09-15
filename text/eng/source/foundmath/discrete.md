@@ -1,3 +1,3 @@
-# Discrete Mathematics
+# Discrete Structures
 
 ## Module Contents
