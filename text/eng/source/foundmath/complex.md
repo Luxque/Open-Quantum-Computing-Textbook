@@ -17,7 +17,7 @@ However, since the discovery by Leonhard Euler, the use of complex numbers flour
 The role of complex numbers is vital in electromagnetism, theory of relativity, and indeed, quantum mechanics.
 Despite their vagueness, complex numbers are essential in modern science and engineering.
 Nature is, for sure, bizarre.
-Hopefully, just like negative numbers, we can still build our own intuition for complex numbers, by crossing a real number line and an imaginary number line.
+On a bright side, just like negative numbers, we can still build our own intuition for complex numbers, by crossing a real number line and an imaginary number line.
 
 If it does not convince you enough, let me tell you a story.
 There was an attempt to abolish complex numbers in quantum mechanics.
@@ -25,6 +25,6 @@ To replicate the role of complex numbers, they replaced them with $2 \times 2$ m
 Some find this gut-wrenching because those $2 \times 2$ matrices behave just like complex numbers and have the exact same structure as complex numbers.
 Long story short, they were rewording the same truth with a different notation, not removing the 'complexity' of complex numbers.
 Later, you will see that complex numbers are usually expressed as either $a + b\mathrm{i}$ or $r\mathrm{e}^{\mathrm{i}\theta}$ while matrices are used to describe the dynamics of quantum states.
-Using real matrices will simply make our lives even more complicated.
+Using real matrices, really, only will make our lives even more complicated.
 
 ## Module Contents
