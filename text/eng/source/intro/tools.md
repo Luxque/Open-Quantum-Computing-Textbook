@@ -9,7 +9,7 @@ Some tools are open source, so you can contribute to the project.
 > [!NOTE]
 >
 > This section assumes the reader has decent experience in computer programming.
-> If you are not familiar with programming or do not understand any of them listed below, you may skip this section after finishing Chapter 3: Foundational Computer Science.
+> If you are not familiar with programming or new to open source environment, you may skip this section and come back after finishing [Chapter 3: Foundational Computer Science](../foundcs/foundcs.md).
 
 ## Braket
 
