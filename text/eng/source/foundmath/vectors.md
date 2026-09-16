@@ -2,6 +2,8 @@
 
 ## Introduction to Vectors
 
-## Vector Addition and Scalar Multiplication
+## Vector Addition
 
+## Scalar Multiplication
 
+## Dot Product
