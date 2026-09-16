@@ -32,6 +32,12 @@ When you come across exercise problems, give them a try to check what you actual
 For computer algorithms, implementing them into actual codes will be helpful for breaking down the process and seeing what is going on.
 Exposing yourself to the abstract concepts will make you build inner intuition, preparing you for other, even advanced concepts.
 
+> [!NOTE]
+>
+> Unfortunately, due to the time constraints, this textbook will not feature exercise problems for each topic.
+> Readers are still encouraged to work out the examples, answer the in-text questions, and apply what you learned to real life.
+> Work on the exercise problems if you have other textbooks related to the topic.
+
 ## Occam's Razor
 
 > Pluralitas non est ponenda sine necessitate.
@@ -100,7 +106,7 @@ What does it mean by a series diverging or converging?
 What about those pesky $\sum$ and $\prod$ symbols?
 At the end of the day, both proofs are valid and make the same point: there are infinitely many prime numbers.
 But it requires too much background knowledge in order to read the second proof unless you are familiar with mathematics.
-Therefoere, for general audiences without any experience in university level of mathematics, the first proof might be a more adequate choice to explain the infinitude of the primes.
+Therefore, for general audiences without any experience in university level of mathematics, the first proof might be a more adequate choice to explain the infinitude of the primes.
 
 You might be wondering how this philosophical principle is applied to learning.
 As a writer, I am obliged to expect the minimal possible requirements from the readers, ensuring that explanations are easy to follow for every topic.
@@ -164,5 +170,6 @@ By reading the next page, you can see more examples of what kind of object falls
 In essence, you are allowing your brain to find and recognize the pattern.
 However, this method is not recommended when you skip too many materials already because filling the gap would not be durable at that point; you rather need to ask others for help.
 Let the aha moments be with you.
+
 
 <!-- ## Further Reading -->
