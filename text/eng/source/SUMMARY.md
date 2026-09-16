@@ -24,6 +24,8 @@
 * [Foundational Mathematics](./foundmath/foundmath.md)
     * [Matrix Algebra](./foundmath/matrix_algebra.md)
         * [Vectors](./foundmath/vectors.md)
+        * [Matrices](./foundmath/matrices.md)
+        * [Systems of Equations](./foundmath/systems_of_equations.md)
     * [Complex Numbers](./foundmath/complex.md)
     * [Logic](./foundmath/logic.md)
         * [Contradiction](./foundmath/contradiction.md)
