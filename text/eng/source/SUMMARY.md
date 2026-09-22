@@ -8,7 +8,7 @@
     * [About This Book](./intro/about.md)
         * [Preface](./intro/preface.md)
         * [Acknowledgements](./intro/acknowledgements.md)
-        * [Notations](./intro/notations.md)
+        * [Notation](./intro/notation.md)
         * [Chapter Dependency](./intro/dependency.md)
     * [Getting Started](./intro/started.md)
         * [On Thinking and Learning](./intro/learning.md)

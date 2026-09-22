@@ -1,10 +1,10 @@
-# Notations
+# Notation
 
 This section provides a brief overview of notational conventions that will be used in this book.
 Please note that this section does not provide a detailed explanation of what each symbol represents.
 You can use the search tool at the top of the section to find detailed explanations and relevant concepts.
 
-## Mathematical Symbols
+## Mathematical Symbol
 
 This table serves as a reference for the mathematical symbols that will be used throughout this text.
 Precise definitions are not provided here but will be introduced as the material progresses.
