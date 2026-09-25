@@ -1,4 +1,4 @@
-# Learning and Thinking
+# On Learning and Thinking
 
 This section explores several learning and thinking practices you may find beneficial in the course of reading this text.
 In STEM (science, technology, engineering, & mathematics), especially the one as sophisticated as quantum computing, requires strong resilience, critical thinking, and problem-solving skills.
@@ -32,6 +32,11 @@ When you come across exercise problems, give them a try to check what you actual
 For computer algorithms, implementing them into actual codes will be helpful for breaking down the process and seeing what is going on.
 Exposing yourself to the abstract concepts will make you build inner intuition, preparing you for other, even advanced concepts.
 
+> [!NOTE]
+> Unfortunately, due to the time constraints, this textbook will not feature exercise problems for each topic.
+> Readers are still encouraged to work out the examples, answer the in-text questions, and apply what you learned to real life.
+> Work on the exercise problems if you have other textbooks related to the topic.
+
 ## Occam's Razor
 
 > Pluralitas non est ponenda sine necessitate.
@@ -53,7 +58,7 @@ Since the age of Euclid, numerous mathematicians have proposed different proofs 
 Here, I give you two of them.
 I don't expect you to understand everything from these proofs, but I hope you can at least tell which one reads better for you.
 
-> **Proof 1**:
+> **Proof 1.1**:
 > Suppose there are finitely many prime numbers.
 > Then we can list out exhaustive prime numbers: $p_1$, $p_2$, $\cdots$, $p_m$.
 > Let us multiply all of these primes and add $1$, so $q = p_1 p_2 \cdots p_m + 1$.
@@ -65,7 +70,7 @@ I don't expect you to understand everything from these proofs, but I hope you ca
 > Therefore, there must be infinitely many prime numbers.
 ■
 
-> **Proof 2**:
+> **Proof 1.2**:
 > Just like the previous proof, we initially assume there are finitely many prime numbers.
 > Let us recall the following facts:
 >
@@ -100,7 +105,7 @@ What does it mean by a series diverging or converging?
 What about those pesky $\sum$ and $\prod$ symbols?
 At the end of the day, both proofs are valid and make the same point: there are infinitely many prime numbers.
 But it requires too much background knowledge in order to read the second proof unless you are familiar with mathematics.
-Therefoere, for general audiences without any experience in university level of mathematics, the first proof might be a more adequate choice to explain the infinitude of the primes.
+Therefore, for general audiences without any experience in university level of mathematics, the first proof might be a more adequate choice to explain the infinitude of the primes.
 
 You might be wondering how this philosophical principle is applied to learning.
 As a writer, I am obliged to expect the minimal possible requirements from the readers, ensuring that explanations are easy to follow for every topic.

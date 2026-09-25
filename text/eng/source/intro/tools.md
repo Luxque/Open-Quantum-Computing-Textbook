@@ -6,6 +6,10 @@ On the other hand, some of them are for newly designed languages dedicated to qu
 Even those languages are based on the classical programming languages.
 Some tools are open source, so you can contribute to the project.
 
+> [!NOTE]
+> This section assumes the reader has decent experience in computer programming.
+> If you are not familiar with programming or new to open source environment, you may skip this section and come back after finishing [Chapter 3: Foundational Computer Science](../foundcs/foundcs.md).
+
 ## Braket
 
 > * **Link (Website)**: [https://aws.amazon.com/braket/](https://aws.amazon.com/braket/)
