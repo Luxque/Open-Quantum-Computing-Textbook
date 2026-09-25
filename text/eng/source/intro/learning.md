@@ -33,7 +33,6 @@ For computer algorithms, implementing them into actual codes will be helpful for
 Exposing yourself to the abstract concepts will make you build inner intuition, preparing you for other, even advanced concepts.
 
 > [!NOTE]
->
 > Unfortunately, due to the time constraints, this textbook will not feature exercise problems for each topic.
 > Readers are still encouraged to work out the examples, answer the in-text questions, and apply what you learned to real life.
 > Work on the exercise problems if you have other textbooks related to the topic.
@@ -59,7 +58,7 @@ Since the age of Euclid, numerous mathematicians have proposed different proofs 
 Here, I give you two of them.
 I don't expect you to understand everything from these proofs, but I hope you can at least tell which one reads better for you.
 
-> **Proof 1**:
+> **Proof 1.1**:
 > Suppose there are finitely many prime numbers.
 > Then we can list out exhaustive prime numbers: $p_1$, $p_2$, $\cdots$, $p_m$.
 > Let us multiply all of these primes and add $1$, so $q = p_1 p_2 \cdots p_m + 1$.
@@ -71,7 +70,7 @@ I don't expect you to understand everything from these proofs, but I hope you ca
 > Therefore, there must be infinitely many prime numbers.
 ■
 
-> **Proof 2**:
+> **Proof 1.2**:
 > Just like the previous proof, we initially assume there are finitely many prime numbers.
 > Let us recall the following facts:
 >
@@ -170,6 +169,5 @@ By reading the next page, you can see more examples of what kind of object falls
 In essence, you are allowing your brain to find and recognize the pattern.
 However, this method is not recommended when you skip too many materials already because filling the gap would not be durable at that point; you rather need to ask others for help.
 Let the aha moments be with you.
-
 
 <!-- ## Further Reading -->
