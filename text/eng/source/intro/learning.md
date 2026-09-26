@@ -134,7 +134,7 @@ In fact, it is an actual approach to gain algorithmic solutions to problems stud
 A typical divide and conquer algorithm proceeds like this:
 
 1. Break the problem into smaller and similar instances;
-2. Solve these subproblems; and
+2. Solve these subproblems; &
 3. Combine their answers appropriately.
 
 Just like setting up a plan before proceeding to a heavy task, you will have to break the problem down (not necessarily similar instances as in the computer science formalism above).
