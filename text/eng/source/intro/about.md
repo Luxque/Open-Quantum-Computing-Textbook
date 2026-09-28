@@ -10,7 +10,7 @@
     4. [Reviewers](./acknowledgements.md#reviewers)
     5. [Donators](./acknowledgements.md#donators)
     6. [Technology Stacks](./acknowledgements.md#technology-stacks)
-3. [Notations](./notations.md)
+3. [Notation](./notation.md)
     1. [Mathematical Symbols](./notations.md#mathematical-symbols)
     2. [Greek Alphabet](./notations.md#greek-alphabet)
 4. [Chapter Dependency](./dependency.md)

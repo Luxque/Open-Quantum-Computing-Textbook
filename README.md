@@ -139,6 +139,12 @@ You may:
 Only under the following condition: 
 * **License and Copyright Notice**: A copy of the license and copyright notice must be included with the licensed material.
 
+### Font
+
+The website version of this textbook uses Noto Serif, which is licensed under [SIL Open Font License Version 1.1](https://openfontlicense.org/open-font-license-official-text/).
+Since the repository (including source and web host) does not contain the font files, the full official text of the license is not added to this repository.
+To review what you can do with OFL fonts, please read the [Using OFL fonts](https://openfontlicense.org/how-to-use-ofl-fonts/) page on the official [SIL Open Font License](https://openfontlicense.org/) website.
+
 ### Text
 
 The main textbook content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
