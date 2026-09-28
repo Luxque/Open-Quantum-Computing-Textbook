@@ -21,12 +21,6 @@ You can send your quantum circuits to quantum computers hosted by paid cloud ser
 Braket allows working with Qiskit and PennyLane, but the official support for Ocean was deprecated in 2022.
 You can see various quantum algorithms implemented in Braket [here](https://github.com/amazon-braket/amazon-braket-algorithm-library).
 
-<!-- ## Chyp
-
-> * **Link (Website)**: 
-> * **Link (Repository)**: 
-> * **License**:  -->
-
 ## Cirq
 
 > * **Link (Website)**: [https://quantumai.google/cirq](https://quantumai.google/cirq)
@@ -80,6 +74,12 @@ Additionally, this library also supports training NLP models.
 > * **Link (Website)**:
 > * **Link (Repository)**: 
 > * **License**:  -->
+
+<!-- ## Open-Source Quantum Software Projects
+
+> * **Link (Website)**: (N/A)
+> * **Link (Repository)**: [https://github.com/qosf/awesome-quantum-software](https://github.com/qosf/awesome-quantum-software)
+> * **License**: CC0-1.0 -->
 
 ## PennyLane
 
