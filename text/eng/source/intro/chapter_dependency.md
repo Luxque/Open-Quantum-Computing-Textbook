@@ -7,3 +7,7 @@ You can find topics of your interest in the table of contents and use this guide
 ## Chapter 1: Introduction
 
 *This chapter does not have prerequisites.*
+
+## Chapter 2: Foundational Mathematics
+
+*This chapter does not have prerequisites, but reviewing high school level algebra and trigonometry is recommended.*

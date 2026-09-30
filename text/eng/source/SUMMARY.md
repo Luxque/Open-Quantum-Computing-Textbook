@@ -21,7 +21,26 @@
 
 # The Theory of Quantum Computing
 
-* [Foundational Mathematics]()
+* [Foundational Mathematics](./foundmath/foundmath.md)
+    * [Matrix Algebra](./foundmath/matrix_algebra.md)
+        * [Vectors](./foundmath/vectors.md)
+        * [Matrices](./foundmath/matrices.md)
+        * [Systems of Equations](./foundmath/systems_of_equations.md)
+    * [Complex Numbers](./foundmath/complex_numbers.md)
+    * [Books](./foundmath/books.md)
+    <!-- * [Logic](./foundmath/logic.md)
+        * [Contradiction](./foundmath/contradiction.md)
+        * [Quantifiers](./foundmath/quantifiers.md)
+    * [Set Theory](./foundmath/set_theory.md)
+    * [Mathematical Proofs](./foundmath/mathematical_proofs.md)
+    * [Linear Algebra](./foundmath/linear_algebra.md)
+        * [Vector Space](./foundmath/vector_space.md)
+        * [Bra-Ket Notation](./foundmath/bra-ket_notation.md)
+    * [Discrete Structures](./foundmath/discrete_structures.md)
+    * [Graph Theory](./foundmath/graph_theory.md)
+    * [Probability Theory](./foundmath/probability_theory.md)
+    * [Number Theory](./foundmath/number_theory.md)
+        * [Number Bases](./foundmath/number_bases.md) -->
 * [Foundational Computer Science]()
 * [Foundational Quantum Physics]()
 * [Foundational Quantum Computing]()
