@@ -24,7 +24,14 @@ There was an attempt to abolish complex numbers in quantum mechanics.
 To replicate the role of complex numbers, they replaced them with $2 \times 2$ matrices with real components only: $[\begin{smallmatrix} a & -b \\ b & a \end{smallmatrix}]$.
 Some find this gut-wrenching because those $2 \times 2$ matrices behave just like complex numbers and have the exact same structure as complex numbers.
 Long story short, they were rewording the same truth with a different notation, not removing the 'complexity' of complex numbers.
-Later, you will see that complex numbers are usually expressed as either $a + b\mathrm{i}$ or $r\mathrm{e}^{\mathrm{i}\theta}$ while matrices are used to describe the dynamics of quantum states.
+Later, you will see that complex numbers are usually expressed as either a combination of two real numbers while matrices are used to describe the dynamics of quantum states.
 Using real matrices, really, only will make our lives even more complicated.
+
+In this module, we will briefly introduce the history behind imaginary numbers and polynomial equations.
+Then we will review addition, subtraction, multiplication, and division of complex numbers and how those operations play on the complex plane.
+Next, we will introduce Euler's number $\mathrm{e}$ with its historical context, followed by the various forms of exponential function with real input.
+Most importantly, we will demonstrate the complex expansion of the exponential function, bridging the world of algebra and the world of geometry.
+As the expansion will give us several important properties, we will observe how those properties simplify the multiplication and division of complex numbers.
+Finally, we will end this module by describing the geometry on the complex plane by interpreting given constraints.
 
 ## Module Contents
