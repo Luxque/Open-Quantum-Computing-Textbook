@@ -8,4 +8,4 @@
 > The man could not respond.
 > A shield that cannot be pierced and a spear that can pierce anything cannot coexist in the same world.
 >
-> — *韓非子*
+> ― *韓非子*
