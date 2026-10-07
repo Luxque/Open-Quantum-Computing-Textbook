@@ -22,7 +22,7 @@ Repeating this process 5 more times will get you to your studying goal without e
 > But every question is a cry to understand the world.
 > There is no such thing as a dumb question.
 >
-> — *The Demon-Haunted World: Science as a Candle in the Dark* by Carl Sagan -->
+> ― *The Demon-Haunted World: Science as a Candle in the Dark* by Carl Sagan -->
 
 ## Learning by Doing
 
@@ -43,7 +43,7 @@ Exposing yourself to the abstract concepts will make you build inner intuition, 
 >
 > Plurality should not be posited without necessity.
 >
-> — *Commentaria oxoniensia ad IV libros magistri sententiarum* by John Duns Scotus
+> ― *Commentaria oxoniensia ad IV libros magistri sententiarum* by John Duns Scotus
 
 When you are stuck with an abstract concept, you might choose explanations with straightforward reasoning over complicated ones.
 This is what Occam's razor is about.
