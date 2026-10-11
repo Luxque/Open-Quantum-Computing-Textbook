@@ -3,7 +3,7 @@
 In the previous section, we saw the historical significance behind imaginary numbers and complex numbers.
 Just like vectors, we now introduce the basic operations of complex numbers: addition, subtraction, multiplication, and division.
 
-## Structure of Complex Numbers
+## General Structure
 
 In the previous section, we observed that solving the equation $x^2 + 1 = 0$ or $x^2 = -1$ raised the question of the existence of $x$.
 No matter what we plugged real numbers into $x$, we cannot solve the equation.
@@ -11,11 +11,26 @@ Simply, there was no real number that can satisfy this equation.
 If we supposed there was a number that solves this equation, that must be something out of reach by the reals: an imaginary one.
 We define such a number, denoted by $\mathrm{i}$, as $\mathrm{i} = \sqrt{-1}$. Once we let $x = \mathrm{i}$, the equation is solved.
 
-In particular, the imaginary number $\mathrm{i}$ is called the imaginary unit, since any other imaginary numbers can be represented by a multiplication of a real number and the imaginary unit.
+In particular, an imaginary number $\mathrm{i}$ is called an imaginary unit, since any other imaginary numbers can be represented by a multiplication of a real number and an imaginary unit.
 For instance, if we were to solve $x^2 + \pi = 0$, the solution of this equation is $x = \sqrt{-\pi} = \sqrt{\pi}\sqrt{-1} = \sqrt{\pi}\mathrm{i}$.
 More formally, we define the imaginary unit as a number that satisfies this condition: $\mathrm{i}^2 = -1$.
-While this definition feels more abstract, using this definition would be more beneficial than the one involving a square root when you are dealing with complex numbers.
+While this definition feels more abstract, using this definition will be more beneficial than the one involving a square root.
 It is because we can simply replace $\mathrm{i}^2$ with $-1$ for every occurrence.
+Also, defining $\mathrm{i} = \sqrt{-1}$ just leaves us a question of what actually $\sqrt{-1}$ is, but defining what it actually does makes us to use it right away.
+
+> [!WARNING]
+>
+> On some occasion, leaving as $\mathrm{i} = \sqrt{-1}$ can be misleading.
+> For example, consider the following reasoning:
+$$ \begin{align*}
+    \mathrm{i}^2
+    &= \sqrt{-1}\sqrt{-1} \\
+    &= \sqrt{(-1)(-1)} \\
+    &= \sqrt{1} \\
+    &= 1 \text{,}
+\end{align*} $$
+> which is obviously false.
+> This fallacy occurs because of ignoring the fact that $\sqrt{a}\sqrt{b} = \sqrt{ab}$ holds only when $a$ and $b$ are non-negative.
 
 > **Definition**:
 > Imaginary unit $\mathrm{i}$ is a number that satisfies $\mathrm{i}^2 = -1$.
@@ -42,6 +57,8 @@ To distinguish from real numbers, we use $z$ instead of $x$ for complex variable
 
 ## Complex Plane
 
+
+
 ## Complex Conjugate
 
 > **Definition**:
@@ -56,6 +73,9 @@ To distinguish from real numbers, we use $z$ instead of $x$ for complex variable
 
 > **Definition**:
 > The subtraction of two complex numbers $z_1 = a_1 + b_1\mathrm{i}$ and $z_2 = a_2 + b_2\mathrm{i}$ is $z_1 - z_2 = (a_1 - a_2) + (b_1 - b_2)\mathrm{i}$.
+
+> [!NOTE]
+> 
 
 ## Multiplication
 
@@ -81,5 +101,8 @@ $$ \begin{align*}
 
 > **Definition**:
 > The division of two complex numbers $z_1 = a_1 + b_1\mathrm{i}$ and $z_2 = a_2 + b_2\mathrm{i}$ is $\frac{z_1}{z_2} = \frac{a_1a_2 + b_1b_2}{{a_2}^2 + {b_2}^2} + \frac{a_2b_1 - a_1b_2}{{a_2}^2 + {b_2}^2}\mathrm{i}$.
+
+> [!NOTE]
+> 
 
 ## Further Reading
