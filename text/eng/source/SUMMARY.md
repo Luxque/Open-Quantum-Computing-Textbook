@@ -28,6 +28,7 @@
         * [Systems of Equations](./foundmath/systems_of_equations.md)
     * [Complex Numbers](./foundmath/complex_numbers.md)
         * [Basic Operations of Complex Numbers](./foundmath/basic_operations_of_complex_numbers.md)
+        * [Euler's Formula](./foundmath/eulers-formula.md)
     * [Books](./foundmath/books.md)
     <!-- * [Logic](./foundmath/logic.md)
         * [Contradiction](./foundmath/contradiction.md)
