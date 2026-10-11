@@ -1,7 +1,8 @@
 # Books
 
-At the end of every chapter, the books that inspired the most to write the chapter are listed.
+At the end of every chapter, the books that inspired the most to write this chapter are listed.
 For those studious readers who are willing to dig deeper into the materials that were covered in this chapter, you are highly recommended to add these books to your reading list.
+
 In this chapter, we briefly introduced several tips on learning, tools used in quantum computing, and helpful websites for your quantum computing journey.
 Unfortunately, there are not a lot of books to recommend in regard of these topics, but there is a great introductory quantum computing book for beginners.
 
