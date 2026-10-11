@@ -16,10 +16,10 @@ Utilizing generative AI for spamming comments and issues may result in a permane
 
 ## Getting Started
 
-This textbook uses `mdBook` for converting Markdown documents to HTML files and `MANIM` for animating demonstration videos.
+This textbook uses mdBook for converting Markdown documents to HTML files and MANIM for animating demonstration videos.
 Before proceeding, please make sure that you installed Git, Cargo, and Python (version 3 or later) installed on your local machine.
 
-### Installing `mdBook` and Preprocessors
+### Installing mdBook and Preprocessors
 
 In `mdBook`, mathematical expressions are rendered by MathJax, which does not support some formatting commands required by the textbook, making $\KaTeX$ a better option.
 In order to render $\KaTeX$ typeset with `mdBook`, preprocessor `mdbook-katex` is required.
@@ -97,6 +97,15 @@ Despite the fact that this project is freely available, some academic resources 
 You can financially support this project and help the author legally access those materials.
 Please consult the [donation](./DONATION.md) documentation if you are considering donating to this project.
 
+## Directory Structure
+
+* [`figure/`](./figure/): Figures and videos for the textbook.
+* [`script/`](./script/): Pieces of software that help project management and task automation.
+* [`table/`](./table/): CSV files of tables used in the textbook.
+* [`text/`](./text/): Main textbook Markdown files.
+    * [`text/eng/`](./text/eng/) 👑: (American) English textbook files.
+    *All translations must be based on this directory.*
+
 ## Project Conventions
 
 There are a few conventions in the interest of clarity and manageability of this project.
@@ -123,7 +132,7 @@ The chapter code is used for naming branches and directories.
 |       Advanced Quantum Physics        |   `advqp`   |
 |         Quantum Optimization          |    `opt`    |
 |       Quantum Machine Learning        |    `ml`     |
-| Quantum Error Correction & Mitigation |   `error`   |
+| Quantum Error Correction & Mitigation |  `cormit`   |
 |  Quantum Networking & Communication   |  `netcomm`  |
 |     Quantum Programming Languages     |  `prolang`  |
 |     Quantum Software Verification     |  `softver`  |
@@ -184,58 +193,87 @@ For example, a branch for the 'Topological Quantum Computing' chapter written in
 
 ## Notes on Formatting
 
-This is a note for the main author on formatting of this text.
-The contributors are not obliged to follow the conventions listed below.
+This is a note for the main author on text formatting and typesetting.
+No contributors are strictly obliged to follow the conventions listed below.
 Any contributions will be reviewed and edited on behalf of the following formatting conventions by the main author.
 
 ### Sentence and Paragraph
 
-In Markdown, every sentence marked its end by a period must be separated by a newline.
-This makes Markdown environment less runny and easier to find typos.
+In Markdown, every sentence marked its end by a period must be separated by a new line.
+This makes the Markdown environment less run-on and easier to locate typos.
 When the context within a paragraph shifts, it is better to give a newline to separate different topics into two different paragraphs.
-In a single paragraph, try best put more than four sentences but less than ten sentences to preserve legibility.
+In a single paragraph, it is best to put more than four sentences but less than ten sentences to preserve legibility.
 
 ### Inline Mode and Display Mode
 
-When a mathematical expression is written in a sentence, it is in inline mode, and when a mathematical expression is written outside a sentence, it is in display mode.
-Mathematical expressions written in display mode can be as large as it can be, but not in the inline mode due to the spacing between sentence lines.
+When a mathematical expression is written within a sentence, it is in inline mode, encapsulated by two `$` signs.
+On the other hand, when a mathematical expression is written outside a sentence, it is in display mode, encapsulated by two `$$` signs.
+Make sure to avoid mathematical expressions getting runny (more than three `=` chains) in inline mode and strictly aligned using `align*`in display mode.
 
 ### Subscript and Superscript
 
-It can depend on context, but when a subscript denotes an indexing and a superscript represents the power of a variable, 
+It may depend on context, but when a subscript denotes an indexing and a superscript represents the power of a variable, the variable and the indexing should be bundled by `{·}` before the superscript.
 For example, let a vector $\textbf{v} = \ket{v} \in \mathbb{R}^n$ and $v_i$ denotes its $i$-th real-valued component.
 Then the way of finding the norm of the vector $\textbf{v}$ should be written as the following.
+For different contexts and notations, this bundling rule must be refrained.
 
-$$
-\begin{align*}
-    \left\|\textbf{v}\right\|
-    &= \sqrt{\Braket{v | v}} \\
+$$ \begin{align*}
+    \lVert\textbf{v}\rVert
+    &= \sqrt{\braket{v | v}} \\
     &= \sqrt{\sum_{i=1}^{n} {v_i}^2} \\
     &= \sqrt{{v_1}^2 + {v_2}^2 + \cdots + {v_n}^2} \\
-\end{align*}
-$$
+\end{align*} $$
 
 ```latex
-$$
-\begin{align*}
-    \left\|\textbf{v}\right\|
-    &= \sqrt{\Braket{v | v}} \\
+$$ \begin{align*}
+    \lVert\textbf{v}\rVert
+    &= \sqrt{\braket{v | v}} \\
     &= \sqrt{\sum_{i=1}^{n} {v_i}^2} \\
     &= \sqrt{{v_1}^2 + {v_2}^2 + \cdots + {v_n}^2} \\
-\end{align*}
-$$
+\end{align*} $$
 ```
 
 ### Mathematical Constant
 
+Some important mathematical constants, such as Euler's number $\mathrm{e}$ and imaginary unit $\mathrm{i}$, are written upright by `\mathrm{·}` command to avoid confusion.
+In particular, imaginary unit $\mathrm{i}$ and common index $i$ can be disorienting when they are used in the same context; e.g., $\sum_{i = 1}^{\infty} \frac{\mathrm{i}}{i^2} = \frac{\pi^2\mathrm{i}}{6}$.
+But it is best practice to pick a different index for this context.
+
+$$ \begin{align*}
+    \mathrm{e}^{\mathrm{i}\theta}
+    &= \exp(\mathrm{i}\theta) \\
+    &= \cos(\theta) + \mathrm{i}\sin(\theta)
+\end{align*} $$
+
+```latex
+$$ \begin{align*}
+    \mathrm{e}^{\mathrm{i}\theta}
+    &= \exp(\mathrm{i}\theta) \\
+    &= \cos(\theta) + \mathrm{i}\sin(\theta)
+\end{align*} $$
+```
+
+### Bracket and Bra-Ket
+
+In display mode, the size of some brackets, such as `(`, `)`, `[`, `]`, `{`, `}`, `\lvert`, `\rvert`, `\lVert`, and `\rVert`, and macros, such as `\set{·}`, `\bra{·}`, `\ket{·}`, and `\braket{·}`, must be adjusted depending on their inner content.
+If they are encapsulating fractions, variables with subscript/superscript, or big operators such as $\sum$, $\prod$, $\bigcup$, $\bigcap$, $\bigvee$, $\bigwedge$, $\bigoplus$, and $\bigotimes$, then `\left` and `\right` delimiters must be used for brackets, and the uppercase version such as `\Set{·}`, `\Bra{·}`, `\Ket{·}`, and `Braket{·}` must be used for macros.
+For inline mode, no size adjustment is required.
+
+$$ \begin{align*}
+    \braket{\operatorname{U}}
+    &= \sum_{\lambda \in \operatorname{spec}(\operatorname{U})} p(\lambda)\lambda \\
+    &= \sum_{\lambda \in \operatorname{spec}(\operatorname{U})} \lambda\Braket{\psi | \operatorname{P}_\lambda | \psi} \\
+    &= \Braket{\psi | \sum_{\lambda \in \operatorname{spec}(\operatorname{U})} \lambda\operatorname{P}_\lambda | \psi} \\
+    &= \braket{\psi | \operatorname{U} | \psi}
+\end{align*} $$
+
 ### Vector and Matrix
 
-Any vectors or matrices with strictly less than four row and column entries can be written in the inline mode and as a single line in the math mode.
+Any vectors or matrices with strictly less than four row and column entries can be written in inline mode and as a single line in the math mode.
 If they are larger than this constraint, they must be written in the display mode, separated by newlines for every row.
-For example, while a Hadamard gate can be written in a sentence $\operatorname{H} = \frac{1}{\sqrt{2}} \left[\begin{smallmatrix} 1 & 1 \\ 1 & -1 \end{smallmatrix}\right]$, a CNOT gate should be written as the following.
+For example, while a Hadamard gate can be written in a sentence $\operatorname{H} = \frac{1}{\sqrt{2}} [\begin{smallmatrix} 1 & 1 \\ 1 & -1 \end{smallmatrix}]$, a CNOT gate should be written as the following.
 
-$$
-\begin{align*}
+$$ \begin{align*}
     \operatorname{CNOT}
     &= 
     \begin{bmatrix}
@@ -244,119 +282,64 @@ $$
         0 & 0 & 0 & 1 \\
         0 & 0 & 1 & 0
     \end{bmatrix}
-\end{align*}
-$$
+\end{align*} $$
 
 ```latex
-$$
-\begin{align*}
+$$ \begin{align*}
     \operatorname{CNOT}
-    &=
+    &= 
     \begin{bmatrix}
         1 & 0 & 0 & 0 \\
         0 & 1 & 0 & 0 \\
         0 & 0 & 0 & 1 \\
         0 & 0 & 1 & 0
     \end{bmatrix}
-\end{align*}
-$$
-```
-
-### Bracket and Bra-Ket
-
-$$
-\begin{align*}
-    \Braket{\operatorname{U}}
-    &= \sum_{\lambda \in \operatorname{spec}(\operatorname{U})} p\left(\lambda\right)\lambda \\
-    &= \sum_{\lambda \in \operatorname{spec}(\operatorname{U})} \lambda\Braket{\psi | \operatorname{P}_\lambda | \psi} \\
-    &= \Braket{\psi | \sum_{\lambda \in \operatorname{spec}(\operatorname{U})} \lambda\operatorname{P}_\lambda | \psi} \\
-    &= \Braket{\psi | \operatorname{U} | \psi}
-\end{align*}
-$$
-
-### Matrix Multiplication
-
-$$
-\begin{align*}
-    \operatorname{H} \operatorname{Z} \operatorname{H}
-    &= \left( \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \right) \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \left( \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \right) \\
-    &= \frac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \\
-    &= \frac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ -1 & 1 \end{bmatrix} \\
-    &= \frac{1}{2} \begin{bmatrix} 0 & 2 \\ 2 & 0 \end{bmatrix} \\
-    &= \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} \\
-    &= \operatorname{X}
-\end{align*}
-$$
-
-```latex
-\begin{align*}
-    \operatorname{H} \operatorname{Z} \operatorname{H}
-    &= \left( \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \right) \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \left( \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \right) \\
-    &= \frac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \\
-    &= \frac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ -1 & 1 \end{bmatrix} \\
-    &= \frac{1}{2} \begin{bmatrix} 0 & 2 \\ 2 & 0 \end{bmatrix} \\
-    &= \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} \\
-    &= \operatorname{X}
-\end{align*}
+\end{align*} $$
 ```
 
 ### Differential Form
 
-When typing a differential form in $\LaTeX$, make sure to use the `\mathrm{}` command on $\mathrm{d}$ to avoid the confusion.
-Here, $dx$ stands for quantity $d$ multiplied by $x$, and $\text{d}x$ stands for differential form of variable $x$.
+When typing a differential form in $\LaTeX$, make sure to use the `\mathrm{·}` command on $\mathrm{d}$ to avoid confusion.
+Here, $dx$ stands for quantity $d$ multiplied by $x$, and $\mathrm{d}x$ stands for differential form of variable $x$.
 To provide extra clarity, it is advised to put the `\,` command before the differential form whenever it is multiplied by a different variable.
-Let's say we are rendering the following evaluation of Gaussian integral.
 
-$$
-\begin{align*}
-    \int_{-\infty}^{\infty} e^{-x^2} \,\text{d}x
-    &= \sqrt{\left(\int_{-\infty}^{\infty} e^{-x^2} \,\text{d}x\right)^2} \\
-    &= \sqrt{\left(\int_{-\infty}^{\infty} e^{-x^2} \,\text{d}x\right) \left(\int_{-\infty}^{\infty} e^{-y^2} \,\text{d}y\right)} \\
-    &= \sqrt{\int_{-\infty}^{\infty}\int_{-\infty}^{\infty} e^{-\left(x^2+y^2\right)} \,\text{d}x \,\text{d}y} \\
-    &= \sqrt{\int_{0}^{2\pi} \int_{0}^{\infty} e^{-r^2}r \,\text{d}r \,\text{d}\theta} \\
+$$ \begin{align*}
+    \int_{-\infty}^{\infty} e^{-x^2} \,\mathrm{d}x
+    &= \sqrt{\left(\int_{-\infty}^{\infty} e^{-x^2} \,\mathrm{d}x\right)^2} \\
+    &= \sqrt{\left(\int_{-\infty}^{\infty} e^{-x^2} \,\mathrm{d}x\right) \left(\int_{-\infty}^{\infty} e^{-y^2} \,\mathrm{d}y\right)} \\
+    &= \sqrt{\int_{-\infty}^{\infty}\int_{-\infty}^{\infty} e^{-\left(x^2+y^2\right)} \,\mathrm{d}x \,\mathrm{d}y} \\
+    &= \sqrt{\int_{0}^{2\pi} \int_{0}^{\infty} e^{-r^2}r \,\mathrm{d}r \,\mathrm{d}\theta} \\
     &= \sqrt{\pi}
-\end{align*}
-$$
+\end{align*} $$
 
 ```latex
-$$
-\begin{align*}
-    \int_{-\infty}^{\infty} e^{-x^2} \,\text{d}x
-    &= \sqrt{\left(\int_{-\infty}^{\infty} e^{-x^2} \,\text{d}x\right)^2} \\
-    &= \sqrt{\left(\int_{-\infty}^{\infty} e^{-x^2} \,\text{d}x\right) \left(\int_{-\infty}^{\infty} e^{-x^2} \,\text{d}x\right)} \\
-    &= \sqrt{\left(\int_{-\infty}^{\infty} e^{-x^2} \,\text{d}x\right) \left(\int_{-\infty}^{\infty} e^{-y^2} \,\text{d}y\right)} \\
-    &= \sqrt{\int_{-\infty}^{\infty}\int_{-\infty}^{\infty} e^{-\left(x^2+y^2\right)} \,\text{d}x \,\text{d}y} \\
-    &= \sqrt{\int_{0}^{2\pi} \int_{0}^{\infty} e^{-r^2}r \,\text{d}r \,\text{d}\theta} \\
-    &= \sqrt{\int_{0}^{2\pi} \left[-\frac{1}{2}e^{-r^2}\right]_{r=0}^{r=\infty} \,\text{d}\theta} \\
-    &= \sqrt{\frac{1}{2} \int_{0}^{2\pi} \text{d}\theta} \\
-    &= \sqrt{\frac{1}{2} \left[\theta\right]_{0}^{2\pi}} \\
+$$ \begin{align*}
+    \int_{-\infty}^{\infty} e^{-x^2} \,\mathrm{d}x
+    &= \sqrt{\left(\int_{-\infty}^{\infty} e^{-x^2} \,\mathrm{d}x\right)^2} \\
+    &= \sqrt{\left(\int_{-\infty}^{\infty} e^{-x^2} \,\mathrm{d}x\right) \left(\int_{-\infty}^{\infty} e^{-y^2} \,\mathrm{d}y\right)} \\
+    &= \sqrt{\int_{-\infty}^{\infty}\int_{-\infty}^{\infty} e^{-\left(x^2+y^2\right)} \,\mathrm{d}x \,\mathrm{d}y} \\
+    &= \sqrt{\int_{0}^{2\pi} \int_{0}^{\infty} e^{-r^2}r \,\mathrm{d}r \,\mathrm{d}\theta} \\
     &= \sqrt{\pi}
-\end{align*}
-$$
+\end{align*} $$
 ```
 
 ### Differentiation Notation
 
-The same rule is applied to differential notations as well.
-For Leibniz notation, the $\text{d}$'s should be encapsulated by `\text{}`: $\frac{\text{d}}{\text{d}x}$.
+The same rule is applied to differential notations.
+For Leibniz notation, the $\mathrm{d}$'s should be encapsulated by `\mathrm{·}`: $\frac{\mathrm{d}}{\mathrm{d}x}$.
 When multiple differential forms are placed consecutively, especially the case for partial differentiation, those should be separated by `\,` command: $\frac{\partial^2}{\partial{x} \,\partial{y}}$.
 For Lagrangian notation, when there must be more than three primes, use $f^{(n)}$ instead, where $n$ stands for the number of differentiations on the function $f$.
-As an example, a Taylor expansion of a smooth function $f(x)$ at $x = a$ can be written as the following.
 
-$$
-\begin{align*}
+$$ \begin{align*}
     T_f(a)
-    &= \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n \\
+    &= \sum_{n = 0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n \\
     &= f(a) + f'(a)(x-a) + \frac{f''(a)}{2}(x-a)^2 + \frac{f'''(a)}{6}(x-a)^3 + \frac{f^{(4)}(a)}{24}(x-a)^4 + \cdots \\
-\end{align*}
-$$
+\end{align*} $$
 
 ```latex
-$$
-\begin{align*}
+$$ \begin{align*}
     T_f(a)
-    &= \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n \\
+    &= \sum_{n = 0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n \\
     &= f(a) + f'(a)(x-a) + \frac{f''(a)}{2}(x-a)^2 + \frac{f'''(a)}{6}(x-a)^3 + \frac{f^{(4)}(a)}{24}(x-a)^4 + \cdots \\
-\end{align*}
-$$
+\end{align*} $$
 ```
