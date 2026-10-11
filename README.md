@@ -5,7 +5,7 @@
 > An open textbook for quantum computing theory and its applications.
 
 In recent years, there has been a huge increase in demand for more computing power, but the limit of classical computing is within our sight.
-Despite the sophisticated nature of quantum mechanics, quantum computing, a computation method leveraging quantum phenomena such as superposition and entanglement, is recognized as a computing method to bypass some of such problem.
+Despite the sophisticated nature of quantum mechanics, quantum computing, a computation method leveraging quantum phenomena such as superposition and entanglement, is recognized as a computing method to bypass some of such problems.
 Unfortunately, due to the fact that quantum computers are the product of multiple disciplines, learning resources are immense yet limited for beginners to an extent.
 This textbook will cover the foundational theories behind quantum computers, what they promise, what they cannot do, and their applications, bridging the gap between newcomers and researchers.
 We aim to build a welcoming environment for everyone.
@@ -14,6 +14,11 @@ We aim to build a welcoming environment for everyone.
 
 You can read the book by visiting [here](https://luxque.github.io/OQCT/).
 The textbook is hosted by [GitHub Pages](https://docs.github.com/en/pages).
+
+## Ask Questions
+
+If you have questions regarding the contents of the book, please go to the [Discussions](https://github.com/Luxque/Open-Quantum-Computing-Textbook/discussions) tab and ask your questions in the [Q&A](https://github.com/Luxque/Open-Quantum-Computing-Textbook/discussions/categories/q-a) category.
+If you are having technical issues, please create an issue at the [Issues](https://github.com/Luxque/Open-Quantum-Computing-Textbook/issues) tab of this repository following the preset format.
 
 ## Table of Contents
 
@@ -56,10 +61,10 @@ The textbook is hosted by [GitHub Pages](https://docs.github.com/en/pages).
 
 ## Features
 
-This textbook aims to provide educational content for people with different backgrounds.
-The features listed below are implemented to support the best reader experience and to preserve academic rigor.
-Please note that features with a warning sign (⚠️) denote that the feature is not fully implemented.
-Any assistance to fully implement those features is always welcomed!
+This textbook aims to provide educational content for anyone with different backgrounds.
+The core features listed below are implemented to support reader experience and preserve academic rigor.
+Please note that the features with a warning sign (⚠️) denote that the feature is not fully implemented.
+Any high-quality assistance to fully implement those features is always welcomed.
 
 ### ✅ Open Environment
 
@@ -71,25 +76,10 @@ This open environment will make quantum computing more accessible and eventually
 
 > ⚠️ This feature is not implemented yet!
 
-The official PDF edition will feature the exact copy of the web version textbook, freshly rendered by $\LaTeX$.
-The PDF will be available in this repository and can always be downloaded.
+The official PDF edition will feature the exact copy of the web version textbook, freshly rendered in $\LaTeX$.
+The PDF will be available in this repository to download.
 Some animated videos will be replaced by TikZ diagrams.
 You are more than welcome to print the PDF in a printing shop for personal use.
-
-### 🚧 Custom Theme
-
-> ⚠️ This feature is not implemented yet!
-
-By default, [`mdBook`](https://github.com/rust-lang/mdBook) provides several themes by default: Light, Rust, Coal, Navy, and Ayu.
-On top of those, to make this textbook more unique and distinctive, a new color scheme, *Quantum*, will be added.
-
-### 🚧 Interactive Environments
-
-> ⚠️ This feature is not implemented yet!
-
-Sometimes a single piece of text alone cannot provide the big picture of some mathematical concept at once.
-[`MANIM`](https://github.com/manimCommunity/manim) provides an astonishing set of tools for creating animations to build intuitive foundations.
-If possible, interactive applets powered by GeoGebra will also be provided in the web version textbook.
 
 ### 🚧 Proof Verification
 
@@ -99,21 +89,27 @@ We must formally verify the proofs written in this textbook in order to provide 
 For formal verification, [Lean 4](https://github.com/leanprover/lean4) will be used.
 Any feedback on proofs written in plain English and the Lean code will be highly appreciated.
 
-## Technological Stack
+### 🚧 Interactive Environment
 
-* [`MANIM`](https://github.com/manimCommunity/manim): Python-based animation tool for mathematical visuals.
-* [`mdBook`](https://github.com/rust-lang/mdBook): Renders the textbook Markdown to HTML.
-    * [`mdBook-KaTeX`](https://github.com/lzanini/mdbook-katex): Preprocessor that allows using $\KaTeX$ in mdBook.
-    * [`mdBook-Langtabs`](https://github.com/nx10/mdbook-langtabs): Preprocessor that allows putting multiple language tabs in a single code block.
+> ⚠️ This feature is not implemented yet!
 
-## Directory Structure
+Sometimes a single piece of text alone cannot provide the big picture of some mathematical concept at once.
+[MANIM](https://github.com/manimCommunity/manim) provides an astonishing set of tools for creating animations to build intuitive foundations.
+If possible, interactive applets powered by [GeoGebra](https://www.geogebra.org/) will also be provided in the web version of the textbook.
 
-* [`figure/`](./figure/): Figures and videos for the textbook.
-* [`script/`](./script/): Pieces of software that help project management and task automation.
-* [`table/`](./table/): CSV files of tables used in the textbook.
-* [`text/`](./text/): Main textbook Markdown files.
-    * [`text/eng/`](./text/eng/) 👑: (American) English textbook files.
-    *All translations must be based on this directory.*
+### 🚧 Custom Theme
+
+> ⚠️ This feature is not implemented yet!
+
+By default, [mdBook](https://github.com/rust-lang/mdBook) provides several themes by default: Light, Rust, Coal, Navy, and Ayu.
+On top of those, to make this textbook more unique and distinctive, a new color scheme, *Quantum*, will be added.
+
+## Technology Stack
+
+* [MANIM](https://www.manim.community/): Python-based animation tool for mathematical visuals.
+* [mdBook](https://github.com/rust-lang/mdBook): Utility for rendering book contents written in Markdown to HTML.
+    * [mdBook-KaTeX](https://github.com/lzanini/mdbook-katex): Preprocessor that allows using $\KaTeX$ in mdBook.
+    * [mdBook-Langtabs](https://github.com/nx10/mdbook-langtabs): Preprocessor that allows putting multiple language tabs in a single code block.
 
 ## Contribution
 
