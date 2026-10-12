@@ -106,7 +106,7 @@ On top of those, to make this textbook more unique and distinctive, a new color 
 
 ## Technology Stack
 
-* [MANIM](https://www.manim.community/): Python-based animation tool for mathematical visuals.
+* [Manim](https://www.manim.community/): Python-based animation tool for mathematical visuals.
 * [mdBook](https://github.com/rust-lang/mdBook): Utility for rendering book contents written in Markdown to HTML.
     * [mdBook-KaTeX](https://github.com/lzanini/mdbook-katex): Preprocessor that allows using $\KaTeX$ in mdBook.
     * [mdBook-Langtabs](https://github.com/nx10/mdbook-langtabs): Preprocessor that allows putting multiple language tabs in a single code block.
