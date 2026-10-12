@@ -152,7 +152,7 @@ uv pip install qiskit qiskit-ibm-runtime qiskit-aer tabulate
 You can run a textbook Python script by using this command.
 
 ```bash
-uv run <python-file>
+uv run <python-script>
 ```
 
 The virtual environment can simply be deactivated by this command.
@@ -198,13 +198,14 @@ After installing it, open a $\TeX$ file, then you will see a $\TeX$ tab on the l
 
 ## Project Conventions
 
-There are a few conventions in the interest of clarity and manageability of this project.
-A contributor is advised to consult and follow the following conventions.
+There are a few conventions to follow in the interest of clarity and manageability of this project.
+A contributor is advised to consult and comply with the following conventions.
 
 ### Chapter Code
 
-For each chapter in the textbook, there is a corresponding code.
+For each chapter in the textbook, there is a corresponding chapter code.
 The chapter code is used for naming branches and directories.
+By using chapter code instead of chapter numbering, the chapter content files can reside where they are even if there is a change in ordering among chapters.
 
 |                Chapter                |    Code     |
 |:-------------------------------------:|:-----------:|
@@ -249,19 +250,49 @@ On the other hand, the code for Simplified Chinese is `cmn-Hans` while tradition
 |   Korean   |       Hangul + Han        | `kor-Kore` |
 |  Russian   |         Cyrillic          |   `rus`    |
 
-### Branch Convention
+### Branch Name Convention
 
 Each book chapter is managed under different branches and pulled by the main branch after an update.
 Chapter branches are named in this syntax: `<language-code>-<chapter-code>`.
 For example, a branch for the 'Topological Quantum Computing' chapter written in French is `fra-tqc`.
 
-### Hierarchy of Book Contents
+### Hierarchy of Book Content
 
-1. Part
-2. Chapter
-3. Module
-4. Section
-5. Subsection
+Since different books have different conventions, for clarity, the names of each rank for this book are stated and explained.
+Part is for classifying chapters into four major categories, which is not mentioned frequently in the textbook.
+Meanwhile, every chapter/module allocates a Markdown file to include at least one introductory paragraph and the table of contents of the chapter/module.
+Each section also allocates one Markdown file and must include one paragraph summarizing the learning objectives of the section and corresponding reading material.
+A term for a rank lower than subsection is not settled.
+Examples of each rank are provided here.
+
+1. **Part**: There are 4 parts in this book.
+    * The Beginning of Quantum Computing
+    * The Theory of Quantum Computing
+    * The Application of Quantum Computing
+    * The Future of Quantum Computing
+2. **Chapter**: There are 7 chapters in part *The Theory of Quantum Computing*.
+    * Foundational Mathematics
+    * Foundational Computer Science
+    * Foundational Quantum Physics
+    * Foundational Quantum Computing
+    * Advanced Mathematics
+    * Advanced Computer Science
+    * Advanced Quantum Physics
+3. **Module**: There are 3 modules in chapter *Introduction*.
+    * About This Book
+    * Getting Started
+    * Books
+4. **Section**: There are 4 sections in module *About This Book*.
+    * Preface
+    * Acknowledgements
+    * Notation
+    * Chapter Dependency
+5. **Subsection**: There are 6 subsections in section *Acknowledgements*.
+    * Project Leaders
+    * Content Contributors
+    * Translators
+    * Reviewers
+    * Technology Stacks
 
 <!-- ## Philosophy of Writing
 
