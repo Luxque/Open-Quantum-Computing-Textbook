@@ -6,5 +6,4 @@ mdbook init ./text/(lang) --title="Open Quantum Computing Textbook" --ignore=git
 
 # Opening
 
-mdbook serve ./text/eng --watcher=poll
 mdbook serve ./text/eng --open --watcher=poll
