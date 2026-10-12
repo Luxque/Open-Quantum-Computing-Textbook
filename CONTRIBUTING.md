@@ -4,7 +4,7 @@
 
 This document explains how the *Open Quantum Computing Textbook* project is structured and what conventions are used.
 Please read and consult the following sections before making any contribution.
-It is recommended clone this repository and open via VSCode or VSCodium for the optimized formatting.
+It is recommended clone this repository and open via [VS Code](https://code.visualstudio.com/) or [VSCodium](https://vscodium.com/) for the optimized formatting.
 Thank you so much for your consideration in contributing to this project.
 
 ## Generative AI Policy
@@ -14,71 +14,16 @@ A contributor may utilize LLMs to check grammatical errors and polish their writ
 Any contribution attempts and/or pull requests with an apparent use of generative AI will be rejected.
 Utilizing generative AI for spamming comments and issues may result in a permanent ban.
 
-## Getting Started
-
-This textbook uses mdBook for converting Markdown documents to HTML files and MANIM for animating demonstration videos.
-Before proceeding, please make sure that you installed Git, Cargo, and Python (version 3 or later) installed on your local machine.
-
-### Installing mdBook and Preprocessors
-
-In `mdBook`, mathematical expressions are rendered by MathJax, which does not support some formatting commands required by the textbook, making $\KaTeX$ a better option.
-In order to render $\KaTeX$ typeset with `mdBook`, preprocessor `mdbook-katex` is required.
-For showcasing algorithms written in multiple programming languages, preprocessor `mdbook-langtabs` is used.
-You can install `mdBook` and both preprocessors can be installed by this command.
-
-```bash
-cargo install mdbook mdbook-katex mdbook-langtabs
-```
-
-### Installing `UV`
-
-UV is a .
-While `pip` is used to install and manage Python packages, but it is required by `MANIM`.
-
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-### Installing `MANIM`
-
-```bash
-uv python install
-sudo apt update
-sudo apt install texlive-full build-essential python3-dev libcairo2-dev libpango1.0-dev
-uv init manimations
-cd manimations
-uv add manim
-cd ..
-```
-
-### Installing Python Packages
-
-The following commands create a Python virtual environment in the cloned project directory and install the following packages.
-
-* `qiskit`
-* `qiskit-ibm-runtime`
-* `qiskit-aer`
-* `tabulate`
-
-```bash
-uv venv .venv
-uv pip install qiskit qiskit-ibm-runtime qiskit-aer tabulate
-```
-
-```bash
-source ./.venv/bin/activate
-```
-
 ## Contributing Methods
 
 There are various ways to contribute to this project.
-If you would like to get your work acknowledged, you are more than welcome to add your GitHub handle and/or your name in [`acknowledgements.md`](https://github.com/Luxque/Open-Quantum-Computing-Textbook/tree/main/text/eng/source/intro/acknowledgements.md) in the chapter 1 directory before submitting a pull request.
+If you would like to get your work acknowledged, you are more than welcome to add your GitHub handle and/or your name in [`acknowledgements.md`](https://github.com/Luxque/Open-Quantum-Computing-Textbook/tree/main/text/eng/source/intro/acknowledgements.md) in the Chapter 1 (Introduction) directory before submitting a pull request.
 Any kinds of contributions are highly appreciated.
 
 ### Content
 
 Are you a researcher or in possess of knowledge that can be applied to quantum computing and quantum technology?
-You are more than welcome to suggest ideas in [Ideas](https://github.com/Luxque/Open-Quantum-Computing-Textbook/discussions/categories/ideas) of the discussion tab or get your additional contents merged to the main branch by filing a [pull request](https://github.com/Luxque/Open-Quantum-Computing-Textbook/pulls).
+You are more than welcome to suggest ideas in [Ideas](https://github.com/Luxque/Open-Quantum-Computing-Textbook/discussions/categories/ideas) of the [Discussions](https://github.com/Luxque/Open-Quantum-Computing-Textbook/discussions) tab or get your additional contents merged to the main branch by filing a [pull request](https://github.com/Luxque/Open-Quantum-Computing-Textbook/pulls).
 
 ### Review
 
@@ -97,23 +42,164 @@ Despite the fact that this project is freely available, some academic resources 
 You can financially support this project and help the author legally access those materials.
 Please consult the [donation](./DONATION.md) documentation if you are considering donating to this project.
 
-## Directory Structure
+## Getting Started
+
+This textbook uses mdBook for converting Markdown documents to HTML files and Manim for animating demonstration videos.
+Before proceeding, please make sure that you installed basic development tools like Git installed on your local machine.
+Since the command lines are based on Linux (mainly Ubuntu), users of different platforms should convert those commands to the corresponding platform or consult the official documentation of each tool.
+
+### Installing [Cargo](https://doc.rust-lang.org/stable/cargo/)
+
+Cargo is a package manager of the Rust programming language.
+The website version of the textbook is rendered by mdBook, which is written in Rust.
+Cargo is essential for installing and managing the mdBook package and its preprocessors.
+
+```bash
+curl -sSf https://sh.rustup.rs | sh
+```
+
+### Installing [mdBook](https://rust-lang.github.io/mdBook/) and Preprocessors
+
+In mdBook, mathematical expressions are rendered by MathJax, which does not support some formatting commands required by the textbook, making $\KaTeX$ a better option.
+In order to render $\KaTeX$ typeset with mdBook, preprocessor `mdbook-katex` is required.
+For showcasing algorithms written in multiple programming languages, preprocessor `mdbook-langtabs` is used.
+You can install mdBook and both preprocessors can be installed by this command.
+
+```bash
+cargo install mdbook mdbook-katex mdbook-langtabs
+```
+
+### Installing [UV](https://docs.astral.sh/uv/)
+
+UV is a package manager for the Python programming language, just like [pip](https://pypi.org/project/pip/), but much faster.
+It is required by Manim, but you can see this tool to install different Python packages and manage virtual environments.
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+### Installing [Manim](https://www.manim.community/)
+
+Manim is a Python package that allows to animate mathematical videos.
+First, we have to install Python via UV.
+
+```bash
+uv python install
+```
+
+Before installing new packages using [APT](https://wiki.debian.org/AptCLI), we have to fetch and download package information by using this command.
+You will need your computer password.
+
+```bash
+sudo apt update
+```
+
+We now install full $\TeX$ Live packages and dependencies for Manim.
+Some packages are massive, so it may take some time.
+
+```bash
+sudo apt install texlive-full build-essential python3-dev libcairo2-dev libpango1.0-dev
+```
+
+The following commands initializes a local Python project directory called `manimations` and add Manim to that directory..
+
+```bash
+uv init manimations
+cd manimations
+uv add manim
+```
+
+If you want to check if Manim is installed properly, simply run this command.
+It will render and play a Manim demonstration video, indicating a successful installation.
+
+```bash
+uv run manim checkhealth
+```
+
+You have to leave the `manimations` directory before installing additional Python packages.
+
+```bash
+cd ..
+```
+
+### Installing Python Packages
+
+Those Python packages besides Manim are used in project scrips and textbook demonstration source code.
+We set up a virtual environment `.venv` by this command.
+
+```bash
+uv venv .venv
+```
+
+The new virtual environment can be activated by this command.
+You will see `(.venv)` next to the username in the console.
+
+```bash
+source ./.venv/bin/activate
+```
+
+We now install the following Python packages while the virtual environment is activated.
+
+* [`qiskit`](https://github.com/Qiskit/qiskit): Open source SDK for quantum computing managed by IBM.
+* [`qiskit-ibm-runtime`](https://github.com/Qiskit/qiskit-ibm-runtime): Client for running quantum programs on IBM quantum computers.
+* [`qiskit-aer`](https://github.com/Qiskit/qiskit-aer): Quantum circuit simulator from the Qiskit project.
+* [`tabulate`](https://pypi.org/project/tabulate/): Python package that prints tabular data.
+
+```bash
+uv pip install qiskit qiskit-ibm-runtime qiskit-aer tabulate
+```
+
+You can run a textbook Python script by using this command.
+
+```bash
+uv run <python-file>
+```
+
+The virtual environment can simply be deactivated by this command.
+
+```bash
+deactivate
+```
+
+### Installing [$\LaTeX$](https://www.latex-project.org/)
+
+For rendering figures and the PDF version of the textbook, $\LaTeX$ is essential in the project stack.
+If you did not install $\TeX$ Live while installing Manim, install the full package using this command.
+
+```bash
+sudo apt install texlive-full
+```
+
+On VS Code or VS Codium, go to the Extensions tab, and look for an extension called 'LaTeX Workshop'.
+After installing it, open a $\TeX$ file, then you will see a $\TeX$ tab on the left panel and be able to build a $\LaTeX$ project by pressing the green play button.
+
+<!-- ## Installing [Lean](https://lean-lang.org/) -->
+
+<!-- ## Directory Structure
 
 * [`figure/`](./figure/): Figures and videos for the textbook.
 * [`script/`](./script/): Pieces of software that help project management and task automation.
 * [`table/`](./table/): CSV files of tables used in the textbook.
 * [`text/`](./text/): Main textbook Markdown files.
     * [`text/eng/`](./text/eng/) 👑: (American) English textbook files.
-    *All translations must be based on this directory.*
+    *All translations must be based on this directory.* -->
+
+<!-- ## Working Convention
+
+### Editing Book Text
+
+### Editing Source Code
+
+### Editing Figures
+
+### Editing Animation
+
+### Rendering the Book -->
 
 ## Project Conventions
 
 There are a few conventions in the interest of clarity and manageability of this project.
 A contributor is advised to consult and follow the following conventions.
-
-### General Workflow
-
-
 
 ### Chapter Code
 
@@ -189,7 +275,17 @@ For example, a branch for the 'Topological Quantum Computing' chapter written in
 
 ### Platform Independence
 
-## Design Choices -->
+## Design Choices
+
+### Book Cover
+
+### $\KaTeX$ Rendering
+
+More intuitive and faster than MathJax.
+
+### Noto Serif Font
+
+### *Quantum* Theme -->
 
 ## Notes on Formatting
 
