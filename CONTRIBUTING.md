@@ -48,9 +48,9 @@ This textbook uses mdBook for converting Markdown documents to HTML files and Ma
 Before proceeding, please make sure that you installed basic development tools like Git installed on your local machine.
 Since the command lines are based on Linux (mainly Ubuntu), users of different platforms should convert those commands to the corresponding platform or consult the official documentation of each tool.
 
-### Installing [Cargo](https://doc.rust-lang.org/stable/cargo/)
+### Installing Cargo
 
-Cargo is a package manager of the Rust programming language.
+[Cargo](https://doc.rust-lang.org/stable/cargo/) is a package manager of the Rust programming language.
 The website version of the textbook is rendered by mdBook, which is written in Rust.
 Cargo is essential for installing and managing the mdBook package and its preprocessors.
 
@@ -58,9 +58,9 @@ Cargo is essential for installing and managing the mdBook package and its prepro
 curl -sSf https://sh.rustup.rs | sh
 ```
 
-### Installing [mdBook](https://rust-lang.github.io/mdBook/) and Preprocessors
+### Installing mdBook
 
-In mdBook, mathematical expressions are rendered by MathJax, which does not support some formatting commands required by the textbook, making $\KaTeX$ a better option.
+In [mdBook](https://rust-lang.github.io/mdBook/) and Preprocessors, mathematical expressions are rendered by MathJax, which does not support some formatting commands required by the textbook, making $\KaTeX$ a better option.
 In order to render $\KaTeX$ typeset with mdBook, preprocessor `mdbook-katex` is required.
 For showcasing algorithms written in multiple programming languages, preprocessor `mdbook-langtabs` is used.
 You can install mdBook and both preprocessors can be installed by this command.
@@ -69,18 +69,18 @@ You can install mdBook and both preprocessors can be installed by this command.
 cargo install mdbook mdbook-katex mdbook-langtabs
 ```
 
-### Installing [UV](https://docs.astral.sh/uv/)
+### Installing UV
 
-UV is a package manager for the Python programming language, just like [pip](https://pypi.org/project/pip/), but much faster.
+[UV](https://docs.astral.sh/uv/) is a package manager for the Python programming language, just like [pip](https://pypi.org/project/pip/), but much faster.
 It is required by Manim, but you can see this tool to install different Python packages and manage virtual environments.
 
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-### Installing [Manim](https://www.manim.community/)
+### Installing Manim
 
-Manim is a Python package that allows to animate mathematical videos.
+[Manim](https://www.manim.community/) is a Python package that allows to animate and produce mathematical videos.
 First, we have to install Python via UV.
 
 ```bash
@@ -116,7 +116,7 @@ It will render and play a Manim demonstration video, indicating a successful ins
 uv run manim checkhealth
 ```
 
-You have to leave the `manimations` directory before installing additional Python packages.
+You have to leave the `manimations` directory before installing other Python packages.
 
 ```bash
 cd ..
@@ -143,7 +143,7 @@ We now install the following Python packages while the virtual environment is ac
 * [`qiskit`](https://github.com/Qiskit/qiskit): Open source SDK for quantum computing managed by IBM.
 * [`qiskit-ibm-runtime`](https://github.com/Qiskit/qiskit-ibm-runtime): Client for running quantum programs on IBM quantum computers.
 * [`qiskit-aer`](https://github.com/Qiskit/qiskit-aer): Quantum circuit simulator from the Qiskit project.
-* [`tabulate`](https://pypi.org/project/tabulate/): Python package that prints tabular data.
+* [`tabulate`](https://pypi.org/project/tabulate/): Python package for printing tabular data.
 
 ```bash
 uv pip install qiskit qiskit-ibm-runtime qiskit-aer tabulate
@@ -161,17 +161,17 @@ The virtual environment can simply be deactivated by this command.
 deactivate
 ```
 
-### Installing [$\LaTeX$](https://www.latex-project.org/)
+### Installing $\LaTeX$
 
-For rendering figures and the PDF version of the textbook, $\LaTeX$ is essential in the project stack.
+For rendering figures and the PDF version of the textbook, [$\LaTeX$](https://www.latex-project.org/) is essential in the project stack.
 If you did not install $\TeX$ Live while installing Manim, install the full package using this command.
 
 ```bash
 sudo apt install texlive-full
 ```
 
-On VS Code or VS Codium, go to the Extensions tab, and look for an extension called 'LaTeX Workshop'.
-After installing it, open a $\TeX$ file, then you will see a $\TeX$ tab on the left panel and be able to build a $\LaTeX$ project by pressing the green play button.
+On VS Code or VSCodium, go to the Extensions tab, and look for an extension called 'LaTeX Workshop'.
+After installing it, open a $\TeX$ file, then you will see a $\TeX$ tab on the left and be able to build a $\LaTeX$ project by pressing the green play button.
 
 <!-- ## Installing [Lean](https://lean-lang.org/) -->
 
@@ -184,7 +184,7 @@ After installing it, open a $\TeX$ file, then you will see a $\TeX$ tab on the l
     * [`text/eng/`](./text/eng/) 👑: (American) English textbook files.
     *All translations must be based on this directory.* -->
 
-<!-- ## Working Convention
+<!-- ## Working Conventions
 
 ### Editing Book Text
 
@@ -233,8 +233,8 @@ By using chapter code instead of chapter numbering, the chapter content files ca
 
 ### Language Code
 
-Languages are classified and named under the ISO 639-3 standard by default.
-If identical languages must be distinguished by different writing systems, they can be differentiated by the ISO 15924 code, followed by a hyphen (`-`).
+Natural languages are classified and named under the [ISO 639-3](https://en.wikipedia.org/wiki/ISO_639-3) standard by default.
+If two or more identical languages must be distinguished by different writing systems, they can be differentiated by the [ISO 15924](https://en.wikipedia.org/wiki/ISO_15924) code, followed by a hyphen (`-`).
 For instance, English texts are always written with Latin alphabets, so the code for English is `eng`.
 On the other hand, the code for Simplified Chinese is `cmn-Hans` while traditional Chinese is `cmn-Hant`.
 
@@ -270,7 +270,7 @@ Examples of each rank are provided here.
     * The Theory of Quantum Computing
     * The Application of Quantum Computing
     * The Future of Quantum Computing
-2. **Chapter**: There are 7 chapters in part *The Theory of Quantum Computing*.
+2. **Chapter**: There are 7 chapters in Part *The Theory of Quantum Computing*.
     * Foundational Mathematics
     * Foundational Computer Science
     * Foundational Quantum Physics
@@ -278,23 +278,25 @@ Examples of each rank are provided here.
     * Advanced Mathematics
     * Advanced Computer Science
     * Advanced Quantum Physics
-3. **Module**: There are 3 modules in chapter *Introduction*.
+3. **Module**: There are 3 modules in Chapter *Introduction*.
     * About This Book
     * Getting Started
     * Books
-4. **Section**: There are 4 sections in module *About This Book*.
+4. **Section**: There are 4 sections in Module *About This Book*.
     * Preface
     * Acknowledgements
     * Notation
     * Chapter Dependency
-5. **Subsection**: There are 6 subsections in section *Acknowledgements*.
+5. **Subsection**: There are 6 subsections in Section *Acknowledgements*.
     * Project Leaders
     * Content Contributors
     * Translators
     * Reviewers
     * Technology Stacks
 
-<!-- ## Philosophy of Writing
+<!-- ### Versioning -->
+
+<!-- ## Writing Philosophy
 
 ### Open Source
 
@@ -306,17 +308,21 @@ Examples of each rank are provided here.
 
 ### Platform Independence
 
+### Internationalization
+
 ## Design Choices
+
+### Readability
+
+### Futuristic
+
+### Classic
+
+### Simple
 
 ### Book Cover
 
-### $\KaTeX$ Rendering
-
-More intuitive and faster than MathJax.
-
-### Noto Serif Font
-
-### *Quantum* Theme -->
+### Theme *Quantum* -->
 
 ## Notes on Formatting
 
@@ -364,7 +370,7 @@ $$ \begin{align*}
 
 Some important mathematical constants, such as Euler's number $\mathrm{e}$ and imaginary unit $\mathrm{i}$, are written upright by `\mathrm{·}` command to avoid confusion.
 In particular, imaginary unit $\mathrm{i}$ and common index $i$ can be disorienting when they are used in the same context; e.g., $\sum_{i = 1}^{\infty} \frac{\mathrm{i}}{i^2} = \frac{\pi^2\mathrm{i}}{6}$.
-But it is best practice to pick a different index for this context.
+But it is best to pick a different index for this kind of context.
 
 $$ \begin{align*}
     \mathrm{e}^{\mathrm{i}\theta}
@@ -383,7 +389,7 @@ $$ \begin{align*}
 ### Bracket and Bra-Ket
 
 In display mode, the size of some brackets, such as `(`, `)`, `[`, `]`, `{`, `}`, `\lvert`, `\rvert`, `\lVert`, and `\rVert`, and macros, such as `\set{·}`, `\bra{·}`, `\ket{·}`, and `\braket{·}`, must be adjusted depending on their inner content.
-If they are encapsulating fractions, variables with subscript/superscript, or big operators such as $\sum$, $\prod$, $\bigcup$, $\bigcap$, $\bigvee$, $\bigwedge$, $\bigoplus$, and $\bigotimes$, then `\left` and `\right` delimiters must be used for brackets, and the uppercase version such as `\Set{·}`, `\Bra{·}`, `\Ket{·}`, and `Braket{·}` must be used for macros.
+If they are encapsulating fractions, variables with subscripts/superscripts, and/or big operators such as $\int$, $\sum$, $\prod$, $\bigcup$, $\bigcap$, $\bigvee$, $\bigwedge$, $\bigoplus$, and $\bigotimes$, then `\left` and `\right` delimiters must be used for brackets, and the uppercase version such as `\Set{·}`, `\Bra{·}`, `\Ket{·}`, and `Braket{·}` replaces the lowercase version for macros.
 For inline mode, no size adjustment is required.
 
 $$ \begin{align*}
@@ -393,6 +399,16 @@ $$ \begin{align*}
     &= \Braket{\psi | \sum_{\lambda \in \operatorname{spec}(\operatorname{U})} \lambda\operatorname{P}_\lambda | \psi} \\
     &= \braket{\psi | \operatorname{U} | \psi}
 \end{align*} $$
+
+```latex
+$$ \begin{align*}
+    \braket{\operatorname{U}}
+    &= \sum_{\lambda \in \operatorname{spec}(\operatorname{U})} p(\lambda)\lambda \\
+    &= \sum_{\lambda \in \operatorname{spec}(\operatorname{U})} \lambda\Braket{\psi | \operatorname{P}_\lambda | \psi} \\
+    &= \Braket{\psi | \sum_{\lambda \in \operatorname{spec}(\operatorname{U})} \lambda\operatorname{P}_\lambda | \psi} \\
+    &= \braket{\psi | \operatorname{U} | \psi}
+\end{align*} $$
+```
 
 ### Vector and Matrix
 
