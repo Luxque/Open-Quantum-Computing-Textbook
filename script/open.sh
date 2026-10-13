@@ -7,20 +7,19 @@ fi
 
 # Handle the book directory.
 
-LANG_CODE="$1"
 SCRIPT_DIR="$(dirname -- ${BASH_SOURCE[0]})"
 PROJECT_DIR="$(dirname -- $SCRIPT_DIR)"
-BOOK_DIR="$PROJECT_DIR/text/$LANG_CODE"
 
-echo "BOOK_DIR: $BOOK_DIR" >&2
+lang_code="$1"
+book_dir="$PROJECT_DIR/text/$lang_code"
 
-# Check if the directory with the given language code exist.
+# Check if the directory with the given language code exists.
 
-if [[ ! -d $BOOK_DIR ]]; then
-    echo "Error: Language code $LANG_CODE not found." >&2
+if [[ ! -d $book_dir ]]; then
+    echo "Error: Language code $lang_code not found." >&2
     exit 1
 fi
 
 # Execute `mdbook serve` with open flag enabled.
 
-exec mdbook serve $BOOK_DIR --open --watcher=poll
+exec mdbook serve $book_dir --open --watcher=poll
