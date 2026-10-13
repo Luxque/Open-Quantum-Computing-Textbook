@@ -24,4 +24,3 @@ fi
 # Execute `mdbook serve` with open flag enabled.
 
 exec mdbook serve $BOOK_DIR --open --watcher=poll
-exit 0
