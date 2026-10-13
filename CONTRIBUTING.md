@@ -173,7 +173,7 @@ sudo apt install texlive-full
 On VS Code or VSCodium, go to the Extensions tab, and look for an extension called 'LaTeX Workshop'.
 After installing it, open a $\TeX$ file, then you will see a $\TeX$ tab on the left and be able to build a $\LaTeX$ project by pressing the green play button.
 
-<!-- ## Installing [Lean](https://lean-lang.org/) -->
+<!-- ### Installing [Lean](https://lean-lang.org/) -->
 
 <!-- ## Directory Structure
 
@@ -183,6 +183,12 @@ After installing it, open a $\TeX$ file, then you will see a $\TeX$ tab on the l
 * [`text/`](./text/): Main textbook Markdown files.
     * [`text/eng/`](./text/eng/) 👑: (American) English textbook files.
     *All translations must be based on this directory.* -->
+
+<!-- ## Scripts
+
+### `open.sh`
+
+### `toc.sh` -->
 
 <!-- ## Working Conventions
 
