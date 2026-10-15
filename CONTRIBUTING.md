@@ -260,7 +260,7 @@ On the other hand, the code for Simplified Chinese is `cmn-Hans` while tradition
 
 Each book chapter is managed under different branches and pulled by the main branch after an update.
 Chapter branches are named in this syntax: `<language-code>-<chapter-code>`.
-For example, a branch for the 'Topological Quantum Computing' chapter written in French is `fra-tqc`.
+For example, a branch for Chapter 'Topological Quantum Computing' translated to French is `fra-tqc`.
 
 ### Hierarchy of Book Content
 
@@ -300,7 +300,30 @@ Examples of each rank are provided here.
     * Reviewers
     * Technology Stacks
 
-<!-- ### Versioning -->
+### Versioning
+
+This project uses a four-part versioning scheme: `x.y.z.a`.
+Those numbers are ordered by significance from left (most significant) to right (least significant).
+
+* `x`: This digit counts up when a milestone of the project is accomplished.
+    * Finishing Chapter *Foundational Quantum Computing*.
+    * Finishing Part *The Application of Quantum Computing*.
+    * Finishing Part *The Future of Quantum Computing*.
+    * Implementing a core feature listed in [README](./README.md).
+* `y`: Finishing a chapter.
+* `z`: Finishing a module.
+* `a`: Fixing minor issues (e.g., typos, minor logical errors, addenda, etc.)
+
+In patch notes, releases, and announcements, the version number obeys the following conventions.
+
+* **Resetting Lower Digits**:
+Incrementing a higher-significance digit resets all digits to its right.
+For instance, an update include a module that also complete an entire chapter at version `0.2.1`, the new version becomes `0.3`, not `0.3.2`.
+* **Trailing Zeros**:
+Trailing zeros on the right are omitted.
+For example, version `0.2.0.0` is written as `0.2`.
+* **Pre-Release Suffixes**:
+If necessary, pre-release tags such as `-beta` or `-test` can be appended to the end of the version number (e.g., `1.3.5-beta`).
 
 <!-- ## Writing Philosophy
 
@@ -314,9 +337,9 @@ Examples of each rank are provided here.
 
 ### Platform Independence
 
-### Internationalization
+### Internationalization -->
 
-## Design Choices
+<!-- ## Design Choices
 
 ### Readability
 
@@ -347,7 +370,7 @@ In a single paragraph, it is best to put more than four sentences but less than 
 
 When a mathematical expression is written within a sentence, it is in inline mode, encapsulated by two `$` signs.
 On the other hand, when a mathematical expression is written outside a sentence, it is in display mode, encapsulated by two `$$` signs.
-Make sure to avoid mathematical expressions getting runny (more than three `=` chains) in inline mode and strictly aligned using `align*`in display mode.
+Make sure to avoid mathematical expressions getting run-on (more than three `=` chains) in inline mode and strictly aligned using `align*`in display mode.
 
 ### Subscript and Superscript
 
