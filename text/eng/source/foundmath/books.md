@@ -116,7 +116,7 @@ You can read the book at [complex-analysis.com](https://complex-analysis.com).
 
 <div style="text-align: center">
 
-![Complex Variables: Harmonic and Analytic Functions](https://covers.openlibrary.org/b/isbn/9780486613888-L.jpg)
+![Complex Variables: Harmonic and Analytic Functions](https://covers.openlibrary.org/b/isbn/9780486613888-XL.jpg)
 
 </div>
 
@@ -125,6 +125,20 @@ You can read the book at [complex-analysis.com](https://complex-analysis.com).
 > * **Publish Date**: September 1, 1983
 > * **Page Length**: 384 pages
 > * **ISBN**: [`9780486613888`](https://isbnsearch.org/isbn/9780486613888)
+
+### *Introduction to the Geometry of Complex Numbers*
+
+<div style="text-align: center">
+
+![Introduction to the Geometry of Complex Numbers](https://covers.openlibrary.org/b/isbn/9780486466293-L.jpg)
+
+</div>
+
+> * **Author(s)**: Ronald Deaux & Howard Eves
+> * **Publisher**: Dover Publications
+> * **Publish Date**: March 5, 2008
+> * **Page Length**: 208 pages
+> * **ISBN**: [`9780486466293`](https://isbnsearch.org/isbn/9780486466293)
 
 ### *Geometry of Complex Numbers*
 
