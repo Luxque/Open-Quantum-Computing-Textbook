@@ -309,7 +309,7 @@ Those numbers are ordered by significance from left (most significant) to right 
     * Finishing Chapter *Foundational Quantum Computing*.
     * Finishing Part *The Application of Quantum Computing*.
     * Finishing Part *The Future of Quantum Computing*.
-    * Implementing a core feature listed in [README](./README.md).
+    * Implementing a core feature listed in [`README.md`](./README.md).
 * `y`: Finishing a chapter.
 * `z`: Finishing a module.
 * `a`: Fixing minor issues (e.g., typos, minor logical errors, addenda, etc.)
@@ -319,7 +319,7 @@ In patch notes, releases, and announcements, the version number obeys the follow
 * **Resetting Lower Digits**:
 Incrementing a higher-significance digit resets all digits to its right.
 For instance, an update include a module that also complete an entire chapter at version `0.2.1`, the new version becomes `0.3`, not `0.3.2`.
-* **Trailing Zeros**:
+* **Truncating Trailing Zeros**:
 Trailing zeros on the right are omitted.
 For example, version `0.2.0.0` is written as `0.2`.
 * **Pre-Release Suffixes**:
@@ -366,6 +366,16 @@ This makes the Markdown environment less run-on and easier to locate typos.
 When the context within a paragraph shifts, it is better to give a newline to separate different topics into two different paragraphs.
 In a single paragraph, it is best to put more than four sentences but less than ten sentences to preserve legibility.
 
+### Admonitions
+
+The textbook renderer mdBook natively supports admonition feature.
+
+* **Note**:
+* **Tip**:
+* **Important**:
+* **Warning**:
+* **Caution**:
+
 ### Inline Mode and Display Mode
 
 When a mathematical expression is written within a sentence, it is in inline mode, encapsulated by two `$` signs.
@@ -382,7 +392,7 @@ For different contexts and notations, this bundling rule must be refrained.
 $$ \begin{align*}
     \lVert\textbf{v}\rVert
     &= \sqrt{\braket{v | v}} \\
-    &= \sqrt{\sum_{i=1}^{n} {v_i}^2} \\
+    &= \sqrt{\sum_{i = 1}^{n} {v_i}^2} \\
     &= \sqrt{{v_1}^2 + {v_2}^2 + \cdots + {v_n}^2} \\
 \end{align*} $$
 
@@ -390,7 +400,7 @@ $$ \begin{align*}
 $$ \begin{align*}
     \lVert\textbf{v}\rVert
     &= \sqrt{\braket{v | v}} \\
-    &= \sqrt{\sum_{i=1}^{n} {v_i}^2} \\
+    &= \sqrt{\sum_{i = 1}^{n} {v_i}^2} \\
     &= \sqrt{{v_1}^2 + {v_2}^2 + \cdots + {v_n}^2} \\
 \end{align*} $$
 ```
@@ -402,16 +412,16 @@ In particular, imaginary unit $\mathrm{i}$ and common index $i$ can be disorient
 But it is best to pick a different index for this kind of context.
 
 $$ \begin{align*}
-    \mathrm{e}^{\mathrm{i}\theta}
-    &= \exp(\mathrm{i}\theta) \\
-    &= \cos(\theta) + \mathrm{i}\sin(\theta)
+    \mathrm{e}^{\theta\mathrm{i}}
+    &= \exp(\theta\mathrm{i}) \\
+    &= \cos(\theta) + \sin(\theta)\mathrm{i}
 \end{align*} $$
 
 ```latex
 $$ \begin{align*}
-    \mathrm{e}^{\mathrm{i}\theta}
-    &= \exp(\mathrm{i}\theta) \\
-    &= \cos(\theta) + \mathrm{i}\sin(\theta)
+    \mathrm{e}^{\theta\mathrm{i}}
+    &= \exp(\theta\mathrm{i}) \\
+    &= \cos(\theta) + \sin(\theta)\mathrm{i}
 \end{align*} $$
 ```
 
@@ -476,21 +486,21 @@ Here, $dx$ stands for quantity $d$ multiplied by $x$, and $\mathrm{d}x$ stands f
 To provide extra clarity, it is advised to put the `\,` command before the differential form whenever it is multiplied by a different variable.
 
 $$ \begin{align*}
-    \int_{-\infty}^{\infty} e^{-x^2} \,\mathrm{d}x
-    &= \sqrt{\left(\int_{-\infty}^{\infty} e^{-x^2} \,\mathrm{d}x\right)^2} \\
-    &= \sqrt{\left(\int_{-\infty}^{\infty} e^{-x^2} \,\mathrm{d}x\right) \left(\int_{-\infty}^{\infty} e^{-y^2} \,\mathrm{d}y\right)} \\
-    &= \sqrt{\int_{-\infty}^{\infty}\int_{-\infty}^{\infty} e^{-\left(x^2+y^2\right)} \,\mathrm{d}x \,\mathrm{d}y} \\
-    &= \sqrt{\int_{0}^{2\pi} \int_{0}^{\infty} e^{-r^2}r \,\mathrm{d}r \,\mathrm{d}\theta} \\
+    \int_{-\infty}^{\infty} \mathrm{e}^{-x^2} \,\mathrm{d}x
+    &= \sqrt{\left(\int_{-\infty}^{\infty} \mathrm{e}^{-x^2} \,\mathrm{d}x\right)^2} \\
+    &= \sqrt{\left(\int_{-\infty}^{\infty} \mathrm{e}^{-x^2} \,\mathrm{d}x\right) \left(\int_{-\infty}^{\infty} \mathrm{e}^{-y^2} \,\mathrm{d}y\right)} \\
+    &= \sqrt{\int_{-\infty}^{\infty}\int_{-\infty}^{\infty} \mathrm{e}^{-\left(x^2+y^2\right)} \,\mathrm{d}x \,\mathrm{d}y} \\
+    &= \sqrt{\int_{0}^{2\pi} \int_{0}^{\infty} \mathrm{e}^{-r^2}r \,\mathrm{d}r \,\mathrm{d}\theta} \\
     &= \sqrt{\pi}
 \end{align*} $$
 
 ```latex
 $$ \begin{align*}
-    \int_{-\infty}^{\infty} e^{-x^2} \,\mathrm{d}x
-    &= \sqrt{\left(\int_{-\infty}^{\infty} e^{-x^2} \,\mathrm{d}x\right)^2} \\
-    &= \sqrt{\left(\int_{-\infty}^{\infty} e^{-x^2} \,\mathrm{d}x\right) \left(\int_{-\infty}^{\infty} e^{-y^2} \,\mathrm{d}y\right)} \\
-    &= \sqrt{\int_{-\infty}^{\infty}\int_{-\infty}^{\infty} e^{-\left(x^2+y^2\right)} \,\mathrm{d}x \,\mathrm{d}y} \\
-    &= \sqrt{\int_{0}^{2\pi} \int_{0}^{\infty} e^{-r^2}r \,\mathrm{d}r \,\mathrm{d}\theta} \\
+    \int_{-\infty}^{\infty} \mathrm{e}^{-x^2} \,\mathrm{d}x
+    &= \sqrt{\left(\int_{-\infty}^{\infty} \mathrm{e}^{-x^2} \,\mathrm{d}x\right)^2} \\
+    &= \sqrt{\left(\int_{-\infty}^{\infty} \mathrm{e}^{-x^2} \,\mathrm{d}x\right) \left(\int_{-\infty}^{\infty} \mathrm{e}^{-y^2} \,\mathrm{d}y\right)} \\
+    &= \sqrt{\int_{-\infty}^{\infty}\int_{-\infty}^{\infty} \mathrm{e}^{-\left(x^2+y^2\right)} \,\mathrm{d}x \,\mathrm{d}y} \\
+    &= \sqrt{\int_{0}^{2\pi} \int_{0}^{\infty} \mathrm{e}^{-r^2}r \,\mathrm{d}r \,\mathrm{d}\theta} \\
     &= \sqrt{\pi}
 \end{align*} $$
 ```
