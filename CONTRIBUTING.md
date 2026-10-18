@@ -368,13 +368,26 @@ In a single paragraph, it is best to put more than four sentences but less than 
 
 ### Admonitions
 
-The textbook renderer mdBook natively supports admonition feature.
+The main textbook renderer mdBook natively supports admonition feature.
+The textbook uses these five admonitions (note, tip, important, warning, and caution) in the following circumstances.
 
-* **Note**:
-* **Tip**:
-* **Important**:
-* **Warning**:
-* **Caution**:
+* **ℹ️ Note**
+    * FYIs
+    * Non-essential trivia
+    * Optional background
+* **💡 Tip**
+    * Helpful advice
+    * Mental models
+    * Tricks and shortcuts
+* **❗ Important**
+    * Essential conventions
+    * Crucial takeaways
+* **⚠️ Warning**
+    * Common misunderstandings
+    * Logical fallacies
+* **🚨 Caution**
+    * Destructive risks
+    * Real-world consequences
 
 ### Inline Mode and Display Mode
 
