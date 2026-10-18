@@ -366,7 +366,7 @@ This makes the Markdown environment less run-on and easier to locate typos.
 When the context within a paragraph shifts, it is better to give a newline to separate different topics into two different paragraphs.
 In a single paragraph, it is best to put more than four sentences but less than ten sentences to preserve legibility.
 
-### Admonitions
+### Admonition
 
 The main textbook renderer mdBook natively supports admonition feature.
 The textbook uses these five admonitions (note, tip, important, warning, and caution) in the following circumstances.
