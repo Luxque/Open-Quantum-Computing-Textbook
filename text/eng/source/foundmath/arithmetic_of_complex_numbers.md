@@ -1,4 +1,4 @@
-# Basic Operations of Complex Numbers
+# Arithmetic of Complex Numbers
 
 In the previous section, we saw the historical significance behind imaginary numbers and complex numbers.
 Just like vectors, we now introduce the basic operations of complex numbers: addition, subtraction, multiplication, and division.
@@ -18,7 +18,11 @@ While this definition feels more abstract, using this definition will be more be
 It is because we can simply replace $\mathrm{i}^2$ with $-1$ for every occurrence.
 Also, defining $\mathrm{i} = \sqrt{-1}$ just leaves us a question of what actually $\sqrt{-1}$ is, but defining what it actually does makes us to use it right away.
 
-> [!WARNING]
+> [!TIP]
+>
+> $\sqrt{a}\mathrm{i} = \mathrm{i}\sqrt{a}$
+
+> [!IMPORTANT]
 >
 > On some occasion, leaving as $\mathrm{i} = \sqrt{-1}$ can be misleading.
 > For example, consider the following reasoning:
@@ -30,7 +34,7 @@ $$ \begin{align*}
     &= 1 \text{,}
 \end{align*} $$
 > which is obviously false.
-> This fallacy occurs because of ignoring the fact that $\sqrt{a}\sqrt{b} = \sqrt{ab}$ holds only when $a$ and $b$ are non-negative.
+> This fallacy occurs because of ignoring the fact that $\sqrt{a}\sqrt{b} \neq \sqrt{ab}$ when $a$ and $b$ are negative numbers.
 
 > **Definition**:
 > Imaginary unit $\mathrm{i}$ is a number that satisfies $\mathrm{i}^2 = -1$.
@@ -57,25 +61,28 @@ To distinguish from real numbers, we use $z$ instead of $x$ for complex variable
 
 ## Complex Plane
 
-
+Think of our friendly $xy$-coordinate plane.
 
 ## Complex Conjugate
 
 > **Definition**:
 > The complex conjugate of a complex number $z = a + b\mathrm{i}$ is $z^* = a - b\mathrm{i}$.
 
+> [!NOTE]
+>
+> In some other texts, mathematics in particular, complex conjugate of $z = a + b\mathrm{i}$ is notated as $\overline{z} = \overline{a + b\mathrm{i}}$.
+
 ## Addition
 
 > **Definition**:
 > The addition of two complex numbers $z_1 = a_1 + b_1\mathrm{i}$ and $z_2 = a_2 + b_2\mathrm{i}$ is $z_1 + z_2 = (a_1 + a_2) + (b_1 + b_2)\mathrm{i}$.
 
+## Additive Inverse
+
 ## Subtraction
 
 > **Definition**:
 > The subtraction of two complex numbers $z_1 = a_1 + b_1\mathrm{i}$ and $z_2 = a_2 + b_2\mathrm{i}$ is $z_1 - z_2 = (a_1 - a_2) + (b_1 - b_2)\mathrm{i}$.
-
-> [!NOTE]
-> 
 
 ## Multiplication
 
@@ -88,6 +95,8 @@ $$ \begin{align*}
 
 > **Definition**:
 > The multiplication of two complex numbers $z_1 = a_1 + b_1\mathrm{i}$ and $z_2 = a_2 + b_2\mathrm{i}$ is $(a_1a_2 - b_1b_2) + (a_1b_2 + a_2b_1)\mathrm{i}$.
+
+## Multiplicative Inverse
 
 ## Division
 
@@ -102,7 +111,8 @@ $$ \begin{align*}
 > **Definition**:
 > The division of two complex numbers $z_1 = a_1 + b_1\mathrm{i}$ and $z_2 = a_2 + b_2\mathrm{i}$ is $\frac{z_1}{z_2} = \frac{a_1a_2 + b_1b_2}{{a_2}^2 + {b_2}^2} + \frac{a_2b_1 - a_1b_2}{{a_2}^2 + {b_2}^2}\mathrm{i}$.
 
-> [!NOTE]
-> 
+## Scaling
+
+## Rotating
 
 ## Further Reading

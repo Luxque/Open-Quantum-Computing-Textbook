@@ -27,7 +27,7 @@
         * [Matrices](./foundmath/matrices.md)
         * [Systems of Equations](./foundmath/systems_of_equations.md)
     * [Complex Numbers](./foundmath/complex_numbers.md)
-        * [Arithmetic of Complex Numbers](./foundmath/basic_operations_of_complex_numbers.md)
+        * [Arithmetic of Complex Numbers](./foundmath/arithmetic_of_complex_numbers.md)
         * [Euler's Formula](./foundmath/eulers-formula.md)
         * [Geometry of Complex Numbers]()
         * [Polynomial Equations]()
