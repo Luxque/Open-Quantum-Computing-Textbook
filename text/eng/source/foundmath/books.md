@@ -3,9 +3,9 @@
 At the end of every chapter, the books that inspired the most to write this chapter are listed.
 For those studious readers who are willing to dig deeper into the materials that were covered in this chapter, you are highly recommended to add these books to your reading list.
 
-In this chapter, we built the foundation of mathematics for quantum computing, including logic, linear algebra, complex numbers, as well as discrete mathematics.
+<!-- In this chapter, we built the foundation of mathematics for quantum computing, including logic, linear algebra, complex numbers, as well as discrete mathematics.
 Most topics covered in this chapter are usually taught in the first or second year of university level mathematics and engineering curricula so, accordingly, most of the books listed here are actual textbooks that are used in universities.
-Luckily, there are a few available books solely dedicated to the mathematics of introductory quantum computing.
+Luckily, there are a few available books solely dedicated to the mathematics of introductory quantum computing. -->
 
 ## Introductory Mathematics for Quantum Computing
 
@@ -37,7 +37,7 @@ Luckily, there are a few available books solely dedicated to the mathematics of 
 > * **Page Length**: 445 pages
 > * **ISBN**: [`9783030832735`](https://isbnsearch.org/isbn/9783030832735)
 
-### *Mathematics of Quantum Computing: An Introduction*
+<!-- ### *Mathematics of Quantum Computing: An Introduction*
 
 <div style="text-align: center">
 
@@ -49,9 +49,9 @@ Luckily, there are a few available books solely dedicated to the mathematics of 
 > * **Publisher**: Springer
 > * **Publish Date**: November 22, 2020
 > * **Page Length**: 783 pages
-> * **ISBN**: [`9783030123604`](https://isbnsearch.org/isbn/9783030123604)
+> * **ISBN**: [`9783030123604`](https://isbnsearch.org/isbn/9783030123604) -->
 
-### *Mathematical Foundations of Quantum Computing: A Scaffolding Approach*
+<!-- ### *Mathematical Foundations of Quantum Computing: A Scaffolding Approach*
 
 <div style="text-align: center">
 
@@ -64,7 +64,7 @@ Luckily, there are a few available books solely dedicated to the mathematics of 
 > * **Publish Date**: February 27, 2025
 > * **Page Length**: 568 pages
 > * **ISBN**: [`9781961880108`](https://isbnsearch.org/isbn/9781961880108
-)
+) -->
 
 ## Complex Numbers
 
@@ -98,7 +98,7 @@ You can read the book at [complex-analysis.com](https://complex-analysis.com).
 > * **Page Length**: 634 pages
 > * **ISBN**: [`9780996996280`](https://isbnsearch.org/isbn/9780996996280)
 
-### *Complex Variables and Applications*
+<!-- ### *Complex Variables and Applications*
 
 <div style="text-align: center">
 
@@ -110,13 +110,13 @@ You can read the book at [complex-analysis.com](https://complex-analysis.com).
 > * **Publisher**: McGraw Hill
 > * **Publish Date**: September 3, 2013
 > * **Page Length**: 480 pages
-> * **ISBN**: [`9780073383170`](https://isbnsearch.org/isbn/9780073383170)
+> * **ISBN**: [`9780073383170`](https://isbnsearch.org/isbn/9780073383170) -->
 
-### *Complex Variables: Harmonic and Analytic Functions*
+<!-- ### *Complex Variables: Harmonic and Analytic Functions*
 
 <div style="text-align: center">
 
-![Complex Variables: Harmonic and Analytic Functions](https://covers.openlibrary.org/b/isbn/9780486613888-XL.jpg)
+![Complex Variables: Harmonic and Analytic Functions](https://covers.openlibrary.org/b/isbn/9780486613888-L.jpg)
 
 </div>
 
@@ -124,9 +124,9 @@ You can read the book at [complex-analysis.com](https://complex-analysis.com).
 > * **Publisher**: Dover Publications
 > * **Publish Date**: September 1, 1983
 > * **Page Length**: 384 pages
-> * **ISBN**: [`9780486613888`](https://isbnsearch.org/isbn/9780486613888)
+> * **ISBN**: [`9780486613888`](https://isbnsearch.org/isbn/9780486613888) -->
 
-### *Introduction to the Geometry of Complex Numbers*
+<!-- ### *Introduction to the Geometry of Complex Numbers*
 
 <div style="text-align: center">
 
@@ -138,9 +138,9 @@ You can read the book at [complex-analysis.com](https://complex-analysis.com).
 > * **Publisher**: Dover Publications
 > * **Publish Date**: March 5, 2008
 > * **Page Length**: 208 pages
-> * **ISBN**: [`9780486466293`](https://isbnsearch.org/isbn/9780486466293)
+> * **ISBN**: [`9780486466293`](https://isbnsearch.org/isbn/9780486466293) -->
 
-### *Geometry of Complex Numbers*
+<!-- ### *Geometry of Complex Numbers*
 
 <div style="text-align: center">
 
@@ -152,7 +152,7 @@ You can read the book at [complex-analysis.com](https://complex-analysis.com).
 > * **Publisher**: Dover Publications
 > * **Publish Date**: February 1, 1980
 > * **Page Length**: 224 pages
-> * **ISBN**: [`9780486638300`](https://isbnsearch.org/isbn/9780486638300)
+> * **ISBN**: [`9780486638300`](https://isbnsearch.org/isbn/9780486638300) -->
 
 <!-- ## Linear Algebra -->
 
