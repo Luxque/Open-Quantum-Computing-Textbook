@@ -1,8 +1,18 @@
 # Euler's Formula
 
-You may have heard of Euler's number: $\mathrm{e} \approx 2.717\cdots$.
+Pick up your faithful graphing calculator and find a button with italicized $\mathrm{e}$.
+Type that in and press `ENTER` (or the `=` button). You will see that it returns a decimal number starting with $2.71828\cdots$.
+This is called Euler's number, named after the German mathematician from the 18th century: Leonhard Euler.
+In the world of STEM, you will see his name quite frequently thanks to his enormous number of works and discoveries.
+But it is not an overstatement that Euler's number in particular will be your best friend throughout this book.
+At first glance, complex numbers and Euler's number may seem unrelated, but once their deep connection gets revealed, no words can describe the hidden beauty of it.
+In this section, we start from how Euler's number emerged and then unveil one of its important properties.
 
 ## Euler's Number
+
+> [!NOTE]
+>
+> Euler's number $\mathrm{e} \approx 2.71828$ is not to be confused with Euler's constant (Euler-Mascheroni constant) $\gamma \approx 0.57722$.
 
 ## Exponential Function
 
@@ -17,6 +27,10 @@ $$ \begin{align*}
 $$ \begin{align*}
     \mathrm{e}^{\pi\mathrm{i}} + 1 = 0
 \end{align*} $$
+
+## Multiplication in Polar Form
+
+## Division in Polar Form
 
 ## Further Reading
 
