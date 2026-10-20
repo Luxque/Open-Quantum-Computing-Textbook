@@ -1,9 +1,12 @@
 # Arithmetic of Complex Numbers
 
-In the previous section, we saw the historical significance behind imaginary numbers and complex numbers.
-Just like vectors, we now introduce the basic operations of complex numbers: addition, subtraction, multiplication, and division.
+While the name complex numbers can give an abstract and complicated impression, you already possess the ability to work with them.
+As we already know how to add and distribute algebraic terms, we can directly apply our knowledge to complex numbers.
+Rest assured, everything you learned from algebra class applies to the complex numbers, except for a new rule, due to the emergence of imaginary numbers.
+In this section, we see how to add, subtract, multiply, and divide complex numbers and how they behave on a special space called a complex plane.
+Additionally, we demonstrate two extra moves on a complex plane, which are essential for the next section.
 
-## General Structure
+## Imaginary Numbers
 
 In the previous section, we observed that solving the equation $x^2 + 1 = 0$ or $x^2 = -1$ raised the question of the existence of $x$.
 No matter what we plugged real numbers into $x$, we cannot solve the equation.
@@ -38,6 +41,8 @@ $$ \begin{align*}
 
 > **Definition**:
 > Imaginary unit $\mathrm{i}$ is a number that satisfies $\mathrm{i}^2 = -1$.
+
+## General Structure
 
 Now, imagine adding a real number and an imaginary number altogether.
 While it may sound nonsense to add something not real to a real number, bear with it for now.
