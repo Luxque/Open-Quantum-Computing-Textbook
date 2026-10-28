@@ -8,39 +8,61 @@ Additionally, we demonstrate two extra moves on a complex plane, which are essen
 
 ## Imaginary Numbers
 
-In the previous section, we observed that solving the equation $x^2 + 1 = 0$ or $x^2 = -1$ raised the question of the existence of $x$.
-No matter what we plugged real numbers into $x$, we cannot solve the equation.
-Simply, there was no real number that can satisfy this equation.
-If we supposed there was a number that solves this equation, that must be something out of reach by the reals: an imaginary one.
-We define such a number, denoted by $\mathrm{i}$, as $\mathrm{i} = \sqrt{-1}$. Once we let $x = \mathrm{i}$, the equation is solved.
+From highschool algebra, we learned various techniques to solve quadratic equations.
+Some methods like factoring and completing the square were capable when the given quadratic equation was under a special condition.
+On the other hand, we were also given a special formula called *quadratic formula*, which allowed us to solve any kind of quadratic equation.
+For any given quadratic equation $ax^2 + bx + c = 0$ in simplified form, we could find the roots of this equation by simply plugging $a$, $b$, and $c$ to the following:
+
+$$ \begin{align*}
+    x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \text{.}
+\end{align*} $$
+
+Sometimes, to some quadratic equations, using quadratic formula right away feel like an overkill.
+Let's say you were solving an equation $x^2 - 1 = 0$.
+We still could let $a = 1$, $b = 0$, and $c = -1$ and plug those into the quadratic equation to get our roots.
+However, equations in this form is too easy, so we immediately see that we can write $x^2 = 1$ and put square roots on both sides to get $x = \pm\sqrt{1} = \pm1$.
+
+What about $x^2 + 1 = 0$?
+The only difference is the sign between $x^2$ and $1$, so we can take the same approach -- subtracting $1$ and putting square roots on both sides.
+In the middle of the process, we end up getting $x^2 = -1$, but a question naturally arises: What is a number that gives a negative value after being squared?
+No matter what real number we plug into $x$, we cannot make $-1$ by squaring it, so we cannot solve the equation.
+
+It is because there was no real number that can satisfy this equation.
+If we suppose there was a number that solves this equation, that must be something out of reach by the reals -- an imaginary one.
+<!-- We define such number, denoted by $\mathrm{i}$, as $\mathrm{i} \equiv \sqrt{-1}$. 
+Here, we use a three-bar sign ($\equiv$) instead of an equal sign ($=$) to emphasize that this is a definition.
+Once we let $x = \mathrm{i}$, the equation is solved.
+
+> **Definition**:
+> Imaginary unit $\mathrm{i}$ is a number that satisfies $\mathrm{i}^2 = -1$.
 
 In particular, an imaginary number $\mathrm{i}$ is called an imaginary unit, since any other imaginary numbers can be represented by a multiplication of a real number and an imaginary unit.
 For instance, if we were to solve $x^2 + \pi = 0$, the solution of this equation is $x = \sqrt{-\pi} = \sqrt{\pi}\sqrt{-1} = \sqrt{\pi}\mathrm{i}$.
 More formally, we define the imaginary unit as a number that satisfies this condition: $\mathrm{i}^2 = -1$.
 While this definition feels more abstract, using this definition will be more beneficial than the one involving a square root.
 It is because we can simply replace $\mathrm{i}^2$ with $-1$ for every occurrence.
-Also, defining $\mathrm{i} = \sqrt{-1}$ just leaves us a question of what actually $\sqrt{-1}$ is, but defining what it actually does makes us to use it right away.
+Also, defining $\mathrm{i} = \sqrt{-1}$ just leaves us a question of what actually $\sqrt{-1}$ is, but defining what it actually does instead allows us to use its specialty right away. -->
 
-> [!TIP]
+> [!WARNING]
 >
-> $\sqrt{a}\mathrm{i} = \mathrm{i}\sqrt{a}$
-
-> [!IMPORTANT]
->
-> On some occasion, leaving as $\mathrm{i} = \sqrt{-1}$ can be misleading.
+> On some occasion, notating $\mathrm{i} = \sqrt{-1}$ can be misleading.
 > For example, consider the following reasoning:
 $$ \begin{align*}
     \mathrm{i}^2
     &= \sqrt{-1}\sqrt{-1} \\
     &= \sqrt{(-1)(-1)} \\
     &= \sqrt{1} \\
-    &= 1 \text{,}
+    &= 1 \text{.}
 \end{align*} $$
-> which is obviously false.
+> Without any doubt, this is false.
 > This fallacy occurs because of ignoring the fact that $\sqrt{a}\sqrt{b} \neq \sqrt{ab}$ when $a$ and $b$ are negative numbers.
 
-> **Definition**:
-> Imaginary unit $\mathrm{i}$ is a number that satisfies $\mathrm{i}^2 = -1$.
+> [!TIP]
+>
+> In this text, imaginary unit $\mathrm{i}$ is treated as a unit, so $\mathrm{i}$ is always placed after a real number, just like how units such as miles and degrees are placed after a number.
+> It is completely acceptable to write $\mathrm{i}$ first since $a\mathrm{i} = \mathrm{i}a$ for any real number $a$.
+> Especially for imaginary numbers with radical expressions, say $\sqrt{a}\mathrm{i}$, some prefer to write $\mathrm{i}$ first, $\mathrm{i}\sqrt{a}$, so they don't have to worry about the stroke from the radical sign crossing over the $\mathrm{i}$ like $\sqrt{a\mathrm{i}}$.
+> Therefore, it is recommended to write $\mathrm{i}\sqrt{a}$ instead of $\sqrt{a}\mathrm{i}$ in your handwriting.
 
 ## General Structure
 
